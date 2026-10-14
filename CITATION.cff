@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "GIFT-Eval and fev-bench Called It. Wrong. Forecasting LLM usage on OpenRouter's top 50 with time series foundation models"
+type: dataset
+authors:
+  - family-names: Rosillo
+    given-names: Renée
+repository-code: "https://github.com/friscobrisco/openrouter-tsfm-benchmark"
+date-released: 2026-10-14
+license: MIT
+keywords:
+  - time series forecasting
+  - foundation models
+  - OpenRouter
+  - GIFT-Eval
+  - fev-bench
+  - MASE

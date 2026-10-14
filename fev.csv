@@ -1,0 +1,19 @@
+forecaster,fev_model,tasks,fev_mase,fev_rank_ours,hidden,leak_tasks,failed_tasks
+timesfm-3,timesfm-3,100,0.6218,1,False,0,0
+chronos-2,Chronos-2,100,0.645,2,False,0,0
+t0-beta,t0-beta,100,0.6514,3,False,0,0
+tirex-2,TiRex-2,100,0.6626,4,False,0,0
+toto-2-1b,Toto-2.0-1B,100,0.6761,5,True,0,0
+toto-2-313m,Toto-2.0-313m,100,0.679,6,True,0,0
+toto-2-22m,Toto-2.0-22m,100,0.6939,7,False,0,0
+timesfm-2.5-200m,TimesFM-2.5,100,0.698,8,False,10,0
+toto-2-4m,Toto-2.0-4m,100,0.7196,9,True,0,0
+auto-arima,AutoARIMA,100,0.8837,10,False,0,4
+seasonal-naive,Seasonal Naive,100,1.0,11,False,0,0
+tirex-2-gifteval-zs,,,,,,,
+granite-patchtst-r2,,,,,,,
+t0-alpha,,,,,,,
+chronos-2-small,,,,,,,
+chronos-bolt-small,,,,,,,
+chronos-bolt-mini,,,,,,,
+timesfm-2,,,,,,,

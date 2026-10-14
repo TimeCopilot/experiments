@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.DS_Store
+gift_eval_repo/
+fev_repo/

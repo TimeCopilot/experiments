@@ -1,0 +1,5 @@
+# Python 3.11+. Versions used for the article (scoring itself only needs the standard library).
+statsforecast==2.1.1    # AutoARIMA baseline (run_arima.py, daily/run_arima_daily.py, loop/run_loop.py)
+pandas==2.3.3
+numpy==2.4.6
+pillow==12.3.0          # GIF assembly in render_assets.py
