@@ -10,7 +10,7 @@
 Reads standings.csv, weekly.csv, mase_long.csv, gift_eval.csv, fev.csv, series.json, forecasts_api.csv,
 forecasts_arima.csv. Writes blog.html (self-contained apart from Google Fonts).
 
-    python build_blog.py
+    python openrouter/blog_2026-10-14/build_blog.py
 """
 import csv, json, pathlib, statistics
 from collections import defaultdict
@@ -93,7 +93,7 @@ DDATA = {"stand": dstand, "week": {}, "gift": gift, "fev": fev, "drill": ddrill,
 
 HTML = r"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Benchmarks Called It Wrong</title>
+<title>Predicting Token Usage</title>
 <meta name="description" content="We backtested 18 forecasting models on OpenRouter token usage to see if GIFT-Eval results hold on a real-world task.">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -209,8 +209,8 @@ body.still .ctl,body.still .live,body.still .more{display:none}
 </style></head><body>
 <div class="top"><button class="theme" id="theme">Light / dark</button></div>
 <article>
-<h1>GIFT-Eval and fev-bench Called It. Wrong.</h1>
-<p class="dek">Predicting model usage on OpenRouter's top 50 with FoundationForecast, measuring the latest time series foundation models against real-world patterns.</p>
+<h1>Can we predict token usage using transformer based models?</h1>
+<p class="dek">OpenRouter's top 50 with 16 Time Series Foundation Models, measuring the latest time series foundation models against real-world patterns.</p>
 <figure class="static">
 <img src="assets/fig4_loop_models_1week.gif" alt="Loop through OpenRouter's top 50 LLMs: actual weekly tokens, the best 3 forecasters 1 week ahead, and all 18 forecasters ranked" loading="eager">
 <figcaption>Each frame is one LLM from OpenRouter's top 50, in rank order. The chart shows actual weekly tokens and the best 3 forecasters 1 week ahead, and the list ranks all 18 forecasters by MASE relative to seasonal naive. For this animation an LLM needs 4 weeks of history instead of 8, so newer LLMs are included and a few scores differ from the tables below.</figcaption>
@@ -358,6 +358,8 @@ body.still .ctl,body.still .live,body.still .more{display:none}
 <li>Models were called through the FoundationForecast API with default settings, weekly frequency and season length 1. AutoARIMA used statsforecast with season length 1.</li>
 <li>t0-gamma isn't available through the API yet, so it isn't in this test.</li>
 <li>Daily data comes from the same OpenRouter rankings, January 6, 2025 through October 13, 2026. OpenRouter has no daily rows for June 15 and July 15, 2025, so each is filled with the average of the day before and after. Both are months before the first cutoff. Daily seasonal naive and AutoARIMA use season length 7.</li>
+<li>Most of the 16 foundation models are transformer-based. TiRex 2 and its GIFT-Eval zero-shot version are the exceptions, built on xLSTM.</li>
+<li>Data, forecasts and code to reproduce every result are at <a href="https://github.com/friscobrisco/openrouter-tsfm-benchmark">github.com/friscobrisco/openrouter-tsfm-benchmark</a>.</li>
 </ul>
 
 <h2>References</h2>

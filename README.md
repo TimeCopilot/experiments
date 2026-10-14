@@ -1,4 +1,6 @@
-# GIFT-Eval and fev-bench Called It. Wrong.
+# Can we predict token usage using transformer based models?
+
+OpenRouter's top 50 with 16 Time Series Foundation Models, measuring the latest time series foundation models against real-world patterns.
 
 Data, forecasts and code behind the article on forecasting LLM usage on OpenRouter's top 50 with time series foundation models. Everything needed to check the results independently is here, from the raw OpenRouter pulls to every single forecast and score.
 
@@ -95,6 +97,7 @@ scripts/fetch_benchmarks.sh
 
 - **Levels.** All OpenRouter tokens (the top 50 plus OpenRouter's "other" row), 12 categories, 2 language types, and individual LLMs from the latest top 50. A weekly LLM series joins once it has 8 weeks of unbroken history (4 for the loop animation). Daily data covers all tokens and individual LLMs only, since OpenRouter publishes categories and languages weekly.
 - **Backtest.** Rolling origin. At each of the last 12 weekly cutoffs every model sees only the data up to that cutoff. Weekly horizons are 1 and 4 weeks, daily horizons are 1 and 7 days.
+- **Models.** 16 time series foundation models through FoundationForecast, plus seasonal naive and a local AutoARIMA. Most of the 16 are transformer-based. TiRex 2 and its GIFT-Eval zero-shot version are the exceptions, built on xLSTM.
 - **Settings.** FoundationForecast defaults, weekly frequency with season length 1, daily frequency with season length 7. AutoARIMA from statsforecast with the same season lengths.
 - **Metric.** MASE only (Hyndman and Koehler, 2006), scaled by the in-sample naive (weekly) or seasonal naive (daily) error up to each cutoff. Results are reported the way GIFT-Eval and fev-bench do it. For each series, a model's average MASE over the cutoffs is divided by seasonal naive's, so seasonal naive is 1 and lower is better. A level's score is the geometric mean of those ratios across its series.
 - **Benchmark orders.** GIFT-Eval uses each model's MASE relative to seasonal naive over all 97 configurations, combined with a geometric mean, from the public results at commit `577a65c`. fev-bench uses the same idea over its 100 tasks, with leakage and failure handling as the fev-bench skill score does, from the public results at commit `83d347d`.
