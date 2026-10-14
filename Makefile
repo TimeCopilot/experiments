@@ -46,6 +46,7 @@ data:
 
 figures:
 	$(PY) build_blog.py
+	cp blog.html index.html
 	$(PY) render_assets.py
 	$(PY) render_assets.py --daily
 	$(PY) render_assets.py loop

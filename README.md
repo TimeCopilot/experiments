@@ -2,6 +2,8 @@
 
 OpenRouter's top 50 with 16 Time Series Foundation Models, measuring the latest time series foundation models against real-world patterns.
 
+Read the interactive article at **https://friscobrisco.github.io/openrouter-tsfm-benchmark/**
+
 Data, forecasts and code behind the article on forecasting LLM usage on OpenRouter's top 50 with time series foundation models. Everything needed to check the results independently is here, from the raw OpenRouter pulls to every single forecast and score.
 
 18 forecasting models (16 time series foundation models plus seasonal naive and AutoARIMA) were backtested on OpenRouter token usage, weekly and daily, over 12 weekly cutoffs from mid-July to early October 2026. The models at the top of GIFT-Eval and fev-bench didn't come out on top here.
