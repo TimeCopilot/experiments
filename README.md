@@ -4,9 +4,9 @@ OpenRouter's top 50 with 21 Time Series Foundation Models, measuring the latest 
 
 Read the interactive article at **https://timecopilot.github.io/experiments/**
 
-Data, forecasts and code behind the article on forecasting LLM usage on OpenRouter's top 50 with time series foundation models. Everything needed to check the results independently is here, from the raw OpenRouter pulls to every single forecast and score.
+Data, forecasts and code behind the article on forecasting LLM usage on OpenRouter's top 50 with time series foundation models.
 
-23 forecasting models (21 time series foundation models plus seasonal naive and AutoARIMA) were backtested on OpenRouter token usage, weekly and daily, over 12 weekly cutoffs from mid-July to early October 2026. The models at the top of GIFT-Eval and fev-bench didn't come out on top here. t0-gamma and the four Timestral sizes were added on 2026-10-20.
+23 forecasting models (21 time series foundation models plus seasonal naive and AutoARIMA) were backtested on OpenRouter token usage, weekly and daily, over 12 weekly cutoffs from mid-July to early October 2026. The models at the top of GIFT-Eval and fev-bench didn't come out on top on this experiment. t0-gamma and the four Timestral sizes were added on 2026-10-20.
 
 ## Headline results
 
