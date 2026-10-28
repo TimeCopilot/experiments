@@ -3,7 +3,7 @@
 Each (series, cutoff) task is sent as its own series: the weeks up to the cutoff plus the h actual weeks
 after it, with /v1/cross-validation n_windows=1, so the forecaster sees only data through the cutoff.
 Parameters: h = 1 or 4, freq W-MON, season_length 1. Values sent in billions of tokens.
-Forecasters: the live /v1/models catalog (16 foundation models + seasonal-naive).
+Forecasters: the live /v1/models catalog (21 foundation models + seasonal-naive).
 
 Writes raw/<horizon>_<forecaster>_<chunk>.json and forecasts_api.csv
 (horizon, series, cutoff, forecaster, step, week, actual_tokens, forecast_tokens). Reuses raw files

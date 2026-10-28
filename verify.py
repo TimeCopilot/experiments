@@ -3,7 +3,7 @@
 Reads standings.csv (weekly), daily/standings.csv, loop/mase_long.csv, gift_eval.csv and fev.csv, and prints
 PASS or DIFF for each claim. Run `make score` first to rebuild the standings from the saved forecasts.
 Exit code 1 if any claim differs. After `make rerun`, small API-side differences (the reproducibility check found
-12 of 17 API models identical and the rest within 0.2%) can move models that are nearly tied.
+12 of the original 17 API models identical and the rest within 0.2%) can move models that are nearly tied.
 
     python verify.py
 """
@@ -37,20 +37,27 @@ gift = {r["forecaster"]: int(r["gift_rank_ours"]) for r in csv.DictReader(open(H
 fev = {r["forecaster"]: int(r["fev_rank_ours"]) for r in csv.DictReader(open(HERE / "fev.csv")) if r["fev_rank_ours"]}
 
 CLAIMS = [
-    ("Daily data, individual LLMs, 7 days: all 16 foundation models beat both baselines", beat_both(D[("model", "d7")]), 16),
-    ("Daily data, individual LLMs, 1 day: all 16 foundation models beat seasonal naive", beat(D[("model", "d1")], "seasonal-naive"), 16),
-    ("Weekly, all tokens, 1 week: 13 of 16 foundation models beat seasonal naive", beat(W[("total", "h1")], "seasonal-naive"), 13),
+    ("Daily data, individual LLMs, 7 days: all 21 foundation models beat both baselines", beat_both(D[("model", "d7")]), 21),
+    ("Daily data, individual LLMs, 1 day: all 21 foundation models beat seasonal naive", beat(D[("model", "d1")], "seasonal-naive"), 21),
+    ("Weekly, all tokens, 1 week: 17 of 21 foundation models beat seasonal naive", beat(W[("total", "h1")], "seasonal-naive"), 17),
     ("Weekly, individual LLMs, 4 weeks: no foundation model beats seasonal naive", beat(W[("model", "h4")], "seasonal-naive"), 0),
     ("TimesFM 3 on all tokens at 1 day, 7 days, 1 week, 4 weeks", [D[("total", "d1")]["timesfm-3"][0], D[("total", "d7")]["timesfm-3"][0],
-                                                                    W[("total", "h1")]["timesfm-3"][0], W[("total", "h4")]["timesfm-3"][0]], [7, 15, 16, 9]),
+                                                                    W[("total", "h1")]["timesfm-3"][0], W[("total", "h4")]["timesfm-3"][0]], [10, 20, 20, 9]),
+    ("Timestral 209M on all tokens at 1 day, 7 days, 1 week, 4 weeks", [D[("total", "d1")]["timestral-209m"][0], D[("total", "d7")]["timestral-209m"][0],
+                                                                         W[("total", "h1")]["timestral-209m"][0], W[("total", "h4")]["timestral-209m"][0]], [11, 14, 10, 12]),
+    ("t0-gamma on all tokens at 1 day, 7 days, 1 week, 4 weeks", [D[("total", "d1")]["t0-gamma"][0], D[("total", "d7")]["t0-gamma"][0],
+                                                                   W[("total", "h1")]["t0-gamma"][0], W[("total", "h4")]["t0-gamma"][0]], [8, 17, 23, 22]),
     ("All-token winners at 1 day, 7 days, 1 week, 4 weeks", [winner(D[("total", "d1")]), winner(D[("total", "d7")]), winner(W[("total", "h1")]), winner(W[("total", "h4")])],
      ["auto-arima", "chronos-2", "toto-2-4m", "auto-arima"]),
     ("Chronos-2 Small lowest on individual LLMs at 1 week", winner(W[("model", "h1")]), "chronos-2-small"),
     ("Chronos-Bolt Mini lowest on categories at 4 weeks", winner(W[("category", "h4")]), "chronos-bolt-mini"),
-    ("Granite PatchTST 1st on daily individual LLMs at 1 day and 7 days", [winner(D[("model", "d1")]), winner(D[("model", "d7")])], ["granite-patchtst-r2"] * 2),
-    ("TimesFM 3 is 1st on GIFT-Eval and on fev-bench among the tested models", [gift["timesfm-3"], fev["timesfm-3"]], [1, 1]),
-    ("Loop animation: LLMs, distinct winners, TimesFM 3 wins, seasonal naive wins",
-     [len(llms), len(set(loop_win.values())), sum(w == "timesfm-3" for w in loop_win.values()), sum(w == "seasonal-naive" for w in loop_win.values())], [33, 13, 0, 5]),
+    ("Daily individual LLMs: Timestral 28M 1st at 1 day, Granite PatchTST 1st at 7 days", [winner(D[("model", "d1")]), winner(D[("model", "d7")])],
+     ["timestral-28m", "granite-patchtst-r2"]),
+    ("Timestral 209M 1st and TimesFM 3 4th on GIFT-Eval and fev-bench among the tested models",
+     [gift["timestral-209m"], fev["timestral-209m"], gift["timesfm-3"], fev["timesfm-3"]], [1, 1, 4, 4]),
+    ("Loop animation: LLMs, distinct winners, TimesFM 3 wins, Timestral 209M wins, seasonal naive wins",
+     [len(llms), len(set(loop_win.values())), sum(w == "timesfm-3" for w in loop_win.values()),
+      sum(w == "timestral-209m" for w in loop_win.values()), sum(w == "seasonal-naive" for w in loop_win.values())], [33, 14, 0, 0, 5]),
 ]
 
 bad = 0

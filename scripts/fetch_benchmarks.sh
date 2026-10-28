@@ -4,8 +4,8 @@
 set -e
 cd "$(dirname "$0")/.."
 
-GIFT_COMMIT=577a65cfa3acb812405c00d989230bf59f7f8a3d   # SalesforceAIResearch/gift-eval, 2026-10-09
-FEV_COMMIT=83d347de27fceec369ef4aadd533c49cf3917569    # autogluon/fev, 2026-10-14
+GIFT_COMMIT=3c7be6deffb0046e1c08f9103db8bc84b3cf7ebd   # SalesforceAIResearch/gift-eval, 2026-10-17
+FEV_COMMIT=f9e2c7d3152ed7d15c3b1c2877bb3ae7d977046f    # autogluon/fev, 2026-10-16
 
 if [ ! -d gift_eval_repo ]; then
   git clone --quiet --filter=blob:none --no-checkout https://github.com/SalesforceAIResearch/gift-eval.git gift_eval_repo

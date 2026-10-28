@@ -10,7 +10,7 @@ Writes assets/*.png and *.gif (fig2/fig2b slope GIFs, fig4 GIFs per horizon). Wi
 study from daily/blog_daily.html into assets_daily/ (all tokens and models, 1 and 7 days ahead). Pass figure ids
 to render only those.
 
-    python render_assets.py [--daily] [fig1 fig2 fig2b fig3 fig4]
+    python render_assets.py [--daily] [fig1 fig2 fig2b fig4 loop]
 """
 import os, pathlib, re, subprocess, sys, tempfile
 from PIL import Image
@@ -36,8 +36,6 @@ else:
         "fig1_avg_mase_1week_all_b": "still=fig1&h=h1&lvs=language,model",
         "fig1_avg_mase_4weeks_all_a": "still=fig1&h=h4&lvs=total,category",
         "fig1_avg_mase_4weeks_all_b": "still=fig1&h=h4&lvs=language,model",
-        "fig3_weekly_position_alltokens_1week": "still=fig3&lv=total&h=h1",
-        "fig3_weekly_position_category_1week": "still=fig3&lv=category&h=h1",
     }
 STILLS.update({f"fig4_actual_vs_forecast_alltokens_{hn}": f"still=fig4&s=total:all&h={h}" for h, hn in HZ.items()})
 FIG2 = {f"{prefix}_{n}_{hn}": f"still={fig}&lv={lv}&h={h}"
@@ -46,8 +44,6 @@ FIG2 = {f"{prefix}_{n}_{hn}": f"still={fig}&lv={lv}&h={h}"
 if ONLY:
     keep = lambda d: {k: q for k, q in d.items() if any(f"still={f}&" in q for f in ONLY)}
     STILLS, FIG2 = keep(STILLS), keep(FIG2)
-if DAILY:                                                   # the weekly-only heatmap has no daily version
-    STILLS = {k: q for k, q in STILLS.items() if "still=fig3&" not in q}
 
 
 def height(q):

@@ -19,7 +19,8 @@ OURS = {"seasonal-naive": "Seasonal_Naive", "auto-arima": "Auto_Arima", "chronos
         "timesfm-3": "TimesFM-3", "tirex-2": "TiRex-2-Pretrained", "tirex-2-gifteval-zs": "TiRex-2-Zeroshot",
         "granite-patchtst-r2": "Granite-PatchTST-FM-r2", "toto-2-4m": "Toto-2.0-4m", "toto-2-22m": "Toto-2.0-22m",
         "toto-2-313m": "Toto-2.0-313m", "toto-2-1b": "Toto-2.0-1B", "t0-alpha": "t0-alpha", "t0-beta": "t0-beta",
-        "chronos-bolt-mini": None, "chronos-2-small": None}
+        "t0-gamma": "t0-gamma", "timestral-5m": "Timestral-5M", "timestral-28m": "Timestral-28M",
+        "timestral-123m": "Timestral-123M", "timestral-209m": "Timestral-209M", "chronos-bolt-mini": None, "chronos-2-small": None}
 
 
 def load(m):

@@ -1,6 +1,6 @@
 """TimeCopilot FoundationForecast API helper used by run_api.py, daily/run_api_daily.py and loop/run_loop.py.
 
-Set TIMECOPILOT_API_KEY in the environment (request a key at https://timecopilot.dev).
+Set TIMECOPILOT_API_KEY in the environment (request a key at https://cal.com/team/timecopilot/teamintro-sourceweb).
 """
 import json, os, sys, urllib.request
 
@@ -12,7 +12,7 @@ SCALE = 1e9                                   # series are sent in billions of t
 def token():
     key = os.environ.get("TIMECOPILOT_API_KEY")
     if not key:
-        sys.exit("Set TIMECOPILOT_API_KEY first. Request a FoundationForecast API key at https://timecopilot.dev")
+        sys.exit("Set TIMECOPILOT_API_KEY first. Request a FoundationForecast API key at https://cal.com/team/timecopilot/teamintro-sourceweb")
     return key
 
 

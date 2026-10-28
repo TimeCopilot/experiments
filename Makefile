@@ -1,6 +1,6 @@
 PY ?= python
 
-.PHONY: help verify score rerun forecasts benchmarks data figures
+.PHONY: help verify score rerun forecasts benchmarks data figures realestate realestate-figures homer homer-figures
 
 help:
 	@echo "make verify      check the article's headline numbers against the saved results (no keys needed)"
@@ -9,6 +9,10 @@ help:
 	@echo "make benchmarks  fetch GIFT-Eval and fev-bench results at the pinned commits and rebuild their orders"
 	@echo "make data        pull fresh OpenRouter data and rebuild the series (needs OPENROUTER_API_KEY)"
 	@echo "make figures     rebuild the article page and every chart image (needs Google Chrome)"
+	@echo "make realestate  re-run AutoARIMA, re-score and rebuild the SF home prices article (realestate/)"
+	@echo "make realestate-figures  render the SF article's chart images and the LinkedIn GIFs/MP4s (needs Google Chrome)"
+	@echo "make homer       re-run AutoARIMA, re-score and rebuild the Homer, Alaska rain article (homer/)"
+	@echo "make homer-figures  render the Homer article's chart images and the LinkedIn GIFs/MP4s (needs Google Chrome)"
 
 verify:
 	$(PY) verify.py
@@ -50,3 +54,21 @@ figures:
 	$(PY) render_assets.py
 	$(PY) render_assets.py --daily
 	$(PY) render_assets.py loop
+
+realestate:
+	$(PY) realestate/run_arima_re.py
+	$(PY) realestate/score_re.py
+	$(PY) realestate/build_blog_re.py
+realestate-figures:
+	$(PY) realestate/render_assets_re.py
+	$(PY) realestate/linkedin/make_gif_re.py
+	$(PY) realestate/linkedin/make_top3_re.py
+
+homer:
+	$(PY) homer/run_arima_homer.py
+	$(PY) homer/score_homer.py
+	$(PY) homer/build_blog_homer.py
+homer-figures:
+	$(PY) homer/render_assets_homer.py
+	$(PY) homer/linkedin/make_gif.py
+	$(PY) homer/linkedin/make_top3.py

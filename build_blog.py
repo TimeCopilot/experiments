@@ -17,7 +17,7 @@ from collections import defaultdict
 
 HERE = pathlib.Path(__file__).resolve().parent
 ORG = {"chronos": "Amazon", "timesfm": "Google", "tirex": "NXAI", "granite": "IBM", "toto": "Datadog",
-       "t0": "The Forecasting Company", "seasonal": "Baseline", "auto": "Baseline, run locally"}
+       "t0": "The Forecasting Company", "timestral": "Mistral AI", "seasonal": "Baseline", "auto": "Baseline, run locally"}
 HIST = 28                                                    # weeks of actuals in the drill-down
 
 SJ = json.load(open(HERE / "series.json"))
@@ -94,7 +94,7 @@ DDATA = {"stand": dstand, "week": {}, "gift": gift, "fev": fev, "drill": ddrill,
 HTML = r"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Predicting Token Usage</title>
-<meta name="description" content="We backtested 18 forecasting models on OpenRouter token usage to see if GIFT-Eval results hold on a real-world task.">
+<meta name="description" content="We backtested 23 forecasting models on OpenRouter token usage to see if GIFT-Eval results hold on a real-world task.">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--ink:#171720;--text:#3d3f4c;--muted:#636170;--muted-2:#8b8998;--paper:#f8f8fc;--line:#e3e3ea;--grid:#eeeef3;
@@ -210,19 +210,19 @@ body.still .ctl,body.still .live,body.still .more{display:none}
 <div class="top"><button class="theme" id="theme">Light / dark</button></div>
 <article>
 <h1>Can we predict token usage using transformer based models?</h1>
-<p class="dek">OpenRouter's top 50 with 16 Time Series Foundation Models, measuring the latest time series foundation models against real-world patterns.</p>
+<p class="dek">OpenRouter's top 50 with 21 Time Series Foundation Models, measuring the latest time series foundation models against real-world patterns.</p>
 <figure class="static">
-<img src="assets/fig4_loop_models_1week.gif" alt="Loop through OpenRouter's top 50 LLMs: actual weekly tokens, the best 3 forecasters 1 week ahead, and all 18 forecasters ranked" loading="eager">
-<figcaption>Each frame is one LLM from OpenRouter's top 50, in rank order. The chart shows actual weekly tokens and the best 3 forecasters 1 week ahead, and the list ranks all 18 forecasters by MASE relative to seasonal naive. For this animation an LLM needs 4 weeks of history instead of 8, so newer LLMs are included and a few scores differ from the tables below.</figcaption>
+<img src="assets/fig4_loop_models_1week.gif" alt="Loop through OpenRouter's top 50 LLMs: actual weekly tokens, the best 3 forecasters 1 week ahead, and all 23 forecasters ranked" loading="eager">
+<figcaption>Each frame is one LLM from OpenRouter's top 50, in rank order. The chart shows actual weekly tokens and the best 3 forecasters 1 week ahead, and the list ranks all 23 forecasters by MASE relative to seasonal naive. For this animation an LLM needs 4 weeks of history instead of 8, so newer LLMs are included and a few scores differ from the tables below.</figcaption>
 </figure>
 
 <h2>Time Series Foundation models or classical methods?</h2>
 <p>Time series foundation models are one of the newest ideas in forecasting. Like a lot of things in machine learning and AI right now, there's a heated debate over whether they actually work.</p>
-<p>Rob Hyndman made the skeptical case really well in a recent post <a class="ref" href="#r1">[1]</a>. He points out that published comparisons often use weak statistical baselines <a class="ref" href="#r2">[2]</a>, that the datasets in public benchmarks keep showing up in the models' training data <a class="ref" href="#r3">[3]</a>, and that a leaderboard averages over so many domains that it can hide how a model does on the series that actually matter. He closes with a line worth repeating.</p>
+<p>Rob Hyndman made the skeptical case really well in a recent post <a class="ref" href="#r1">[1]</a>. He points out that published comparisons often use weak statistical baselines <a class="ref" href="#r2">[2]</a>, that the datasets in public benchmarks keep showing up in the models' training data <a class="ref" href="#r3">[3]</a>, and that a leaderboard averages over so many domains that it can hide how a model does on the series that actually matter. He closes with a key thought.</p>
 <blockquote>&ldquo;A model that tops a MASE leaderboard by a small margin but takes an order of magnitude longer to run, or performs poorly on genuinely new data, may be the wrong choice operationally even if it&rsquo;s the &lsquo;best&rsquo; model on paper.&rdquo; <a class="ref" href="#r1">[1]</a></blockquote>
 <p>Hyndman's advice to backtest properly on real data, with well-implemented baselines, points at the part that's easy to underestimate. Much of the hard work in testing time series foundation models is the engineering pipeline. Every model comes with its own requirements, architecture and input format, and until recently it was hard to test them at scale or to recreate the conditions behind a benchmark score like GIFT-Eval <a class="ref" href="#r4">[4]</a> or fev-bench <a class="ref" href="#r5">[5]</a>.</p>
 
-<p>FoundationForecast, our newly released open-source unified API for time series foundation models, takes care of that part. It runs every model in this test through one interface, so their actual performance can be checked on the same data in the same way. Results are still coming in, and there's no definitive answer yet on whether these models beat older methods. In this test, though, the evidence leans their way at the horizons that matter most in practice. On daily data, every one of the 16 foundation models beat both statistical baselines on individual LLMs over a 7-day horizon.</p>
+<p><a href="https://docs.timecopilot.dev/foundationforecast/">FoundationForecast</a>, our newly released open-source unified API for time series foundation models, takes care of that part. It runs every model in this test through one interface, so their actual performance can be checked on the same data in the same way. Results are still coming in, and there's no definitive answer yet on whether these models beat older methods. In this test, though, the evidence leans their way at the horizons that matter most in practice. On daily data, every one of the 21 foundation models beat both statistical baselines on individual LLMs over a 7-day horizon.</p>
 
 <p>That practical angle is the focus here. For most companies a forecast 1 day out is too short to act on, and 4 weeks out is often too long to trust, so a week ahead is where a lot of planning happens. That makes it interesting that some of these models do well at 7 days and 1 week ahead. And few series are moving as fast right now as token usage.</p>
 
@@ -239,12 +239,12 @@ body.still .ctl,body.still .live,body.still .more{display:none}
 <li><strong>By language.</strong> Natural language vs programming languages.</li>
 <li><strong>By model.</strong> The current top 50 models. Many of them are only a few weeks old, so a model joins the test once it has 8 weeks of history. That left 24 models for 1-week-ahead forecasts and 19 for 4 weeks ahead.</li>
 </ul>
-<p>Sixteen foundation models and seasonal naive (which repeats last week's value) ran through FoundationForecast. AutoARIMA isn't on the API, so it ran locally with statsforecast. For each of the last 12 weeks, every model saw only the data up to that week and forecast the weeks after it, 1 week ahead and 4 weeks ahead. That's the rolling-origin backtest Hyndman recommends <a class="ref" href="#r1">[1]</a>, and the scored weeks run from mid-July to early October 2026.</p>
-<p>Everything is scored with <strong>MASE</strong> and nothing else. By the way, MASE, the mean absolute scaled error, also comes from Rob Hyndman. He and Anne Koehler introduced it and argued that it should &ldquo;become the standard measure for comparing forecast accuracy across multiple time series&rdquo; <a class="ref" href="#r11">[11]</a>. MASE is one metric among many. It's used here because it puts a large series like all OpenRouter tokens and a small one like a single model on the same scale. To keep it comparable with GIFT-Eval and fev-bench, it's reported the way they do it. For each series, a model's average MASE over the 12 weeks is divided by seasonal naive's, so seasonal naive is 1 and lower is better. When a level has several series, those ratios are combined with a geometric mean. Earlier API requests were also rerun to check that the numbers reproduce. 12 of the 17 API models returned identical forecasts, and the rest differed by less than 0.2%, which didn't change any ordering.</p>
+<p>Twenty-one foundation models and seasonal naive (which repeats last week's value) ran through <a href="https://docs.timecopilot.dev/foundationforecast/">FoundationForecast</a>'s hosted API. AutoARIMA isn't on the API, so it ran locally with statsforecast. For each of the last 12 weeks, every model saw only the data up to that week and forecast the weeks after it, 1 week ahead and 4 weeks ahead. That's the rolling-origin backtest Hyndman recommends <a class="ref" href="#r1">[1]</a>, and the scored weeks run from mid-July to early October 2026.</p>
+<p>We used <strong>MASE</strong> as our evaluation metric. MASE, the mean absolute scaled error, was introduced by Rob Hyndman and Anne Koehler, who argued that it should &ldquo;become the standard measure for comparing forecast accuracy across multiple time series&rdquo; <a class="ref" href="#r11">[11]</a>. MASE is one metric among many. It's used here because it puts a large series like all OpenRouter tokens and a small one like a single model on the same scale. To keep it comparable with GIFT-Eval and fev-bench, it's reported the way they do it. For each series, a model's average MASE over the 12 weeks is divided by seasonal naive's, so seasonal naive is 1 and lower is better. When a level has several series, those ratios are combined with a geometric mean. Earlier API requests were also rerun to check that the numbers reproduce. 12 of the original 17 API models returned identical forecasts, and the rest differed by less than 0.2%, which didn't change any ordering.</p>
 
 <h2>Day by day and week by week</h2>
 
-<p>The middle horizons are where foundation models look strongest. On daily data every foundation model beat seasonal naive on individual LLMs at both horizons, and over 7 days every one also beat AutoARIMA. At 1 week ahead on all tokens, 13 of the 16 beat seasonal naive. A likely reason is that these series are short and change fast. A model that has already seen thousands of other series can pick up a new LLM's ramp and its weekday pattern from a few weeks of history, while a statistical model fit on that history alone has little to go on. Further out the edge fades. At 4 weeks ahead on individual LLMs, none of the foundation models beat seasonal naive.</p>
+<p>The middle horizons are where foundation models look strongest. On daily data every foundation model beat seasonal naive on individual LLMs at both horizons, and over 7 days every one also beat AutoARIMA. At 1 week ahead on all tokens, 17 of the 21 beat seasonal naive. A likely reason is that these series are short and change fast. A model that has already seen thousands of other series can pick up a new LLM's ramp and its weekday pattern from a few weeks of history, while a statistical model fit on that history alone has little to go on. Further out the edge fades. At 4 weeks ahead on individual LLMs, none of the foundation models beat seasonal naive.</p>
 
 
 <figure class="static">
@@ -261,11 +261,11 @@ body.still .ctl,body.still .live,body.still .more{display:none}
 
 <p>Context is Key <a class="ref" href="#r12">[12]</a> makes a related point from another direction. Its benchmark pairs each series with the background knowledge a human forecaster would use, and the forecasts that use that context come out ahead. The lesson carries over to practice. Every business has its own context, so choosing the right data to test on matters as much as choosing the model.</p>
 
-<p>It's also a reason to test models the leaderboards don't highlight. Chronos-2 Small and Chronos-Bolt Mini aren't on GIFT-Eval or fev-bench at all, yet Chronos-2 Small has the lowest error on individual LLMs at 1 week ahead and Chronos-Bolt Mini has the lowest on categories at 4 weeks. Granite PatchTST isn't on fev-bench, and it's 1st on daily individual LLMs at both horizons. A shortlist built only from the top of a leaderboard would miss most of them.</p>
+<p>It's also a reason to test models the leaderboards don't highlight. Chronos-2 Small and Chronos-Bolt Mini aren't on GIFT-Eval or fev-bench at all, yet Chronos-2 Small has the lowest error on individual LLMs at 1 week ahead and Chronos-Bolt Mini has the lowest on categories at 4 weeks. Granite PatchTST isn't on fev-bench, and it's 1st on daily individual LLMs over 7 days. A shortlist built only from the top of a leaderboard would miss most of them.</p>
 
-<h2>The leaderboard rankings don't hold up</h2>
+<h2>GIFT-Eval and fev-bench leaders don't match this experiment</h2>
 
-<p>Comparing these results with GIFT-Eval <a class="ref" href="#r4">[4]</a> and fev-bench <a class="ref" href="#r5">[5]</a> is where it gets interesting, because the rankings don't hold up. In each chart below, the left column is a model's position on the benchmark and the right column is its position out of 18 on all OpenRouter tokens, at 1 day, 7 days, 1 week and 4 weeks ahead. If the benchmark order carried over, the lines would run straight across. The animations start from that picture and move each model to where it actually finished. Dashed lines are the two baselines, and light grey names have no benchmark entry.</p>
+<p>Comparing these results with GIFT-Eval <a class="ref" href="#r4">[4]</a> and fev-bench <a class="ref" href="#r5">[5]</a> is where it gets interesting, because the rankings don't hold up. In each chart below, the left column is a model's position on the benchmark and the right column is its position out of 23 on all OpenRouter tokens, at 1 day, 7 days, 1 week and 4 weeks ahead. If the benchmark order carried over, the lines would run straight across. The animations start from that picture and move each model to where it actually finished. Dashed lines are the two baselines, and light grey names have no benchmark entry.</p>
 
 <figure class="static">
 <h3>GIFT-Eval order vs OpenRouter order, all OpenRouter tokens, 1 day, 7 days, 1 week and 4 weeks ahead</h3>
@@ -283,15 +283,15 @@ body.still .ctl,body.still .live,body.still .more{display:none}
 <img src="assets/fig2b_fev_vs_openrouter_alltokens_4weeks.gif" alt="fig2b fev vs openrouter alltokens 4weeks" loading="lazy">
 </figure>
 
-<p>TimesFM 3 is first on both leaderboards. On all OpenRouter tokens it finishes 7th at 1 day, 15th at 7 days, 16th at 1 week and 9th at 4 weeks, and across the 33 LLMs in the animation at the top it isn't the best forecaster on any of them. The winners on all tokens are AutoARIMA at 1 day, Chronos-2 at 7 days, Toto 4M at 1 week and AutoARIMA again at 4 weeks.</p>
+<p>The leaders changed while this test was being written up. A week ago TimesFM 3 was first on both leaderboards. Now Mistral's Timestral 209M is first on both, followed by Timestral 123M and The Forecasting Company's t0-gamma, and TimesFM 3 is 4th. Neither the old leader nor the new ones carry over. On all OpenRouter tokens Timestral 209M finishes 11th at 1 day, 14th at 7 days, 10th at 1 week and 12th at 4 weeks. t0-gamma finishes 8th, 17th, 23rd and 22nd, so it's last at 1 week. TimesFM 3 finishes 10th, 20th, 20th and 9th. Across the 33 LLMs in the animation at the top, neither Timestral 209M nor TimesFM 3 is the best forecaster on any of them. The winners on all tokens are AutoARIMA at 1 day, Chronos-2 at 7 days, Toto 4M at 1 week and AutoARIMA again at 4 weeks.</p>
 
-<p>GIFT-Eval also publishes leaderboards by domain and by frequency <a class="ref" href="#r4">[4]</a>, so it's worth checking whether a narrower view would have done better. The closest domain to this data is Web/CloudOps. TimesFM 3 is first on every view that fits (overall, Web/CloudOps, daily and weekly), so even the most relevant GIFT-Eval view would have pointed to it. Some models do move. Chronos-2 is 2nd on GIFT-Eval's weekly view, and on OpenRouter it wins all tokens over 7 days and categories at 1 week. Granite PatchTST is 2nd on GIFT-Eval's daily view and 1st on OpenRouter's daily individual LLMs. So the narrower views help for some models, just not for the leader. They still don't match this data well. GIFT-Eval's Web/CloudOps configurations are machine telemetry sampled every 10 seconds to every hour, its weekly view has only 8 configurations, and none of them are market demand like this.</p>
+<p>GIFT-Eval also publishes leaderboards by domain and by frequency <a class="ref" href="#r4">[4]</a>, so it's worth checking whether a narrower view would have done better. The closest domain to this data is Web/CloudOps, and Timestral 123M is first there. On the daily and weekly views, which match this data's frequency, t0-gamma is first. Neither pick does well here. Timestral 123M finishes 9th, 13th, 12th and 13th on all tokens, and t0-gamma is last at 1 week. Meanwhile some models do better on OpenRouter than their spot on any view suggests. Chronos-2 is 5th on GIFT-Eval's weekly view, and on OpenRouter it wins all tokens over 7 days and categories at 1 week. Granite PatchTST is 6th on the daily view and 1st on OpenRouter's daily individual LLMs over 7 days. The narrower views don't match this data well either. GIFT-Eval's Web/CloudOps configurations are machine telemetry sampled every 10 seconds to every hour, its weekly view has only 8 configurations, and none of them are market demand like this.</p>
 
 <p>None of this means the benchmarks are wrong. They average over many domains, and token usage is one domain with fast growth over this period. Hyndman's point about aggregate scores hiding variance on the series a business actually needs <a class="ref" href="#r1">[1]</a> is what that looks like in practice.</p>
 
 <h2>Where this goes next</h2>
 
-<p>Bridging research and day-to-day execution is what TimeCopilot and FoundationForecast are for, and testing more domains comes next. The early picture is encouraging and humbling at the same time. Foundation models did well at the horizons that matter most here, and seasonal naive still won some of the boards outright. Rankings also move over time, as the live Impermanent benchmark on GitHub activity shows <a class="ref" href="#r13">[13]</a>, so a choice that's right today may need checking again next quarter.</p>
+<p>Bridging research and day-to-day execution is what TimeCopilot and <a href="https://docs.timecopilot.dev/foundationforecast/">FoundationForecast</a> are for, and testing more domains comes next. The early picture is encouraging and humbling at the same time. Foundation models did well at the horizons that matter most here, and seasonal naive still won some of the boards outright. Rankings also move over time, as the live Impermanent benchmark on GitHub activity shows <a class="ref" href="#r13">[13]</a>, so a choice that's right today may need checking again next quarter.</p>
 
 <p>It's also worth remembering what these models were working with. This is public data, with no fine-tuning, no curated features and only a few weeks of history for many LLMs. If they hold up this well here, it's worth asking what they can do on the carefully prepared data a company has for its own problem.</p>
 
@@ -325,14 +325,14 @@ body.still .ctl,body.still .live,body.still .more{display:none}
 
 <figure class="offpage" id="fig1">
 <h3>MASE vs seasonal naive by level</h3>
-<p class="sub">Lower is better, and seasonal naive is 1. All 18 models, ordered by MASE relative to seasonal naive. Dashed bars are the two baselines.</p>
+<p class="sub">Lower is better, and seasonal naive is 1. All 23 models, ordered by MASE relative to seasonal naive. Dashed bars are the two baselines.</p>
 <div class="ctl"><div class="seg" data-ctl="h"><button data-v="h1" aria-pressed="true">1 week ahead</button><button data-v="h4" aria-pressed="false">4 weeks ahead</button></div></div>
 <div class="lb" id="lb"></div>
 <figcaption>Each model's average MASE on each series divided by seasonal naive's, combined across the level's series with a geometric mean. Bars start at zero. Seasonal naive repeats last week. AutoARIMA ran locally with statsforecast. Data from OpenRouter (CC BY 4.0).</figcaption>
 </figure>
 <figure class="offpage" id="fig2">
 <h3>GIFT-Eval order vs OpenRouter order</h3>
-<p class="sub">The 16 models with a GIFT-Eval entry. Left is their GIFT-Eval order, right is their position out of 18 on OpenRouter. Dashed lines are the two baselines, and light grey names have no GIFT-Eval entry.<span class="live"> Hover a line to follow a model.</span></p>
+<p class="sub">The 21 models with a GIFT-Eval entry. Left is their GIFT-Eval order, right is their position out of 23 on OpenRouter. Dashed lines are the two baselines, and light grey names have no GIFT-Eval entry.<span class="live"> Hover a line to follow a model.</span></p>
 <div class="ctl"><div class="seg" data-ctl="lv"><button data-v="total" aria-pressed="true">All tokens</button><button data-v="category" aria-pressed="false">Category</button><button data-v="language" aria-pressed="false">Language</button><button data-v="model" aria-pressed="false">Models</button></div>
 <div class="seg" data-ctl="h"><button data-v="h1" aria-pressed="true">1 week</button><button data-v="h4" aria-pressed="false">4 weeks</button></div></div>
 <div class="slope" id="slope"></div>
@@ -340,7 +340,7 @@ body.still .ctl,body.still .live,body.still .more{display:none}
 </figure>
 <figure class="offpage" id="fig2b">
 <h3>fev-bench order vs OpenRouter order</h3>
-<p class="sub">The 11 models with a fev-bench entry. Left is their fev-bench order, right is their position out of 18 on OpenRouter. Dashed lines are the two baselines, and light grey names have no fev-bench entry.<span class="live"> Hover a line to follow a model.</span></p>
+<p class="sub">The 16 models with a fev-bench entry. Left is their fev-bench order, right is their position out of 23 on OpenRouter. Dashed lines are the two baselines, and light grey names have no fev-bench entry.<span class="live"> Hover a line to follow a model.</span></p>
 <div class="ctl"><div class="seg" data-ctl="lv"><button data-v="total" aria-pressed="true">All tokens</button><button data-v="category" aria-pressed="false">Category</button><button data-v="language" aria-pressed="false">Language</button><button data-v="model" aria-pressed="false">Models</button></div>
 <div class="seg" data-ctl="h"><button data-v="h1" aria-pressed="true">1 week</button><button data-v="h4" aria-pressed="false">4 weeks</button></div></div>
 <div class="slope" id="slopeFev"></div>
@@ -355,11 +355,11 @@ body.still .ctl,body.still .live,body.still .more{display:none}
 <li>MASE scales each forecast's average error by the average week-to-week change in that series' history up to the forecast week. Usage grew so much during the test weeks that raw MASE runs large (seasonal naive itself is about 6.6 on all tokens 1 week ahead), which is one more reason to report it relative to seasonal naive.</li>
 <li>All tokens is a single series, so its results vary more than the levels with many series.</li>
 <li>These results cover 12 weeks of one data source. A different period or a different domain could produce a different order.</li>
-<li>Models were called through the FoundationForecast API with default settings, weekly frequency and season length 1. AutoARIMA used statsforecast with season length 1.</li>
-<li>t0-gamma isn't available through the API yet, so it isn't in this test.</li>
+<li>Models were called through the <a href="https://docs.timecopilot.dev/foundationforecast/">FoundationForecast</a> API with default settings, weekly frequency and season length 1. AutoARIMA used statsforecast with season length 1.</li>
+<li>t0-gamma and the four Timestral sizes (5M, 28M, 123M and 209M) were added on October 20, 2026, after they reached the <a href="https://docs.timecopilot.dev/foundationforecast/">FoundationForecast</a> API. GIFT-Eval and fev-bench results are from October 17 and October 16, 2026.</li>
 <li>Daily data comes from the same OpenRouter rankings, January 6, 2025 through October 13, 2026. OpenRouter has no daily rows for June 15 and July 15, 2025, so each is filled with the average of the day before and after. Both are months before the first cutoff. Daily seasonal naive and AutoARIMA use season length 7.</li>
-<li>Most of the 16 foundation models are transformer-based. TiRex 2 and its GIFT-Eval zero-shot version are the exceptions, built on xLSTM.</li>
-<li>Data, forecasts and code to reproduce every result are at <a href="https://github.com/friscobrisco/openrouter-tsfm-benchmark">github.com/friscobrisco/openrouter-tsfm-benchmark</a>.</li>
+<li>Most of the 21 foundation models are transformer-based. TiRex 2 and its GIFT-Eval zero-shot version are the exceptions, built on xLSTM.</li>
+<li>Data, forecasts and code to reproduce every result are at <a href="https://github.com/TimeCopilot/experiments">github.com/TimeCopilot/experiments</a>.</li>
 </ul>
 
 <h2>References</h2>
@@ -398,7 +398,7 @@ if(STILL){document.body.classList.add("still");document.getElementById(STILL).cl
 /* fig 1 */
 (function(){const fig=document.getElementById("fig1"),lb=document.getElementById("lb");let H=Q.get("h")||HZ0;const open=Q.has("top")?{}:{total:1,category:1,language:1,model:1};setSeg(fig,"h",H);
 function draw(){lb.innerHTML="";
- if(STILL==="fig1")fig.querySelector(".sub").textContent=`${D.hz[H]} ahead. Lower is better, and seasonal naive is 1. All 18 models, ordered by MASE relative to seasonal naive. Dashed bars are the two baselines.`;
+ if(STILL==="fig1")fig.querySelector(".sub").textContent=`${D.hz[H]} ahead. Lower is better, and seasonal naive is 1. All ${D.stand[H].total.length} models, ordered by MASE relative to seasonal naive. Dashed bars are the two baselines.`;
  for(const lv of (Q.get("lvs")||D.levels.join(",")).split(",")){const rows=D.stand[H][lv],all=open[lv];
   const show=all?rows:rows.filter(r=>r.p<=5).concat(rows.filter(r=>r.p>5&&BASE.includes(r.f)));
   const max=Math.max(...rows.map(r=>r.m));
@@ -410,7 +410,7 @@ function draw(){lb.innerHTML="";
    li.className=[r.p===1?"lead":"",cut?"cut":"",BASE.includes(r.f)?"base":""].join(" ");
    li.innerHTML=`<div class="row"><span class="rank">${r.p}</span><span class="name">${r.f}${BASE.includes(r.f)?'<span class="tag">baseline</span>':`<small>${r.org}</small>`}</span><span class="num">${r.m.toFixed(3)}</span><div class="track"><i style="width:${(100*r.m/max).toFixed(1)}%"></i></div></div>`;
    ol.appendChild(li);});
-  p.appendChild(ol);const b=document.createElement("button");b.className="more";b.textContent=all?"Show top 5":"Show all 18";
+  p.appendChild(ol);const b=document.createElement("button");b.className="more";b.textContent=all?"Show top 5":`Show all ${rows.length}`;
   b.onclick=()=>{open[lv]=!all;draw();};p.appendChild(b);lb.appendChild(p);}}
 seg(fig,"h",v=>{H=v;draw();});draw();})();
 
@@ -421,7 +421,7 @@ const HL={};bench.slice().sort((a,b)=>a.gr-b.gr).slice(0,3).forEach((m,i)=>HL[m.
 function draw(){const g=bench.slice().sort((a,b)=>a.g-b.g);
  const ours=D.stand[H][L];
  const rk={};ours.forEach(r=>rk[r.f]=r.p);const om={};ours.forEach(r=>om[r.f]=r.m);
- const W=560,row=27,top=44,Hh=top+row*18+8,x1=210,x2=350,rr=row*18/g.length;
+ const W=560,row=27,top=44,N=ours.length,Hh=top+row*N+8,x1=210,x2=350,rr=row*N/g.length;
  let s=`<svg viewBox="0 0 ${W} ${Hh}" role="img" aria-label="${name} order compared with OpenRouter order">`;
  s+=`<text x="${x1}" y="18" text-anchor="end" font-size="12" font-weight="700" fill="${css("--ink")}">${name}</text><text x="${x2}" y="18" font-size="12" font-weight="700" fill="${css("--ink")}">OpenRouter · ${LV[L].replace("By ","").replace("All OpenRouter tokens","all tokens")}</text>`;
  s+=`<text x="${x1}" y="32" text-anchor="end" font-size="10.5" fill="${css("--muted")}">MASE vs seasonal naive</text><text x="${x2}" y="32" font-size="10.5" fill="${css("--muted")}">MASE vs seasonal naive, ${D.hz[H]} ahead</text>`;
@@ -438,7 +438,7 @@ function draw(){const g=bench.slice().sort((a,b)=>a.g-b.g);
  s+="</svg>";box.innerHTML=s;
  box.querySelectorAll(".ln").forEach(el=>{const f=el.dataset.f,m=bench.find(x=>x.f===f);
   el.addEventListener("mousemove",e=>{box.querySelectorAll(".ln").forEach(o=>o.style.opacity=o===el?1:.18);
-   showTip(e,`<b>${f}</b><br>${name} <span class="m">#${m.gr}</span> · MASE vs naive <span class="m">${m.g.toFixed(3)}</span><br>OpenRouter <span class="m">#${rk[f]} of 18</span> · MASE vs naive <span class="m">${om[f].toFixed(3)}</span>`);});
+   showTip(e,`<b>${f}</b><br>${name} <span class="m">#${m.gr}</span> · MASE vs naive <span class="m">${m.g.toFixed(3)}</span><br>OpenRouter <span class="m">#${rk[f]} of ${ours.length}</span> · MASE vs naive <span class="m">${om[f].toFixed(3)}</span>`);});
   el.addEventListener("mouseleave",()=>{box.querySelectorAll(".ln").forEach(o=>o.style.opacity=1);hideTip();});});}
 seg(fig,"lv",v=>{L=v;draw();});seg(fig,"h",v=>{H=v;draw();});draw();
 new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});}
@@ -456,7 +456,7 @@ function draw(){const rgb=css("--heat");ramp.innerHTML=[1,4,7,10,13,16,18].map(p
   s+=`<tr class="${BASE.includes(r.f)?"base":""}"><th class="f">${r.f}<small>${r.m.toFixed(2)}</small></th>${ps.map((p,i)=>`<td class="${p<=5?"hi":""}" style="background:rgba(${rgb},${a(p)})" data-t="${r.f}|${w.weeks[i]}|${p}">${p}</td>`).join("")}</tr>`;}
  t.innerHTML=s+"</tbody>";
  t.querySelectorAll("td").forEach(td=>{const [f,d,p]=td.dataset.t.split("|");
-  td.addEventListener("mousemove",e=>showTip(e,`<b>${f}</b><br>Forecast made week of ${fmtW(d)}<br>Position by MASE <span class="m">${p} of 18</span>`));
+  td.addEventListener("mousemove",e=>showTip(e,`<b>${f}</b><br>Forecast made week of ${fmtW(d)}<br>Position by MASE <span class="m">${p} of ${rows.length}</span>`));
   td.addEventListener("mouseleave",hideTip);});}
 seg(fig,"lv",v=>{L=v;draw();});seg(fig,"h",v=>{H=v;draw();});draw();
 new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});})();

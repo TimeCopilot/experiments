@@ -1,22 +1,24 @@
 # Can we predict token usage using transformer based models?
 
-OpenRouter's top 50 with 16 Time Series Foundation Models, measuring the latest time series foundation models against real-world patterns.
+OpenRouter's top 50 with 21 Time Series Foundation Models, measuring the latest time series foundation models against real-world patterns.
 
-Read the interactive article at **https://friscobrisco.github.io/openrouter-tsfm-benchmark/**
+Read the interactive article at **https://timecopilot.github.io/experiments/**
 
 Data, forecasts and code behind the article on forecasting LLM usage on OpenRouter's top 50 with time series foundation models. Everything needed to check the results independently is here, from the raw OpenRouter pulls to every single forecast and score.
 
-18 forecasting models (16 time series foundation models plus seasonal naive and AutoARIMA) were backtested on OpenRouter token usage, weekly and daily, over 12 weekly cutoffs from mid-July to early October 2026. The models at the top of GIFT-Eval and fev-bench didn't come out on top here.
+23 forecasting models (21 time series foundation models plus seasonal naive and AutoARIMA) were backtested on OpenRouter token usage, weekly and daily, over 12 weekly cutoffs from mid-July to early October 2026. The models at the top of GIFT-Eval and fev-bench didn't come out on top here. t0-gamma and the four Timestral sizes were added on 2026-10-20.
 
 ## Headline results
 
 | Claim | Where it comes from |
 |---|---|
-| On daily data, every one of the 16 foundation models beat both baselines on individual LLMs over 7 days | `daily/standings.csv` |
-| At 1 week ahead on all OpenRouter tokens, 13 of the 16 beat seasonal naive | `standings.csv` |
+| On daily data, every one of the 21 foundation models beat both baselines on individual LLMs over 7 days | `daily/standings.csv` |
+| At 1 week ahead on all OpenRouter tokens, 17 of the 21 beat seasonal naive | `standings.csv` |
 | At 4 weeks ahead on individual LLMs, none of them beat seasonal naive | `standings.csv` |
-| TimesFM 3, first on GIFT-Eval and fev-bench, finishes 7th, 15th, 16th and 9th on all tokens at 1 day, 7 days, 1 week and 4 weeks | both standings files |
-| Across the 33 LLMs in the loop animation, 13 different forecasters win at least one, and TimesFM 3 wins none | `loop/mase_long.csv` |
+| Timestral 209M, now first on GIFT-Eval and fev-bench, finishes 11th, 14th, 10th and 12th of 23 on all tokens at 1 day, 7 days, 1 week and 4 weeks | both standings files |
+| TimesFM 3, first on both a week earlier and now 4th, finishes 10th, 20th, 20th and 9th | both standings files |
+| t0-gamma, 3rd on both, finishes 8th, 17th, 23rd and 22nd | both standings files |
+| Across the 33 LLMs in the loop animation, 14 different forecasters win at least one, and neither Timestral 209M nor TimesFM 3 wins any | `loop/mase_long.csv` |
 
 `python verify.py` checks all of these, plus a few more, straight from the files.
 
@@ -34,18 +36,18 @@ pip install -r requirements.txt
 make score     # re-scores every saved forecast, then runs verify.py
 ```
 
-This rebuilds every standings file from the saved forecasts and checks the article's claims. It should print `11 of 11 claims reproduce`.
+This rebuilds every standings file from the saved forecasts and checks the article's claims. It should print `13 of 13 claims reproduce`.
 
 ### 2. Re-run the forecasts with FoundationForecast
 
-Every foundation-model forecast in this repo came from [FoundationForecast](https://timecopilot.dev), TimeCopilot's unified API for time series foundation models. To regenerate them yourself:
+Every foundation-model forecast in this repo came from the hosted API of [FoundationForecast](https://timecopilot.dev), TimeCopilot's unified API for time series foundation models. To regenerate them yourself:
 
 ```
-export TIMECOPILOT_API_KEY=...   # no key yet? request one at https://timecopilot.dev
+export TIMECOPILOT_API_KEY=...   # no key yet? request one at https://cal.com/team/timecopilot/teamintro-sourceweb
 make rerun
 ```
 
-`make rerun` clears the cached API responses, sends every backtest window to all 17 API models again (16 foundation models plus seasonal naive), re-runs AutoARIMA locally with statsforecast, re-scores everything and runs `verify.py`. A rerun of the original requests returned identical forecasts for 12 of the 17 API models, and the rest differed by less than 0.2%, which didn't change any ordering in the article. Models that are nearly tied could still swap places.
+`make rerun` clears the cached API responses, sends every backtest window to all 22 API models again (21 foundation models plus seasonal naive), re-runs AutoARIMA locally with statsforecast, re-scores everything and runs `verify.py`. A rerun of the original requests returned identical forecasts for 12 of the original 17 API models, and the rest differed by less than 0.2%, which didn't change any ordering in the article. Models that are nearly tied could still swap places.
 
 ### 3. Rebuild the benchmark orders
 
@@ -99,10 +101,10 @@ scripts/fetch_benchmarks.sh
 
 - **Levels.** All OpenRouter tokens (the top 50 plus OpenRouter's "other" row), 12 categories, 2 language types, and individual LLMs from the latest top 50. A weekly LLM series joins once it has 8 weeks of unbroken history (4 for the loop animation). Daily data covers all tokens and individual LLMs only, since OpenRouter publishes categories and languages weekly.
 - **Backtest.** Rolling origin. At each of the last 12 weekly cutoffs every model sees only the data up to that cutoff. Weekly horizons are 1 and 4 weeks, daily horizons are 1 and 7 days.
-- **Models.** 16 time series foundation models through FoundationForecast, plus seasonal naive and a local AutoARIMA. Most of the 16 are transformer-based. TiRex 2 and its GIFT-Eval zero-shot version are the exceptions, built on xLSTM.
+- **Models.** 21 time series foundation models through FoundationForecast, plus seasonal naive and a local AutoARIMA. Most of the 21 are transformer-based. TiRex 2 and its GIFT-Eval zero-shot version are the exceptions, built on xLSTM.
 - **Settings.** FoundationForecast defaults, weekly frequency with season length 1, daily frequency with season length 7. AutoARIMA from statsforecast with the same season lengths.
 - **Metric.** MASE only (Hyndman and Koehler, 2006), scaled by the in-sample naive (weekly) or seasonal naive (daily) error up to each cutoff. Results are reported the way GIFT-Eval and fev-bench do it. For each series, a model's average MASE over the cutoffs is divided by seasonal naive's, so seasonal naive is 1 and lower is better. A level's score is the geometric mean of those ratios across its series.
-- **Benchmark orders.** GIFT-Eval uses each model's MASE relative to seasonal naive over all 97 configurations, combined with a geometric mean, from the public results at commit `577a65c`. fev-bench uses the same idea over its 100 tasks, with leakage and failure handling as the fev-bench skill score does, from the public results at commit `83d347d`.
+- **Benchmark orders.** GIFT-Eval uses each model's MASE relative to seasonal naive over all 97 configurations, combined with a geometric mean, from the public results at commit `3c7be6d` (2026-10-17). fev-bench uses the same idea over its 100 tasks, with leakage and failure handling as the fev-bench skill score does, from the public results at commit `f9e2c7d` (2026-10-16).
 
 ## Limitations
 
@@ -110,7 +112,7 @@ scripts/fetch_benchmarks.sh
 - Category and language numbers are OpenRouter's own estimates from sampled requests.
 - OpenRouter has no daily rows for 2025-06-15 and 2025-07-15. Each is filled with the average of the day before and after, months before the first cutoff.
 - Many LLMs are only a few weeks old, so their series are short.
-- t0-gamma wasn't available through the API at the time, so it isn't in the test.
+- t0-gamma and the four Timestral sizes (5M, 28M, 123M, 209M) were added on 2026-10-20, after they reached the API. Their forecasts use the same data, cutoffs and settings as the rest.
 
 ## Licenses and attribution
 

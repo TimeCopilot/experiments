@@ -19,7 +19,8 @@ RES = BENCH / "results"
 OURS = {"seasonal-naive": "seasonal_naive", "auto-arima": "autoarima", "chronos-2": "chronos-2",
         "timesfm-2.5-200m": "timesfm-2_5", "timesfm-3": "timesfm-3", "tirex-2": "tirex-2", "t0-beta": "t0-beta",
         "toto-2-4m": "toto-2_0-4m", "toto-2-22m": "toto-2_0-22m", "toto-2-313m": "toto-2_0-313m",
-        "toto-2-1b": "toto-2_0-1b", "tirex-2-gifteval-zs": None, "granite-patchtst-r2": None, "t0-alpha": None,
+        "toto-2-1b": "toto-2_0-1b", "t0-gamma": "t0-gamma", "timestral-5m": "timestral-5m", "timestral-28m": "timestral-28m",
+        "timestral-123m": "timestral-123m", "timestral-209m": "timestral-209m", "tirex-2-gifteval-zs": None, "granite-patchtst-r2": None, "t0-alpha": None,
         "chronos-2-small": None, "chronos-bolt-small": None, "chronos-bolt-mini": None, "timesfm-2": None}
 
 
