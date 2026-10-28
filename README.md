@@ -1,6 +1,6 @@
 # TimeCopilot experiments
 
-Experiments testing time series foundation models on real-world data. Each one lives in its own folder with its data, forecasts, code and article.
+Experiments testing time series foundation models on real-world data.
 
 | Experiment | Article | Folder |
 |---|---|---|
