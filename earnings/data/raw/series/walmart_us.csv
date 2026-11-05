@@ -1,0 +1,67 @@
+quarter,quarter_end_date,value_usd_m,source_url,notes
+Q1 FY2011,2010-04-30,62324.0,https://www.sec.gov/Archives/edgar/data/104169/000119312511158587/wmt-20110430.xml,
+Q2 FY2011,2010-07-31,64654.0,https://www.sec.gov/Archives/edgar/data/104169/000119312511238857/wmt-20110731.xml,
+Q3 FY2011,2010-10-31,62178.0,https://www.sec.gov/Archives/edgar/data/104169/000119312511335177/wmt-20111031.xml,
+Q4 FY2011,2011-01-31,71105.0,https://www.sec.gov/Archives/edgar/data/104169/000010416913000011/wmt-20130131.xml,"Q4 derived: FY annual $260,261M minus 9M YTD $189,156M (both XBRL, latest-filed basis)"
+Q1 FY2012,2011-04-30,62669.0,https://www.sec.gov/Archives/edgar/data/104169/000119312511158587/wmt-20110430.xml,
+Q2 FY2012,2011-07-31,64893.0,https://www.sec.gov/Archives/edgar/data/104169/000119312511238857/wmt-20110731.xml,
+Q3 FY2012,2011-10-31,63835.0,https://www.sec.gov/Archives/edgar/data/104169/000119312511335177/wmt-20111031.xml,
+Q4 FY2012,2012-01-31,72789.0,https://www.sec.gov/Archives/edgar/data/104169/000119312512134679/wmt-20120131.xml,"Q4 derived: FY annual $264,186M minus 9M YTD $191,397M (both XBRL, latest-filed basis)"
+Q1 FY2013,2012-04-30,66341.0,https://www.sec.gov/Archives/edgar/data/104169/000144530512001926/wmt-20120430.xml,"Later-filing comparatives differ slightly (values seen: $66,333M, $66,341M); dataset uses as-first-reported, which ties exactly to consolidated net sales"
+Q2 FY2013,2012-07-31,67357.0,https://www.sec.gov/Archives/edgar/data/104169/000010416912000014/wmt-20120731.xml,
+Q3 FY2013,2012-10-31,66127.0,https://www.sec.gov/Archives/edgar/data/104169/000010416912000018/wmt-20121031.xml,"Later-filing comparatives differ slightly (values seen: $66,113M, $66,127M); dataset uses as-first-reported, which ties exactly to consolidated net sales"
+Q4 FY2013,2013-01-31,74665.0,https://www.sec.gov/Archives/edgar/data/104169/000010416913000011/wmt-20130131.xml,"Q4 derived: FY annual $274,490M minus 9M YTD $199,825M (both XBRL, latest-filed basis); FY annual shown as $274,433M, $274,490M across 10-Ks; derivation uses own 10-K"
+Q1 FY2014,2013-04-30,66553.0,https://www.sec.gov/Archives/edgar/data/104169/000010416913000020/wmt-20130430.xml,
+Q2 FY2014,2013-07-31,68728.0,https://www.sec.gov/Archives/edgar/data/104169/000010416914000057/wmt-20140731.xml,
+Q3 FY2014,2013-10-31,67692.0,https://www.sec.gov/Archives/edgar/data/104169/000010416913000051/wmt-20131031.xml,
+Q4 FY2014,2014-01-31,76433.0,https://www.sec.gov/Archives/edgar/data/104169/000010416914000019/wmt-20140131.xml,"Q4 derived: FY annual $279,406M minus 9M YTD $202,973M (both XBRL, latest-filed basis)"
+Q1 FY2015,2014-04-30,67852.0,https://www.sec.gov/Archives/edgar/data/104169/000010416914000033/wmt-20140430.xml,
+Q2 FY2015,2014-07-31,70601.0,https://www.sec.gov/Archives/edgar/data/104169/000010416914000057/wmt-20140731.xml,
+Q3 FY2015,2014-10-31,70025.0,https://www.sec.gov/Archives/edgar/data/104169/000010416914000080/wmt-20141031.xml,
+Q4 FY2015,2015-01-31,79571.0,https://www.sec.gov/Archives/edgar/data/104169/000010416915000011/wmt-20150131.xml,"Q4 derived: FY annual $288,049M minus 9M YTD $208,478M (both XBRL, latest-filed basis)"
+Q1 FY2016,2015-04-30,70245.0,https://www.sec.gov/Archives/edgar/data/104169/000010416915000022/wmt-20150430.xml,
+Q2 FY2016,2015-07-31,73959.0,https://www.sec.gov/Archives/edgar/data/104169/000010416915000039/wmt-20150731.xml,
+Q3 FY2016,2015-10-31,72712.0,https://www.sec.gov/Archives/edgar/data/104169/000010416915000054/wmt-20151031.xml,
+Q4 FY2016,2016-01-31,81462.0,https://www.sec.gov/Archives/edgar/data/104169/000010416916000079/wmt-20160131.xml,"Q4 derived: FY annual $298,378M minus 9M YTD $216,916M (both XBRL, latest-filed basis)"
+Q1 FY2017,2016-04-30,73295.0,https://www.sec.gov/Archives/edgar/data/104169/000010416916000088/wmt-20160430.xml,
+Q2 FY2017,2016-07-31,76241.0,https://www.sec.gov/Archives/edgar/data/104169/000010416916000119/wmt-20160731.xml,
+Q3 FY2017,2016-10-31,74550.0,https://www.sec.gov/Archives/edgar/data/104169/000010416916000140/wmt-20161031.xml,
+Q4 FY2017,2017-01-31,83747.0,https://www.sec.gov/Archives/edgar/data/104169/000010416919000016/wmt-20190131.xml,"Q4 derived: FY annual $307,833M minus 9M YTD $224,086M (both XBRL, latest-filed basis)"
+Q1 FY2018,2017-04-30,75436.0,https://www.sec.gov/Archives/edgar/data/104169/000010416917000029/wmt-20170430.xml,
+Q2 FY2018,2017-07-31,78738.0,https://www.sec.gov/Archives/edgar/data/104169/000010416917000057/wmt-20170731.xml,
+Q3 FY2018,2017-10-31,77724.0,https://www.sec.gov/Archives/edgar/data/104169/000010416918000110/wmt-20181031.xml,
+Q4 FY2018,2018-01-31,86579.0,https://www.sec.gov/Archives/edgar/data/104169/000010416920000011/wmtform10-kx1312020.htm,"Q4 derived: FY annual $318,477M minus 9M YTD $231,898M (both XBRL, latest-filed basis)"
+Q1 FY2019,2018-04-30,77748.0,https://www.sec.gov/Archives/edgar/data/104169/000010416919000024/wmt-20190430.xml,
+Q2 FY2019,2018-07-31,82815.0,https://www.sec.gov/Archives/edgar/data/104169/000010416919000064/wmtform10-qx7312019.htm,
+Q3 FY2019,2018-10-31,80583.0,https://www.sec.gov/Archives/edgar/data/104169/000010416918000110/wmt-20181031.xml,
+Q4 FY2019,2019-01-31,90520.0,https://www.sec.gov/Archives/edgar/data/104169/000010416919000016/wmt-20190131.xml,"Q4 derived: FY annual $331,666M minus 9M YTD $241,146M (both XBRL, latest-filed basis)"
+Q1 FY2020,2019-04-30,80344.0,https://www.sec.gov/Archives/edgar/data/104169/000010416919000024/wmt-20190430.xml,
+Q2 FY2020,2019-07-31,85200.0,https://www.sec.gov/Archives/edgar/data/104169/000010416919000064/wmtform10-qx7312019.htm,
+Q3 FY2020,2019-10-31,83189.0,https://www.sec.gov/Archives/edgar/data/104169/000010416919000088/wmtform10-qx103119.htm,
+Q4 FY2020,2020-01-31,92271.0,https://www.sec.gov/Archives/edgar/data/104169/000010416920000011/wmtform10-kx1312020.htm,"Q4 derived: FY annual $341,004M minus 9M YTD $248,733M (both XBRL, latest-filed basis)"
+Q1 FY2021,2020-04-30,88743.0,https://www.sec.gov/Archives/edgar/data/104169/000010416920000020/wmtform10-qx4302020.htm,
+Q2 FY2021,2020-07-31,93282.0,https://www.sec.gov/Archives/edgar/data/104169/000010416920000042/wmtform10-qx7312020.htm,
+Q3 FY2021,2020-10-31,88353.0,https://www.sec.gov/Archives/edgar/data/104169/000010416920000076/wmt-20201031.htm,
+Q4 FY2021,2021-01-31,99585.0,https://www.sec.gov/Archives/edgar/data/104169/000010416921000033/wmt-20210131_htm.xml,"Q4 derived: FY annual $369,963M minus 9M YTD $270,378M (both XBRL, latest-filed basis)"
+Q1 FY2022,2021-04-30,93167.0,https://www.sec.gov/Archives/edgar/data/104169/000010416921000042/wmt-20210430.htm,
+Q2 FY2022,2021-07-31,98192.0,https://www.sec.gov/Archives/edgar/data/104169/000010416921000058/wmt-20210731.htm,
+Q3 FY2022,2021-10-31,96609.0,https://www.sec.gov/Archives/edgar/data/104169/000010416921000072/wmt-20211031_htm.xml,
+Q4 FY2022,2022-01-31,105279.0,https://www.sec.gov/Archives/edgar/data/104169/000010416922000012/wmt-20220131_htm.xml,"Q4 derived: FY annual $393,247M minus 9M YTD $287,968M (both XBRL, latest-filed basis)"
+Q1 FY2023,2022-04-30,96904.0,https://www.sec.gov/Archives/edgar/data/104169/000010416922000029/wmt-20220430_htm.xml,
+Q2 FY2023,2022-07-31,105130.0,https://www.sec.gov/Archives/edgar/data/104169/000010416922000072/wmt-20220731_htm.xml,
+Q3 FY2023,2022-10-31,104775.0,https://www.sec.gov/Archives/edgar/data/104169/000010416922000083/wmt-20221031_htm.xml,
+Q4 FY2023,2023-01-31,113744.0,https://www.sec.gov/Archives/edgar/data/104169/000010416923000020/wmt-20230131_htm.xml,"Q4 derived: FY annual $420,553M minus 9M YTD $306,809M (both XBRL, latest-filed basis)"
+Q1 FY2024,2023-04-30,103901.0,https://www.sec.gov/Archives/edgar/data/104169/000010416923000052/wmt-20230430_htm.xml,
+Q2 FY2024,2023-07-31,110854.0,https://www.sec.gov/Archives/edgar/data/104169/000010416923000097/wmt-20230731.htm,
+Q3 FY2024,2023-10-31,109419.0,https://www.sec.gov/Archives/edgar/data/104169/000010416923000132/wmt-20231031_htm.xml,
+Q4 FY2024,2024-01-31,117643.0,https://www.sec.gov/Archives/edgar/data/104169/000010416924000056/wmt-20240131_htm.xml,"Q4 derived: FY annual $441,817M minus 9M YTD $324,174M (both XBRL, latest-filed basis)"
+Q1 FY2025,2024-04-30,108670.0,https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430_htm.xml,
+Q2 FY2025,2024-07-31,115347.0,https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731_htm.xml,
+Q3 FY2025,2024-10-31,114875.0,https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm,
+Q4 FY2025,2025-01-31,123523.0,https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131_htm.xml,"Q4 derived: FY annual $462,415M minus 9M YTD $338,892M (both XBRL, latest-filed basis); VIZIO (acquired Dec 2024) inside Walmart U.S. segment from Q4 FY2025"
+Q1 FY2026,2025-04-30,112163.0,https://www.sec.gov/Archives/edgar/data/104169/000010416925000090/wmt-20250430_htm.xml,
+Q2 FY2026,2025-07-31,120911.0,https://www.sec.gov/Archives/edgar/data/104169/000010416925000137/wmt-20250731.htm,
+Q3 FY2026,2025-10-31,120678.0,https://www.sec.gov/Archives/edgar/data/104169/000010416925000191/wmt-20251031.htm,
+Q4 FY2026,2026-01-31,129223.0,https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131_htm.xml,"Q4 derived: FY annual $482,975M minus 9M YTD $353,752M (both XBRL, latest-filed basis); VIZIO (acquired Dec 2024) inside Walmart U.S. segment from Q4 FY2025"
+Q1 FY2027,2026-04-30,117169.0,https://www.sec.gov/Archives/edgar/data/104169/000010416926000102/wmt-20260430_htm.xml,
+Q2 FY2027,2026-07-31,125189.0,https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm,

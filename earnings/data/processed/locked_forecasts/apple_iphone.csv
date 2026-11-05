@@ -1,0 +1,34 @@
+model,model_type,cv_rank,Q4 FY2026_usd_m,Q1 FY2027_usd_m,Q2 FY2027_usd_m,Q3 FY2027_usd_m
+tabby,foundation model,1,58991.5,80223.2,66245.9,58895.2
+chronos-bolt-small,foundation model,2,57640.0,82570.1,65520.3,60684.4
+timeh2o-v1-tiny,foundation model,3,57094.1,85607.6,62957.2,53656.8
+xgboost,machine learning,4,58635.4,88765.8,66062.6,62339.2
+t0-beta,foundation model,5,54759.3,82894.7,63589.2,56100.3
+lightgbm,machine learning,6,56772.4,91715.6,73055.2,66980.7
+timeh2o-v1,foundation model,7,57158.5,87770.6,63461.3,56840.4
+timesfm-2,foundation model,8,59531.9,68969.5,60377.6,58649.4
+timestral-5m,foundation model,9,56142.5,83444.6,56964.7,53512.7
+tirex-2-gifteval-zs,foundation model,10,56754.7,83688.2,60014.9,55660.5
+toto-2-1b,foundation model,11,57989.8,88830.0,64564.3,57773.5
+granite-patchtst-r2,foundation model,12,56877.8,93200.7,63653.3,57086.4
+toto-2-313m,foundation model,13,57085.2,88868.6,62413.2,56958.1
+n-beats,deep learning,14,58696.6,103619.4,66297.0,64184.6
+timestral-123m,foundation model,15,58002.7,85963.2,60279.0,54438.1
+auto-arima,statistical,16,56385.8,87004.3,59874.1,56134.8
+t0-gamma,foundation model,17,57395.1,93860.1,68810.6,58586.4
+toto-2-22m,foundation model,18,55112.9,87593.4,63823.0,60458.8
+seasonal-naive,baseline,19,49025.0,85269.0,56994.0,54252.0
+timestral-209m,foundation model,20,56691.0,86715.3,60104.6,54298.9
+toto-2-4m,foundation model,21,57797.8,86552.0,62852.7,52712.2
+prophet,statistical,22,54793.3,74513.4,59983.8,53574.8
+tirex-2,foundation model,23,57697.4,81484.6,58763.3,52919.8
+chronos-bolt-mini,foundation model,24,56991.4,78123.8,62484.7,57204.3
+timestral-28m,foundation model,25,57914.4,88621.2,60614.8,55187.4
+chronos-2-small,foundation model,26,59625.6,88551.2,67428.7,58149.4
+timesfm-2.5-200m,foundation model,27,53105.5,85153.6,57610.5,52398.1
+chronos-2,foundation model,28,57315.2,89880.5,66140.6,56535.4
+auto-ets,statistical,29,52888.0,91834.2,63368.9,50503.6
+timesfm-3,foundation model,30,50047.2,81287.2,56602.5,49943.4
+auto-theta,statistical,31,55841.6,95415.3,67437.3,53766.0
+t0-alpha,foundation model,32,57431.4,94674.1,69069.7,61661.3
+naive,statistical,33,54252.0,54252.0,54252.0,54252.0

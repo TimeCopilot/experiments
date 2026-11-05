@@ -1,0 +1,397 @@
+model,model_type,fold,quarter,actual_usd_m,forecast_usd_m,abs_error_usd_m,seasonal_naive_abs_error_usd_m,relative_to_naive
+granite-patchtst-r2,foundation model,1,Q3 2023,4047.1,4015.1,32.0,375.9,0.0851
+granite-patchtst-r2,foundation model,2,Q4 2023,3868.6,3919.8,51.2,223.6,0.229
+granite-patchtst-r2,foundation model,3,Q1 2024,3723.0,3760.6,37.6,135.5,0.2775
+granite-patchtst-r2,foundation model,4,Q2 2024,3940.0,3970.5,30.5,6.7,4.5522
+granite-patchtst-r2,foundation model,5,Q3 2024,4094.0,4077.0,17.0,46.9,0.3625
+granite-patchtst-r2,foundation model,6,Q4 2024,3959.0,4023.4,64.4,90.4,0.7124
+granite-patchtst-r2,foundation model,7,Q1 2025,3661.0,3886.9,225.9,62.0,3.6435
+granite-patchtst-r2,foundation model,8,Q2 2025,4213.0,3991.7,221.3,273.0,0.8106
+granite-patchtst-r2,foundation model,9,Q3 2025,4363.0,4362.3,0.7,269.0,0.0026
+granite-patchtst-r2,foundation model,10,Q4 2025,4310.0,4199.7,110.3,351.0,0.3142
+granite-patchtst-r2,foundation model,11,Q1 2026,4007.0,4106.4,99.4,346.0,0.2873
+granite-patchtst-r2,foundation model,12,Q2 2026,4393.0,4399.5,6.5,180.0,0.0361
+toto-2-313m,foundation model,1,Q3 2023,4047.1,4038.6,8.5,375.9,0.0226
+toto-2-313m,foundation model,2,Q4 2023,3868.6,3978.1,109.5,223.6,0.4897
+toto-2-313m,foundation model,3,Q1 2024,3723.0,3696.3,26.7,135.5,0.197
+toto-2-313m,foundation model,4,Q2 2024,3940.0,3939.6,0.4,6.7,0.0597
+toto-2-313m,foundation model,5,Q3 2024,4094.0,4053.8,40.2,46.9,0.8571
+toto-2-313m,foundation model,6,Q4 2024,3959.0,4002.5,43.5,90.4,0.4812
+toto-2-313m,foundation model,7,Q1 2025,3661.0,3721.3,60.3,62.0,0.9726
+toto-2-313m,foundation model,8,Q2 2025,4213.0,3853.9,359.1,273.0,1.3154
+toto-2-313m,foundation model,9,Q3 2025,4363.0,4336.6,26.4,269.0,0.0981
+toto-2-313m,foundation model,10,Q4 2025,4310.0,4237.0,73.0,351.0,0.208
+toto-2-313m,foundation model,11,Q1 2026,4007.0,4142.1,135.1,346.0,0.3905
+toto-2-313m,foundation model,12,Q2 2026,4393.0,4326.9,66.1,180.0,0.3672
+timeh2o-v1-tiny,foundation model,1,Q3 2023,4047.1,4020.3,26.8,375.9,0.0713
+timeh2o-v1-tiny,foundation model,2,Q4 2023,3868.6,3995.2,126.6,223.6,0.5662
+timeh2o-v1-tiny,foundation model,3,Q1 2024,3723.0,3669.1,53.9,135.5,0.3978
+timeh2o-v1-tiny,foundation model,4,Q2 2024,3940.0,3928.1,11.9,6.7,1.7761
+timeh2o-v1-tiny,foundation model,5,Q3 2024,4094.0,4051.0,43.0,46.9,0.9168
+timeh2o-v1-tiny,foundation model,6,Q4 2024,3959.0,3976.1,17.1,90.4,0.1892
+timeh2o-v1-tiny,foundation model,7,Q1 2025,3661.0,3650.2,10.8,62.0,0.1742
+timeh2o-v1-tiny,foundation model,8,Q2 2025,4213.0,3971.3,241.7,273.0,0.8853
+timeh2o-v1-tiny,foundation model,9,Q3 2025,4363.0,4358.0,5.0,269.0,0.0186
+timeh2o-v1-tiny,foundation model,10,Q4 2025,4310.0,4267.6,42.4,351.0,0.1208
+timeh2o-v1-tiny,foundation model,11,Q1 2026,4007.0,4161.4,154.4,346.0,0.4462
+timeh2o-v1-tiny,foundation model,12,Q2 2026,4393.0,4323.8,69.2,180.0,0.3844
+lightgbm,machine learning,1,Q3 2023,4047.1,4070.5,23.4,375.9,0.0623
+lightgbm,machine learning,2,Q4 2023,3868.6,3972.9,104.3,223.6,0.4665
+lightgbm,machine learning,3,Q1 2024,3723.0,3767.6,44.6,135.5,0.3292
+lightgbm,machine learning,4,Q2 2024,3940.0,3984.7,44.7,6.7,6.6716
+lightgbm,machine learning,5,Q3 2024,4094.0,4081.9,12.1,46.9,0.258
+lightgbm,machine learning,6,Q4 2024,3959.0,4024.5,65.5,90.4,0.7246
+lightgbm,machine learning,7,Q1 2025,3661.0,3849.2,188.2,62.0,3.0355
+lightgbm,machine learning,8,Q2 2025,4213.0,3860.8,352.2,273.0,1.2901
+lightgbm,machine learning,9,Q3 2025,4363.0,4362.1,0.9,269.0,0.0033
+lightgbm,machine learning,10,Q4 2025,4310.0,4269.3,40.7,351.0,0.116
+lightgbm,machine learning,11,Q1 2026,4007.0,4169.7,162.7,346.0,0.4702
+lightgbm,machine learning,12,Q2 2026,4393.0,4447.7,54.7,180.0,0.3039
+auto-ets,statistical,1,Q3 2023,4047.1,4061.0,13.9,375.9,0.037
+auto-ets,statistical,2,Q4 2023,3868.6,3939.3,70.7,223.6,0.3162
+auto-ets,statistical,3,Q1 2024,3723.0,3674.5,48.5,135.5,0.3579
+auto-ets,statistical,4,Q2 2024,3940.0,3960.0,20.0,6.7,2.9851
+auto-ets,statistical,5,Q3 2024,4094.0,4169.1,75.1,46.9,1.6013
+auto-ets,statistical,6,Q4 2024,3959.0,4011.7,52.7,90.4,0.583
+auto-ets,statistical,7,Q1 2025,3661.0,3756.0,95.0,62.0,1.5323
+auto-ets,statistical,8,Q2 2025,4213.0,3966.9,246.1,273.0,0.9015
+auto-ets,statistical,9,Q3 2025,4363.0,4311.3,51.7,269.0,0.1922
+auto-ets,statistical,10,Q4 2025,4310.0,4209.4,100.6,351.0,0.2866
+auto-ets,statistical,11,Q1 2026,4007.0,4009.4,2.4,346.0,0.0069
+auto-ets,statistical,12,Q2 2026,4393.0,4253.5,139.5,180.0,0.775
+timestral-209m,foundation model,1,Q3 2023,4047.1,4085.3,38.2,375.9,0.1016
+timestral-209m,foundation model,2,Q4 2023,3868.6,4003.4,134.8,223.6,0.6029
+timestral-209m,foundation model,3,Q1 2024,3723.0,3725.3,2.3,135.5,0.017
+timestral-209m,foundation model,4,Q2 2024,3940.0,3937.9,2.1,6.7,0.3134
+timestral-209m,foundation model,5,Q3 2024,4094.0,4034.4,59.6,46.9,1.2708
+timestral-209m,foundation model,6,Q4 2024,3959.0,4013.0,54.0,90.4,0.5973
+timestral-209m,foundation model,7,Q1 2025,3661.0,3799.1,138.1,62.0,2.2274
+timestral-209m,foundation model,8,Q2 2025,4213.0,3862.4,350.6,273.0,1.2842
+timestral-209m,foundation model,9,Q3 2025,4363.0,4313.8,49.2,269.0,0.1829
+timestral-209m,foundation model,10,Q4 2025,4310.0,4230.5,79.5,351.0,0.2265
+timestral-209m,foundation model,11,Q1 2026,4007.0,4151.7,144.7,346.0,0.4182
+timestral-209m,foundation model,12,Q2 2026,4393.0,4307.0,86.0,180.0,0.4778
+auto-theta,statistical,1,Q3 2023,4047.1,4113.3,66.2,375.9,0.1761
+auto-theta,statistical,2,Q4 2023,3868.6,3964.2,95.6,223.6,0.4275
+auto-theta,statistical,3,Q1 2024,3723.0,3668.3,54.7,135.5,0.4037
+auto-theta,statistical,4,Q2 2024,3940.0,3937.1,2.9,6.7,0.4328
+auto-theta,statistical,5,Q3 2024,4094.0,4175.3,81.3,46.9,1.7335
+auto-theta,statistical,6,Q4 2024,3959.0,4014.1,55.1,90.4,0.6095
+auto-theta,statistical,7,Q1 2025,3661.0,3750.2,89.2,62.0,1.4387
+auto-theta,statistical,8,Q2 2025,4213.0,3923.1,289.9,273.0,1.0619
+auto-theta,statistical,9,Q3 2025,4363.0,4352.1,10.9,269.0,0.0405
+auto-theta,statistical,10,Q4 2025,4310.0,4244.7,65.3,351.0,0.186
+auto-theta,statistical,11,Q1 2026,4007.0,4033.5,26.5,346.0,0.0766
+auto-theta,statistical,12,Q2 2026,4393.0,4288.9,104.1,180.0,0.5783
+timestral-5m,foundation model,1,Q3 2023,4047.1,3998.6,48.5,375.9,0.129
+timestral-5m,foundation model,2,Q4 2023,3868.6,3913.1,44.5,223.6,0.199
+timestral-5m,foundation model,3,Q1 2024,3723.0,3660.1,62.9,135.5,0.4642
+timestral-5m,foundation model,4,Q2 2024,3940.0,3855.2,84.8,6.7,12.6567
+timestral-5m,foundation model,5,Q3 2024,4094.0,4035.9,58.1,46.9,1.2388
+timestral-5m,foundation model,6,Q4 2024,3959.0,3960.9,1.9,90.4,0.021
+timestral-5m,foundation model,7,Q1 2025,3661.0,3775.4,114.4,62.0,1.8452
+timestral-5m,foundation model,8,Q2 2025,4213.0,3869.6,343.4,273.0,1.2579
+timestral-5m,foundation model,9,Q3 2025,4363.0,4368.1,5.1,269.0,0.019
+timestral-5m,foundation model,10,Q4 2025,4310.0,4225.0,85.0,351.0,0.2422
+timestral-5m,foundation model,11,Q1 2026,4007.0,4096.1,89.1,346.0,0.2575
+timestral-5m,foundation model,12,Q2 2026,4393.0,4251.3,141.7,180.0,0.7872
+timeh2o-v1,foundation model,1,Q3 2023,4047.1,4089.2,42.1,375.9,0.112
+timeh2o-v1,foundation model,2,Q4 2023,3868.6,3975.1,106.5,223.6,0.4763
+timeh2o-v1,foundation model,3,Q1 2024,3723.0,3714.2,8.8,135.5,0.0649
+timeh2o-v1,foundation model,4,Q2 2024,3940.0,3986.6,46.6,6.7,6.9552
+timeh2o-v1,foundation model,5,Q3 2024,4094.0,4064.2,29.8,46.9,0.6354
+timeh2o-v1,foundation model,6,Q4 2024,3959.0,4012.5,53.5,90.4,0.5918
+timeh2o-v1,foundation model,7,Q1 2025,3661.0,3800.4,139.4,62.0,2.2484
+timeh2o-v1,foundation model,8,Q2 2025,4213.0,3924.3,288.7,273.0,1.0575
+timeh2o-v1,foundation model,9,Q3 2025,4363.0,4355.0,8.0,269.0,0.0297
+timeh2o-v1,foundation model,10,Q4 2025,4310.0,4227.9,82.1,351.0,0.2339
+timeh2o-v1,foundation model,11,Q1 2026,4007.0,4125.2,118.2,346.0,0.3416
+timeh2o-v1,foundation model,12,Q2 2026,4393.0,4346.4,46.6,180.0,0.2589
+timesfm-2.5-200m,foundation model,1,Q3 2023,4047.1,4047.6,0.5,375.9,0.0013
+timesfm-2.5-200m,foundation model,2,Q4 2023,3868.6,3918.6,50.0,223.6,0.2236
+timesfm-2.5-200m,foundation model,3,Q1 2024,3723.0,3706.0,17.0,135.5,0.1255
+timesfm-2.5-200m,foundation model,4,Q2 2024,3940.0,3876.5,63.5,6.7,9.4776
+timesfm-2.5-200m,foundation model,5,Q3 2024,4094.0,4241.2,147.2,46.9,3.1386
+timesfm-2.5-200m,foundation model,6,Q4 2024,3959.0,4010.9,51.9,90.4,0.5741
+timesfm-2.5-200m,foundation model,7,Q1 2025,3661.0,3755.0,94.0,62.0,1.5161
+timesfm-2.5-200m,foundation model,8,Q2 2025,4213.0,3978.1,234.9,273.0,0.8604
+timesfm-2.5-200m,foundation model,9,Q3 2025,4363.0,4465.0,102.0,269.0,0.3792
+timesfm-2.5-200m,foundation model,10,Q4 2025,4310.0,4166.1,143.9,351.0,0.41
+timesfm-2.5-200m,foundation model,11,Q1 2026,4007.0,4066.1,59.1,346.0,0.1708
+timesfm-2.5-200m,foundation model,12,Q2 2026,4393.0,4225.5,167.5,180.0,0.9306
+xgboost,machine learning,1,Q3 2023,4047.1,4045.4,1.7,375.9,0.0045
+xgboost,machine learning,2,Q4 2023,3868.6,3991.9,123.3,223.6,0.5514
+xgboost,machine learning,3,Q1 2024,3723.0,3770.4,47.4,135.5,0.3498
+xgboost,machine learning,4,Q2 2024,3940.0,3928.5,11.5,6.7,1.7164
+xgboost,machine learning,5,Q3 2024,4094.0,4054.9,39.1,46.9,0.8337
+xgboost,machine learning,6,Q4 2024,3959.0,4030.6,71.6,90.4,0.792
+xgboost,machine learning,7,Q1 2025,3661.0,3855.5,194.5,62.0,3.1371
+xgboost,machine learning,8,Q2 2025,4213.0,3475.0,738.0,273.0,2.7033
+xgboost,machine learning,9,Q3 2025,4363.0,4350.0,13.0,269.0,0.0483
+xgboost,machine learning,10,Q4 2025,4310.0,4287.2,22.8,351.0,0.065
+xgboost,machine learning,11,Q1 2026,4007.0,4172.8,165.8,346.0,0.4792
+xgboost,machine learning,12,Q2 2026,4393.0,4035.4,357.6,180.0,1.9867
+t0-gamma,foundation model,1,Q3 2023,4047.1,4075.1,28.0,375.9,0.0745
+t0-gamma,foundation model,2,Q4 2023,3868.6,4016.0,147.4,223.6,0.6592
+t0-gamma,foundation model,3,Q1 2024,3723.0,3793.6,70.6,135.5,0.521
+t0-gamma,foundation model,4,Q2 2024,3940.0,3929.0,11.0,6.7,1.6418
+t0-gamma,foundation model,5,Q3 2024,4094.0,4040.5,53.5,46.9,1.1407
+t0-gamma,foundation model,6,Q4 2024,3959.0,4060.6,101.6,90.4,1.1239
+t0-gamma,foundation model,7,Q1 2025,3661.0,3884.8,223.8,62.0,3.6097
+t0-gamma,foundation model,8,Q2 2025,4213.0,3919.1,293.9,273.0,1.0766
+t0-gamma,foundation model,9,Q3 2025,4363.0,4338.7,24.3,269.0,0.0903
+t0-gamma,foundation model,10,Q4 2025,4310.0,4312.8,2.8,351.0,0.008
+t0-gamma,foundation model,11,Q1 2026,4007.0,4113.5,106.5,346.0,0.3078
+t0-gamma,foundation model,12,Q2 2026,4393.0,4240.5,152.5,180.0,0.8472
+timestral-123m,foundation model,1,Q3 2023,4047.1,4054.7,7.6,375.9,0.0202
+timestral-123m,foundation model,2,Q4 2023,3868.6,3966.4,97.8,223.6,0.4374
+timestral-123m,foundation model,3,Q1 2024,3723.0,3706.4,16.6,135.5,0.1225
+timestral-123m,foundation model,4,Q2 2024,3940.0,3915.5,24.5,6.7,3.6567
+timestral-123m,foundation model,5,Q3 2024,4094.0,4027.6,66.4,46.9,1.4158
+timestral-123m,foundation model,6,Q4 2024,3959.0,3995.4,36.4,90.4,0.4027
+timestral-123m,foundation model,7,Q1 2025,3661.0,3787.4,126.4,62.0,2.0387
+timestral-123m,foundation model,8,Q2 2025,4213.0,3870.8,342.2,273.0,1.2535
+timestral-123m,foundation model,9,Q3 2025,4363.0,4307.1,55.9,269.0,0.2078
+timestral-123m,foundation model,10,Q4 2025,4310.0,4212.4,97.6,351.0,0.2781
+timestral-123m,foundation model,11,Q1 2026,4007.0,4100.6,93.6,346.0,0.2705
+timestral-123m,foundation model,12,Q2 2026,4393.0,4289.9,103.1,180.0,0.5728
+timestral-28m,foundation model,1,Q3 2023,4047.1,4020.4,26.7,375.9,0.071
+timestral-28m,foundation model,2,Q4 2023,3868.6,3972.4,103.8,223.6,0.4642
+timestral-28m,foundation model,3,Q1 2024,3723.0,3722.1,0.9,135.5,0.0066
+timestral-28m,foundation model,4,Q2 2024,3940.0,3860.8,79.2,6.7,11.8209
+timestral-28m,foundation model,5,Q3 2024,4094.0,3999.4,94.6,46.9,2.0171
+timestral-28m,foundation model,6,Q4 2024,3959.0,3992.7,33.7,90.4,0.3728
+timestral-28m,foundation model,7,Q1 2025,3661.0,3799.3,138.3,62.0,2.2306
+timestral-28m,foundation model,8,Q2 2025,4213.0,3840.6,372.4,273.0,1.3641
+timestral-28m,foundation model,9,Q3 2025,4363.0,4306.4,56.6,269.0,0.2104
+timestral-28m,foundation model,10,Q4 2025,4310.0,4233.3,76.7,351.0,0.2185
+timestral-28m,foundation model,11,Q1 2026,4007.0,4156.9,149.9,346.0,0.4332
+timestral-28m,foundation model,12,Q2 2026,4393.0,4307.6,85.4,180.0,0.4744
+n-beats,deep learning,1,Q3 2023,4047.1,4051.0,3.9,375.9,0.0104
+n-beats,deep learning,2,Q4 2023,3868.6,3978.5,109.9,223.6,0.4915
+n-beats,deep learning,3,Q1 2024,3723.0,3719.1,3.9,135.5,0.0288
+n-beats,deep learning,4,Q2 2024,3940.0,4047.1,107.1,6.7,15.9851
+n-beats,deep learning,5,Q3 2024,4094.0,3972.4,121.6,46.9,2.5928
+n-beats,deep learning,6,Q4 2024,3959.0,4046.9,87.9,90.4,0.9723
+n-beats,deep learning,7,Q1 2025,3661.0,3787.1,126.1,62.0,2.0339
+n-beats,deep learning,8,Q2 2025,4213.0,3834.5,378.5,273.0,1.3864
+n-beats,deep learning,9,Q3 2025,4363.0,4555.5,192.5,269.0,0.7156
+n-beats,deep learning,10,Q4 2025,4310.0,4334.4,24.4,351.0,0.0695
+n-beats,deep learning,11,Q1 2026,4007.0,3418.0,589.0,346.0,1.7023
+n-beats,deep learning,12,Q2 2026,4393.0,4338.5,54.5,180.0,0.3028
+toto-2-1b,foundation model,1,Q3 2023,4047.1,4087.2,40.1,375.9,0.1067
+toto-2-1b,foundation model,2,Q4 2023,3868.6,4072.0,203.4,223.6,0.9097
+toto-2-1b,foundation model,3,Q1 2024,3723.0,3755.8,32.8,135.5,0.2421
+toto-2-1b,foundation model,4,Q2 2024,3940.0,3966.1,26.1,6.7,3.8955
+toto-2-1b,foundation model,5,Q3 2024,4094.0,4037.8,56.2,46.9,1.1983
+toto-2-1b,foundation model,6,Q4 2024,3959.0,4022.9,63.9,90.4,0.7069
+toto-2-1b,foundation model,7,Q1 2025,3661.0,3738.3,77.3,62.0,1.2468
+toto-2-1b,foundation model,8,Q2 2025,4213.0,3635.3,577.7,273.0,2.1161
+toto-2-1b,foundation model,9,Q3 2025,4363.0,4324.7,38.3,269.0,0.1424
+toto-2-1b,foundation model,10,Q4 2025,4310.0,4255.6,54.4,351.0,0.155
+toto-2-1b,foundation model,11,Q1 2026,4007.0,4185.8,178.8,346.0,0.5168
+toto-2-1b,foundation model,12,Q2 2026,4393.0,4341.5,51.5,180.0,0.2861
+prophet,statistical,1,Q3 2023,4047.1,3862.2,184.9,375.9,0.4919
+prophet,statistical,2,Q4 2023,3868.6,3940.7,72.1,223.6,0.3225
+prophet,statistical,3,Q1 2024,3723.0,3797.3,74.3,135.5,0.5483
+prophet,statistical,4,Q2 2024,3940.0,3957.9,17.9,6.7,2.6716
+prophet,statistical,5,Q3 2024,4094.0,4191.1,97.1,46.9,2.0704
+prophet,statistical,6,Q4 2024,3959.0,4109.4,150.4,90.4,1.6637
+prophet,statistical,7,Q1 2025,3661.0,3997.1,336.1,62.0,5.421
+prophet,statistical,8,Q2 2025,4213.0,4109.9,103.1,273.0,0.3777
+prophet,statistical,9,Q3 2025,4363.0,4338.8,24.2,269.0,0.09
+prophet,statistical,10,Q4 2025,4310.0,4284.6,25.4,351.0,0.0724
+prophet,statistical,11,Q1 2026,4007.0,4180.8,173.8,346.0,0.5023
+prophet,statistical,12,Q2 2026,4393.0,4362.9,30.1,180.0,0.1672
+toto-2-22m,foundation model,1,Q3 2023,4047.1,3976.0,71.1,375.9,0.1891
+toto-2-22m,foundation model,2,Q4 2023,3868.6,4030.4,161.8,223.6,0.7236
+toto-2-22m,foundation model,3,Q1 2024,3723.0,3673.1,49.9,135.5,0.3683
+toto-2-22m,foundation model,4,Q2 2024,3940.0,3819.1,120.9,6.7,18.0448
+toto-2-22m,foundation model,5,Q3 2024,4094.0,4010.9,83.1,46.9,1.7719
+toto-2-22m,foundation model,6,Q4 2024,3959.0,3967.8,8.8,90.4,0.0973
+toto-2-22m,foundation model,7,Q1 2025,3661.0,3685.0,24.0,62.0,0.3871
+toto-2-22m,foundation model,8,Q2 2025,4213.0,3839.8,373.2,273.0,1.367
+toto-2-22m,foundation model,9,Q3 2025,4363.0,4306.8,56.2,269.0,0.2089
+toto-2-22m,foundation model,10,Q4 2025,4310.0,4221.6,88.4,351.0,0.2519
+toto-2-22m,foundation model,11,Q1 2026,4007.0,4131.3,124.3,346.0,0.3592
+toto-2-22m,foundation model,12,Q2 2026,4393.0,4250.5,142.5,180.0,0.7917
+tabby,foundation model,1,Q3 2023,4047.1,4052.6,5.5,375.9,0.0146
+tabby,foundation model,2,Q4 2023,3868.6,4065.5,196.9,223.6,0.8806
+tabby,foundation model,3,Q1 2024,3723.0,3917.4,194.4,135.5,1.4347
+tabby,foundation model,4,Q2 2024,3940.0,3912.9,27.1,6.7,4.0448
+tabby,foundation model,5,Q3 2024,4094.0,4087.9,6.1,46.9,0.1301
+tabby,foundation model,6,Q4 2024,3959.0,4158.0,199.0,90.4,2.2013
+tabby,foundation model,7,Q1 2025,3661.0,4053.2,392.2,62.0,6.3258
+tabby,foundation model,8,Q2 2025,4213.0,4014.3,198.7,273.0,0.7278
+tabby,foundation model,9,Q3 2025,4363.0,4282.5,80.5,269.0,0.2993
+tabby,foundation model,10,Q4 2025,4310.0,4359.6,49.6,351.0,0.1413
+tabby,foundation model,11,Q1 2026,4007.0,4334.9,327.9,346.0,0.9477
+tabby,foundation model,12,Q2 2026,4393.0,4273.4,119.6,180.0,0.6644
+chronos-2,foundation model,1,Q3 2023,4047.1,4091.3,44.2,375.9,0.1176
+chronos-2,foundation model,2,Q4 2023,3868.6,4068.6,200.0,223.6,0.8945
+chronos-2,foundation model,3,Q1 2024,3723.0,3838.2,115.2,135.5,0.8502
+chronos-2,foundation model,4,Q2 2024,3940.0,3953.0,13.0,6.7,1.9403
+chronos-2,foundation model,5,Q3 2024,4094.0,4127.8,33.8,46.9,0.7207
+chronos-2,foundation model,6,Q4 2024,3959.0,4069.9,110.9,90.4,1.2268
+chronos-2,foundation model,7,Q1 2025,3661.0,3804.7,143.7,62.0,2.3177
+chronos-2,foundation model,8,Q2 2025,4213.0,3842.6,370.4,273.0,1.3568
+chronos-2,foundation model,9,Q3 2025,4363.0,4295.6,67.4,269.0,0.2506
+chronos-2,foundation model,10,Q4 2025,4310.0,4285.7,24.3,351.0,0.0692
+chronos-2,foundation model,11,Q1 2026,4007.0,4109.1,102.1,346.0,0.2951
+chronos-2,foundation model,12,Q2 2026,4393.0,4190.6,202.4,180.0,1.1244
+auto-arima,statistical,1,Q3 2023,4047.1,3936.1,111.0,375.9,0.2953
+auto-arima,statistical,2,Q4 2023,3868.6,3929.4,60.8,223.6,0.2719
+auto-arima,statistical,3,Q1 2024,3723.0,3843.0,120.0,135.5,0.8856
+auto-arima,statistical,4,Q2 2024,3940.0,3912.3,27.7,6.7,4.1343
+auto-arima,statistical,5,Q3 2024,4094.0,4027.6,66.4,46.9,1.4158
+auto-arima,statistical,6,Q4 2024,3959.0,4005.3,46.3,90.4,0.5122
+auto-arima,statistical,7,Q1 2025,3661.0,3970.3,309.3,62.0,4.9887
+auto-arima,statistical,8,Q2 2025,4213.0,3856.3,356.7,273.0,1.3066
+auto-arima,statistical,9,Q3 2025,4363.0,4305.4,57.6,269.0,0.2141
+auto-arima,statistical,10,Q4 2025,4310.0,4202.3,107.7,351.0,0.3068
+auto-arima,statistical,11,Q1 2026,4007.0,4080.9,73.9,346.0,0.2136
+auto-arima,statistical,12,Q2 2026,4393.0,4355.4,37.6,180.0,0.2089
+tirex-2,foundation model,1,Q3 2023,4047.1,4013.7,33.4,375.9,0.0889
+tirex-2,foundation model,2,Q4 2023,3868.6,4037.0,168.4,223.6,0.7531
+tirex-2,foundation model,3,Q1 2024,3723.0,3743.4,20.4,135.5,0.1506
+tirex-2,foundation model,4,Q2 2024,3940.0,3856.4,83.6,6.7,12.4776
+tirex-2,foundation model,5,Q3 2024,4094.0,4014.6,79.4,46.9,1.693
+tirex-2,foundation model,6,Q4 2024,3959.0,3991.4,32.4,90.4,0.3584
+tirex-2,foundation model,7,Q1 2025,3661.0,3836.6,175.6,62.0,2.8323
+tirex-2,foundation model,8,Q2 2025,4213.0,3849.2,363.8,273.0,1.3326
+tirex-2,foundation model,9,Q3 2025,4363.0,4284.6,78.4,269.0,0.2914
+tirex-2,foundation model,10,Q4 2025,4310.0,4279.6,30.4,351.0,0.0866
+tirex-2,foundation model,11,Q1 2026,4007.0,4233.9,226.9,346.0,0.6558
+tirex-2,foundation model,12,Q2 2026,4393.0,4226.9,166.1,180.0,0.9228
+tirex-2-gifteval-zs,foundation model,1,Q3 2023,4047.1,4005.8,41.3,375.9,0.1099
+tirex-2-gifteval-zs,foundation model,2,Q4 2023,3868.6,4015.0,146.4,223.6,0.6547
+tirex-2-gifteval-zs,foundation model,3,Q1 2024,3723.0,3710.0,13.0,135.5,0.0959
+tirex-2-gifteval-zs,foundation model,4,Q2 2024,3940.0,3844.9,95.1,6.7,14.194
+tirex-2-gifteval-zs,foundation model,5,Q3 2024,4094.0,3984.0,110.0,46.9,2.3454
+tirex-2-gifteval-zs,foundation model,6,Q4 2024,3959.0,4001.9,42.9,90.4,0.4746
+tirex-2-gifteval-zs,foundation model,7,Q1 2025,3661.0,3774.1,113.1,62.0,1.8242
+tirex-2-gifteval-zs,foundation model,8,Q2 2025,4213.0,3888.5,324.5,273.0,1.1886
+tirex-2-gifteval-zs,foundation model,9,Q3 2025,4363.0,4277.3,85.7,269.0,0.3186
+tirex-2-gifteval-zs,foundation model,10,Q4 2025,4310.0,4231.5,78.5,351.0,0.2236
+tirex-2-gifteval-zs,foundation model,11,Q1 2026,4007.0,4124.6,117.6,346.0,0.3399
+tirex-2-gifteval-zs,foundation model,12,Q2 2026,4393.0,4164.3,228.7,180.0,1.2706
+timesfm-2,foundation model,1,Q3 2023,4047.1,3977.6,69.5,375.9,0.1849
+timesfm-2,foundation model,2,Q4 2023,3868.6,3995.4,126.8,223.6,0.5671
+timesfm-2,foundation model,3,Q1 2024,3723.0,3807.4,84.4,135.5,0.6229
+timesfm-2,foundation model,4,Q2 2024,3940.0,3834.4,105.6,6.7,15.7612
+timesfm-2,foundation model,5,Q3 2024,4094.0,3998.5,95.5,46.9,2.0362
+timesfm-2,foundation model,6,Q4 2024,3959.0,4027.1,68.1,90.4,0.7533
+timesfm-2,foundation model,7,Q1 2025,3661.0,3898.0,237.0,62.0,3.8226
+timesfm-2,foundation model,8,Q2 2025,4213.0,3823.5,389.5,273.0,1.4267
+timesfm-2,foundation model,9,Q3 2025,4363.0,4357.9,5.1,269.0,0.019
+timesfm-2,foundation model,10,Q4 2025,4310.0,4292.2,17.8,351.0,0.0507
+timesfm-2,foundation model,11,Q1 2026,4007.0,4224.4,217.4,346.0,0.6283
+timesfm-2,foundation model,12,Q2 2026,4393.0,4138.4,254.6,180.0,1.4144
+timesfm-3,foundation model,1,Q3 2023,4047.1,3951.3,95.8,375.9,0.2549
+timesfm-3,foundation model,2,Q4 2023,3868.6,3945.1,76.5,223.6,0.3421
+timesfm-3,foundation model,3,Q1 2024,3723.0,3783.1,60.1,135.5,0.4435
+timesfm-3,foundation model,4,Q2 2024,3940.0,3882.1,57.9,6.7,8.6418
+timesfm-3,foundation model,5,Q3 2024,4094.0,4046.2,47.8,46.9,1.0192
+timesfm-3,foundation model,6,Q4 2024,3959.0,4013.8,54.8,90.4,0.6062
+timesfm-3,foundation model,7,Q1 2025,3661.0,3855.4,194.4,62.0,3.1355
+timesfm-3,foundation model,8,Q2 2025,4213.0,3915.1,297.9,273.0,1.0912
+timesfm-3,foundation model,9,Q3 2025,4363.0,4260.5,102.5,269.0,0.381
+timesfm-3,foundation model,10,Q4 2025,4310.0,4225.8,84.2,351.0,0.2399
+timesfm-3,foundation model,11,Q1 2026,4007.0,4155.1,148.1,346.0,0.428
+timesfm-3,foundation model,12,Q2 2026,4393.0,4289.9,103.1,180.0,0.5728
+t0-alpha,foundation model,1,Q3 2023,4047.1,3916.7,130.4,375.9,0.3469
+t0-alpha,foundation model,2,Q4 2023,3868.6,3956.3,87.7,223.6,0.3922
+t0-alpha,foundation model,3,Q1 2024,3723.0,3864.2,141.2,135.5,1.0421
+t0-alpha,foundation model,4,Q2 2024,3940.0,4041.2,101.2,6.7,15.1045
+t0-alpha,foundation model,5,Q3 2024,4094.0,4002.9,91.1,46.9,1.9424
+t0-alpha,foundation model,6,Q4 2024,3959.0,4053.3,94.3,90.4,1.0431
+t0-alpha,foundation model,7,Q1 2025,3661.0,4048.8,387.8,62.0,6.2548
+t0-alpha,foundation model,8,Q2 2025,4213.0,3915.0,298.0,273.0,1.0916
+t0-alpha,foundation model,9,Q3 2025,4363.0,4369.5,6.5,269.0,0.0242
+t0-alpha,foundation model,10,Q4 2025,4310.0,4340.3,30.3,351.0,0.0863
+t0-alpha,foundation model,11,Q1 2026,4007.0,4291.1,284.1,346.0,0.8211
+t0-alpha,foundation model,12,Q2 2026,4393.0,4074.3,318.7,180.0,1.7706
+chronos-2-small,foundation model,1,Q3 2023,4047.1,3944.7,102.4,375.9,0.2724
+chronos-2-small,foundation model,2,Q4 2023,3868.6,3965.2,96.6,223.6,0.432
+chronos-2-small,foundation model,3,Q1 2024,3723.0,3836.6,113.6,135.5,0.8384
+chronos-2-small,foundation model,4,Q2 2024,3940.0,3900.2,39.8,6.7,5.9403
+chronos-2-small,foundation model,5,Q3 2024,4094.0,4042.5,51.5,46.9,1.0981
+chronos-2-small,foundation model,6,Q4 2024,3959.0,4006.7,47.7,90.4,0.5277
+chronos-2-small,foundation model,7,Q1 2025,3661.0,3868.2,207.2,62.0,3.3419
+chronos-2-small,foundation model,8,Q2 2025,4213.0,3807.8,405.2,273.0,1.4842
+chronos-2-small,foundation model,9,Q3 2025,4363.0,4196.8,166.2,269.0,0.6178
+chronos-2-small,foundation model,10,Q4 2025,4310.0,4196.2,113.8,351.0,0.3242
+chronos-2-small,foundation model,11,Q1 2026,4007.0,4157.9,150.9,346.0,0.4361
+chronos-2-small,foundation model,12,Q2 2026,4393.0,4134.3,258.7,180.0,1.4372
+seasonal-naive,baseline,1,Q3 2023,4047.1,3671.2,375.9,375.9,1.0
+seasonal-naive,baseline,2,Q4 2023,3868.6,3645.0,223.6,223.6,1.0
+seasonal-naive,baseline,3,Q1 2024,3723.0,3587.5,135.5,135.5,1.0
+seasonal-naive,baseline,4,Q2 2024,3940.0,3933.3,6.7,6.7,1.0
+seasonal-naive,baseline,5,Q3 2024,4094.0,4047.1,46.9,46.9,1.0
+seasonal-naive,baseline,6,Q4 2024,3959.0,3868.6,90.4,90.4,1.0
+seasonal-naive,baseline,7,Q1 2025,3661.0,3723.0,62.0,62.0,1.0
+seasonal-naive,baseline,8,Q2 2025,4213.0,3940.0,273.0,273.0,1.0
+seasonal-naive,baseline,9,Q3 2025,4363.0,4094.0,269.0,269.0,1.0
+seasonal-naive,baseline,10,Q4 2025,4310.0,3959.0,351.0,351.0,1.0
+seasonal-naive,baseline,11,Q1 2026,4007.0,3661.0,346.0,346.0,1.0
+seasonal-naive,baseline,12,Q2 2026,4393.0,4213.0,180.0,180.0,1.0
+t0-beta,foundation model,1,Q3 2023,4047.1,3922.2,124.9,375.9,0.3323
+t0-beta,foundation model,2,Q4 2023,3868.6,4004.6,136.0,223.6,0.6082
+t0-beta,foundation model,3,Q1 2024,3723.0,3809.7,86.7,135.5,0.6399
+t0-beta,foundation model,4,Q2 2024,3940.0,3832.0,108.0,6.7,16.1194
+t0-beta,foundation model,5,Q3 2024,4094.0,3982.6,111.4,46.9,2.3753
+t0-beta,foundation model,6,Q4 2024,3959.0,4034.3,75.3,90.4,0.833
+t0-beta,foundation model,7,Q1 2025,3661.0,3859.9,198.9,62.0,3.2081
+t0-beta,foundation model,8,Q2 2025,4213.0,3811.6,401.4,273.0,1.4703
+t0-beta,foundation model,9,Q3 2025,4363.0,4219.4,143.6,269.0,0.5338
+t0-beta,foundation model,10,Q4 2025,4310.0,4233.5,76.5,351.0,0.2179
+t0-beta,foundation model,11,Q1 2026,4007.0,4118.3,111.3,346.0,0.3217
+t0-beta,foundation model,12,Q2 2026,4393.0,4065.4,327.6,180.0,1.82
+toto-2-4m,foundation model,1,Q3 2023,4047.1,3861.0,186.1,375.9,0.4951
+toto-2-4m,foundation model,2,Q4 2023,3868.6,3923.2,54.6,223.6,0.2442
+toto-2-4m,foundation model,3,Q1 2024,3723.0,3822.8,99.8,135.5,0.7365
+toto-2-4m,foundation model,4,Q2 2024,3940.0,3816.8,123.2,6.7,18.3881
+toto-2-4m,foundation model,5,Q3 2024,4094.0,3912.0,182.0,46.9,3.8806
+toto-2-4m,foundation model,6,Q4 2024,3959.0,4004.9,45.9,90.4,0.5077
+toto-2-4m,foundation model,7,Q1 2025,3661.0,3906.5,245.5,62.0,3.9597
+toto-2-4m,foundation model,8,Q2 2025,4213.0,3876.0,337.0,273.0,1.2344
+toto-2-4m,foundation model,9,Q3 2025,4363.0,4240.5,122.5,269.0,0.4554
+toto-2-4m,foundation model,10,Q4 2025,4310.0,4190.1,119.9,351.0,0.3416
+toto-2-4m,foundation model,11,Q1 2026,4007.0,4233.9,226.9,346.0,0.6558
+toto-2-4m,foundation model,12,Q2 2026,4393.0,4210.6,182.4,180.0,1.0133
+chronos-bolt-small,foundation model,1,Q3 2023,4047.1,3931.5,115.6,375.9,0.3075
+chronos-bolt-small,foundation model,2,Q4 2023,3868.6,3983.8,115.2,223.6,0.5152
+chronos-bolt-small,foundation model,3,Q1 2024,3723.0,3788.4,65.4,135.5,0.4827
+chronos-bolt-small,foundation model,4,Q2 2024,3940.0,3779.3,160.7,6.7,23.9851
+chronos-bolt-small,foundation model,5,Q3 2024,4094.0,3967.0,127.0,46.9,2.7079
+chronos-bolt-small,foundation model,6,Q4 2024,3959.0,4062.5,103.5,90.4,1.1449
+chronos-bolt-small,foundation model,7,Q1 2025,3661.0,3948.2,287.2,62.0,4.6323
+chronos-bolt-small,foundation model,8,Q2 2025,4213.0,3790.6,422.4,273.0,1.5473
+chronos-bolt-small,foundation model,9,Q3 2025,4363.0,4201.3,161.7,269.0,0.6011
+chronos-bolt-small,foundation model,10,Q4 2025,4310.0,4250.5,59.5,351.0,0.1695
+chronos-bolt-small,foundation model,11,Q1 2026,4007.0,4192.5,185.5,346.0,0.5361
+chronos-bolt-small,foundation model,12,Q2 2026,4393.0,4150.8,242.2,180.0,1.3456
+chronos-bolt-mini,foundation model,1,Q3 2023,4047.1,3968.7,78.4,375.9,0.2086
+chronos-bolt-mini,foundation model,2,Q4 2023,3868.6,4038.1,169.5,223.6,0.7581
+chronos-bolt-mini,foundation model,3,Q1 2024,3723.0,3866.4,143.4,135.5,1.0583
+chronos-bolt-mini,foundation model,4,Q2 2024,3940.0,3826.8,113.2,6.7,16.8955
+chronos-bolt-mini,foundation model,5,Q3 2024,4094.0,3992.0,102.0,46.9,2.1748
+chronos-bolt-mini,foundation model,6,Q4 2024,3959.0,4088.1,129.1,90.4,1.4281
+chronos-bolt-mini,foundation model,7,Q1 2025,3661.0,3958.7,297.7,62.0,4.8016
+chronos-bolt-mini,foundation model,8,Q2 2025,4213.0,3805.1,407.9,273.0,1.4941
+chronos-bolt-mini,foundation model,9,Q3 2025,4363.0,4203.4,159.6,269.0,0.5933
+chronos-bolt-mini,foundation model,10,Q4 2025,4310.0,4269.3,40.7,351.0,0.116
+chronos-bolt-mini,foundation model,11,Q1 2026,4007.0,4208.0,201.0,346.0,0.5809
+chronos-bolt-mini,foundation model,12,Q2 2026,4393.0,4134.1,258.9,180.0,1.4383
+naive,statistical,1,Q3 2023,4047.1,3933.3,113.8,375.9,0.3027
+naive,statistical,2,Q4 2023,3868.6,4047.1,178.5,223.6,0.7983
+naive,statistical,3,Q1 2024,3723.0,3868.6,145.6,135.5,1.0745
+naive,statistical,4,Q2 2024,3940.0,3723.0,217.0,6.7,32.3881
+naive,statistical,5,Q3 2024,4094.0,3940.0,154.0,46.9,3.2836
+naive,statistical,6,Q4 2024,3959.0,4094.0,135.0,90.4,1.4934
+naive,statistical,7,Q1 2025,3661.0,3959.0,298.0,62.0,4.8065
+naive,statistical,8,Q2 2025,4213.0,3661.0,552.0,273.0,2.022
+naive,statistical,9,Q3 2025,4363.0,4213.0,150.0,269.0,0.5576
+naive,statistical,10,Q4 2025,4310.0,4363.0,53.0,351.0,0.151
+naive,statistical,11,Q1 2026,4007.0,4310.0,303.0,346.0,0.8757
+naive,statistical,12,Q2 2026,4393.0,4007.0,386.0,180.0,2.1444

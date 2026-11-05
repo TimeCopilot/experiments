@@ -1,0 +1,7 @@
+# original extraction bundle (SEC filings, API job files); every number is exported to data/
+source/
+# intermediates
+pipeline/out/*/parts/
+__pycache__/
+*.pyc
+.DS_Store

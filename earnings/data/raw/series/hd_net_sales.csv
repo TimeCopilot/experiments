@@ -1,0 +1,111 @@
+quarter,quarter_end_date,value_usd_m,source_url,notes
+Q1 FY1999,1999-05-02,8952.0,https://www.sec.gov/Archives/edgar/data/354950/000035495099000003/0000354950-99-000003.txt,Own 10-Q; confirmed as comparative in Q1 FY2000 10-Q.
+Q2 FY1999,1999-08-01,10431.0,https://www.sec.gov/Archives/edgar/data/354950/000035495099000005/0000354950-99-000005.txt,"Own 10-Q; Q1+Q2 = printed YTD6 19,383."
+Q3 FY1999,1999-10-31,9877.0,https://www.sec.gov/Archives/edgar/data/354950/000035495099000009/0000354950-99-000009.txt,"Own 10-Q; ladder to YTD9 29,260 exact."
+Q4 FY1999,2000-01-30,9174.0,https://www.sec.gov/Archives/edgar/data/354950/000095014400005338/0000950144-00-005338.txt,"Derived: FY1999 10-K total 38,434 - YTD9 29,260."
+Q1 FY2000,2000-04-30,11112.0,https://www.sec.gov/Archives/edgar/data/354950/000091205700026354/0000912057-00-026354.txt,Own 10-Q.
+Q2 FY2000,2000-07-30,12618.0,https://www.sec.gov/Archives/edgar/data/354950/000091205700038957/0000912057-00-038957.txt,"Own 10-Q; printed YTD6 23,731 vs Q1+Q2 23,730 ($1M source rounding); Q1+Q2+Q3 = YTD9 35,275 exact."
+Q3 FY2000,2000-10-30,11545.0,https://www.sec.gov/Archives/edgar/data/354950/000091205700051248/0000912057-00-051248.txt,"Own 10-Q; ladder to YTD9 35,275 exact."
+Q4 FY2000,2001-01-28,10463.0,https://www.sec.gov/Archives/edgar/data/354950/000095014401005194/0000950144-01-005194.txt,"Derived: FY2000 10-K total 45,738 - YTD9 35,275."
+Q1 FY2001,2001-04-29,12200.0,https://www.sec.gov/Archives/edgar/data/354950/000091205701517840/0000912057-01-517840.txt,Own 10-Q.
+Q2 FY2001,2001-07-29,14576.0,https://www.sec.gov/Archives/edgar/data/354950/000110465901502091/0001104659-01-502091.txt,"Own 10-Q; Q1+Q2 = printed YTD6 26,776."
+Q3 FY2001,2001-10-28,13289.0,https://www.sec.gov/Archives/edgar/data/354950/000110465902006906/0001104659-02-006906.txt,"Comparative column of Q3 FY2002 10-Q (own 10-Q statement table not machine-readable); YTD9 40,065 - YTD6 26,776 = 13,289 agrees."
+Q4 FY2001,2002-02-03,13488.0,https://www.sec.gov/Archives/edgar/data/354950/000095014402004155/0000950144-02-004155.txt,"Derived: FY2001 10-K total 53,553 - YTD9 40,065. FY2001 is a 53-week year."
+Q1 FY2002,2002-05-05,14282.0,https://www.sec.gov/Archives/edgar/data/354950/000110465902002735/0001104659-02-002735.txt,Own 10-Q.
+Q2 FY2002,2002-08-04,16277.0,https://www.sec.gov/Archives/edgar/data/354950/000110465902004392/0001104659-02-004392.txt,"Own 10-Q; Q1+Q2 = printed YTD6 30,559."
+Q3 FY2002,2002-11-03,14475.0,https://www.sec.gov/Archives/edgar/data/354950/000110465902006906/0001104659-02-006906.txt,"Own 10-Q; ladder to YTD9 45,034 exact."
+Q4 FY2002,2003-02-02,13213.0,https://www.sec.gov/Archives/edgar/data/354950/000095014403005180/0000950144-03-005180.txt,"Derived: FY2002 10-K total 58,247 - YTD9 45,034."
+Q1 FY2003,2003-05-04,15104.0,https://www.sec.gov/Archives/edgar/data/354950/000104746903020747/0001047469-03-020747.txt,Own 10-Q.
+Q2 FY2003,2003-08-03,17989.0,https://www.sec.gov/Archives/edgar/data/354950/000104746903029793/0001047469-03-029793.txt,"Own 10-Q; Q1+Q2 = printed YTD6 33,093."
+Q3 FY2003,2003-11-02,16598.0,https://www.sec.gov/Archives/edgar/data/354950/000104746903039465/0001047469-03-039465.txt,"Own 10-Q; ladder to YTD9 49,691 exact."
+Q4 FY2003,2004-02-01,15125.0,https://www.sec.gov/Archives/edgar/data/354950/000104746904011651/0001047469-04-011651.txt,"Derived: FY2003 10-K total 64,816 - YTD9 49,691."
+Q1 FY2004,2004-05-02,17550.0,https://www.sec.gov/Archives/edgar/data/354950/000104746904019410/0001047469-04-019410.txt,Own 10-Q.
+Q2 FY2004,2004-08-01,19960.0,https://www.sec.gov/Archives/edgar/data/354950/000104746904027899/0001047469-04-027899.txt,"Own 10-Q; Q1+Q2 = printed YTD6 37,510."
+Q3 FY2004,2004-10-31,18772.0,https://www.sec.gov/Archives/edgar/data/354950/000104746904035922/0001047469-04-035922.txt,"Own 10-Q; ladder to YTD9 56,282 exact."
+Q4 FY2004,2005-01-30,16812.0,https://www.sec.gov/Archives/edgar/data/354950/000104746905009783/0001047469-05-009783.txt,"Derived: FY2004 10-K total 73,094 - YTD9 56,282."
+Q1 FY2005,2005-05-01,18973.0,https://www.sec.gov/Archives/edgar/data/354950/000104746905016339/0001047469-05-016339.txt,Own 10-Q. As originally reported (incl. HD Supply).
+Q2 FY2005,2005-07-31,22305.0,https://www.sec.gov/Archives/edgar/data/354950/000110465905042535/0001104659-05-042535.txt,"Own 10-Q; Q1+Q2 = printed YTD6 41,278. As originally reported."
+Q3 FY2005,2005-10-30,20744.0,https://www.sec.gov/Archives/edgar/data/354950/000110465905058609/0001104659-05-058609.txt,"Own 10-Q; ladder to YTD9 62,022 exact. As originally reported."
+Q4 FY2005,2006-01-29,19489.0,https://www.sec.gov/Archives/edgar/data/354950/000104746906004211/0001047469-06-004211.txt,"Derived: FY2005 10-K total 81,511 - YTD9 62,022. As originally reported (FY2007 10-K later restated FY2005 to 77,019 continuing-ops; quarters never restated)."
+Q1 FY2006,2006-04-30,19378.0,https://www.sec.gov/Archives/edgar/data/354950/000110465907066810/0001104659-07-066810.txt,"Continuing-ops: YTD6 FY2006 comparative 41,970 - Q2 comparative 22,592, both from Q2 FY2007 10-Q."
+Q2 FY2006,2006-07-30,22592.0,https://www.sec.gov/Archives/edgar/data/354950/000110465907066810/0001104659-07-066810.txt,"Continuing-ops comparative column, Q2 FY2007 10-Q (as-reported own 10-Q was 26,026 incl. HD Supply)."
+Q3 FY2006,2006-10-29,19648.0,https://www.sec.gov/Archives/edgar/data/354950/000110465907085623/0001104659-07-085623.txt,"Continuing-ops comparative column, Q3 FY2007 10-Q; ladder to restated YTD9 61,618 exact."
+Q4 FY2006,2007-01-28,17404.0,https://www.sec.gov/Archives/edgar/data/354950/000104746907002295/0001047469-07-002295.txt,"Derived: FY2006 continuing total 79,022 (FY2007 10-K) - restated YTD9 61,618."
+Q1 FY2007,2007-04-29,18545.0,https://www.sec.gov/Archives/edgar/data/354950/000110465908037776/0001104659-08-037776.txt,"Continuing-ops: comparative column of Q1 FY2008 10-Q; agrees with Q2 FY2007 10-Q ladder (YTD6 40,729 - Q2 22,184). Own Q1 FY2007 10-Q printed 21,585 pre-reclassification (incl. HD Supply)."
+Q2 FY2007,2007-07-29,22184.0,https://www.sec.gov/Archives/edgar/data/354950/000110465907066810/0001104659-07-066810.txt,"Own 10-Q (continuing-ops presentation after HD Supply sale agreement); Q1+Q2 = printed YTD6 40,729."
+Q3 FY2007,2007-10-28,18961.0,https://www.sec.gov/Archives/edgar/data/354950/000110465907085623/0001104659-07-085623.txt,"Own 10-Q; ladder to YTD9 59,690 exact."
+Q4 FY2007,2008-02-03,17659.0,https://www.sec.gov/Archives/edgar/data/354950/000104746908004077/0001047469-08-004077.txt,"Derived: FY2007 10-K total 77,349 - YTD9 59,690. FY2007 is a 53-week year."
+Q1 FY2008,2008-05-04,17907.0,https://www.sec.gov/Archives/edgar/data/354950/000095012309040859/0000950123-09-040859.txt,"XBRL ladder (Revenues): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2008,2008-08-03,20990.0,https://www.sec.gov/Archives/edgar/data/354950/000095012309040859/0000950123-09-040859.txt,"XBRL ladder (Revenues): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2008,2008-11-02,17784.0,https://www.sec.gov/Archives/edgar/data/354950/000119312509246720/0001193125-09-246720.txt,XBRL ladder (Revenues): YTD9 - YTD6.
+Q4 FY2008,2009-02-01,14607.0,https://www.sec.gov/Archives/edgar/data/354950/000119312511076501/0001193125-11-076501.txt,XBRL ladder (SalesRevenueNet): FY total - YTD9.
+Q1 FY2009,2009-05-03,16175.0,https://www.sec.gov/Archives/edgar/data/354950/000119312510203898/0001193125-10-203898.txt,"XBRL ladder (Revenues): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2009,2009-08-02,19071.0,https://www.sec.gov/Archives/edgar/data/354950/000119312510203898/0001193125-10-203898.txt,"XBRL ladder (Revenues): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2009,2009-11-01,16361.0,https://www.sec.gov/Archives/edgar/data/354950/000119312510272940/0001193125-10-272940.txt,XBRL ladder (Revenues): YTD9 - YTD6.
+Q4 FY2009,2010-01-31,14569.0,https://www.sec.gov/Archives/edgar/data/354950/000035495012000003/0000354950-12-000003.txt,XBRL ladder (SalesRevenueNet): FY total - YTD9.
+Q1 FY2010,2010-05-02,16863.0,https://www.sec.gov/Archives/edgar/data/354950/000119312511239167/0001193125-11-239167.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2010,2010-08-01,19410.0,https://www.sec.gov/Archives/edgar/data/354950/000119312511239167/0001193125-11-239167.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2010,2010-10-31,16598.0,https://www.sec.gov/Archives/edgar/data/354950/000035495011000005/0000354950-11-000005.txt,XBRL ladder (SalesRevenueNet): YTD9 - YTD6.
+Q4 FY2010,2011-01-30,15126.0,https://www.sec.gov/Archives/edgar/data/354950/000035495013000008/0000354950-13-000008.txt,XBRL ladder (SalesRevenueNet): FY total - YTD9.
+Q1 FY2011,2011-05-01,16823.0,https://www.sec.gov/Archives/edgar/data/354950/000035495012000024/0000354950-12-000024.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2011,2011-07-31,20232.0,https://www.sec.gov/Archives/edgar/data/354950/000035495012000024/0000354950-12-000024.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2011,2011-10-30,17326.0,https://www.sec.gov/Archives/edgar/data/354950/000035495012000035/0000354950-12-000035.txt,XBRL ladder (SalesRevenueNet): YTD9 - YTD6.
+Q4 FY2011,2012-01-29,16014.0,https://www.sec.gov/Archives/edgar/data/354950/000035495014000008/0000354950-14-000008.txt,XBRL ladder (SalesRevenueNet): FY total - YTD9.
+Q1 FY2012,2012-04-29,17808.0,https://www.sec.gov/Archives/edgar/data/354950/000035495013000032/0000354950-13-000032.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2012,2012-07-29,20570.0,https://www.sec.gov/Archives/edgar/data/354950/000035495013000032/0000354950-13-000032.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2012,2012-10-28,18130.0,https://www.sec.gov/Archives/edgar/data/354950/000035495013000047/0000354950-13-000047.txt,XBRL ladder (SalesRevenueNet): YTD9 - YTD6.
+Q4 FY2012,2013-02-03,18246.0,https://www.sec.gov/Archives/edgar/data/354950/000035495015000035/0000354950-15-000035.txt,XBRL ladder (SalesRevenueNet): FY total - YTD9.
+Q1 FY2013,2013-05-05,19124.0,https://www.sec.gov/Archives/edgar/data/354950/000035495014000032/0000354950-14-000032.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2013,2013-08-04,22522.0,https://www.sec.gov/Archives/edgar/data/354950/000035495014000032/0000354950-14-000032.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2013,2013-11-03,19470.0,https://www.sec.gov/Archives/edgar/data/354950/000035495014000047/0000354950-14-000047.txt,XBRL ladder (SalesRevenueNet): YTD9 - YTD6.
+Q4 FY2013,2014-02-02,17696.0,https://www.sec.gov/Archives/edgar/data/354950/000035495016000060/0000354950-16-000060.txt,XBRL ladder (SalesRevenueNet): FY total - YTD9.
+Q1 FY2014,2014-05-04,19687.0,https://www.sec.gov/Archives/edgar/data/354950/000035495015000033/0000354950-15-000033.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2014,2014-08-03,23811.0,https://www.sec.gov/Archives/edgar/data/354950/000035495015000033/0000354950-15-000033.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2014,2014-11-02,20516.0,https://www.sec.gov/Archives/edgar/data/354950/000035495015000049/0000354950-15-000049.txt,XBRL ladder (SalesRevenueNet): YTD9 - YTD6.
+Q4 FY2014,2015-02-01,19162.0,https://www.sec.gov/Archives/edgar/data/354950/000035495017000005/0000354950-17-000005.txt,XBRL ladder (SalesRevenueNet): FY total - YTD9.
+Q1 FY2015,2015-05-03,20891.0,https://www.sec.gov/Archives/edgar/data/354950/000035495016000082/0000354950-16-000082.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2015,2015-08-02,24829.0,https://www.sec.gov/Archives/edgar/data/354950/000035495016000082/0000354950-16-000082.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2015,2015-11-01,21819.0,https://www.sec.gov/Archives/edgar/data/354950/000035495016000094/0000354950-16-000094.txt,XBRL ladder (SalesRevenueNet): YTD9 - YTD6.
+Q4 FY2015,2016-01-31,20980.0,https://www.sec.gov/Archives/edgar/data/354950/000035495018000019/0000354950-18-000019.txt,XBRL ladder (SalesRevenueNet): FY total - YTD9.
+Q1 FY2016,2016-05-01,22762.0,https://www.sec.gov/Archives/edgar/data/354950/000035495017000032/0000354950-17-000032.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2016,2016-07-31,26472.0,https://www.sec.gov/Archives/edgar/data/354950/000035495017000032/0000354950-17-000032.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2016,2016-10-30,23154.0,https://www.sec.gov/Archives/edgar/data/354950/000035495017000046/0000354950-17-000046.txt,XBRL ladder (SalesRevenueNet): YTD9 - YTD6.
+Q4 FY2016,2017-01-29,22207.0,https://www.sec.gov/Archives/edgar/data/354950/000035495019000010/0000354950-19-000010.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): FY total - YTD9.
+Q1 FY2017,2017-04-30,23887.0,https://www.sec.gov/Archives/edgar/data/354950/000035495018000051/0000354950-18-000051.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2017,2017-07-30,28108.0,https://www.sec.gov/Archives/edgar/data/354950/000035495018000051/0000354950-18-000051.txt,"XBRL ladder (SalesRevenueNet): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2017,2017-10-29,25026.0,https://www.sec.gov/Archives/edgar/data/354950/000035495018000065/0000354950-18-000065.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD9 - YTD6.
+Q4 FY2017,2018-01-28,23883.0,https://www.sec.gov/Archives/edgar/data/354950/000035495020000015/0000354950-20-000015.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): FY total - YTD9.
+Q1 FY2018,2018-04-29,24947.0,https://www.sec.gov/Archives/edgar/data/354950/000035495019000057/0000354950-19-000057.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2018,2018-07-29,30463.0,https://www.sec.gov/Archives/edgar/data/354950/000035495019000057/0000354950-19-000057.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2018,2018-10-28,26302.0,https://www.sec.gov/Archives/edgar/data/354950/000035495019000066/0000354950-19-000066.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD9 - YTD6.
+Q4 FY2018,2019-02-03,26491.0,https://www.sec.gov/Archives/edgar/data/354950/000035495021000089/0000354950-21-000089.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): FY total - YTD9.
+Q1 FY2019,2019-05-05,26381.0,https://www.sec.gov/Archives/edgar/data/354950/000035495020000068/0000354950-20-000068.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2019,2019-08-04,30839.0,https://www.sec.gov/Archives/edgar/data/354950/000035495020000068/0000354950-20-000068.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2019,2019-11-03,27223.0,https://www.sec.gov/Archives/edgar/data/354950/000035495020000103/0000354950-20-000103.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD9 - YTD6.
+Q4 FY2019,2020-02-02,25782.0,https://www.sec.gov/Archives/edgar/data/354950/000035495022000070/0000354950-22-000070.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): FY total - YTD9.
+Q1 FY2020,2020-05-03,28260.0,https://www.sec.gov/Archives/edgar/data/354950/000035495021000189/0000354950-21-000189.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2020,2020-08-02,38053.0,https://www.sec.gov/Archives/edgar/data/354950/000035495021000189/0000354950-21-000189.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2020,2020-11-01,33536.0,https://www.sec.gov/Archives/edgar/data/354950/000035495021000234/0000354950-21-000234.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD9 - YTD6.
+Q4 FY2020,2021-01-31,32261.0,https://www.sec.gov/Archives/edgar/data/354950/000035495023000059/0000354950-23-000059.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): FY total - YTD9.
+Q1 FY2021,2021-05-02,37500.0,https://www.sec.gov/Archives/edgar/data/354950/000035495022000193/0000354950-22-000193.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2021,2021-08-01,41118.0,https://www.sec.gov/Archives/edgar/data/354950/000035495022000193/0000354950-22-000193.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2021,2021-10-31,36820.0,https://www.sec.gov/Archives/edgar/data/354950/000035495022000239/0000354950-22-000239.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD9 - YTD6.
+Q4 FY2021,2022-01-30,35719.0,https://www.sec.gov/Archives/edgar/data/354950/000035495024000062/0000354950-24-000062.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): FY total - YTD9.
+Q1 FY2022,2022-05-01,38908.0,https://www.sec.gov/Archives/edgar/data/354950/000035495023000185/0000354950-23-000185.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2022,2022-07-31,43792.0,https://www.sec.gov/Archives/edgar/data/354950/000035495023000185/0000354950-23-000185.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2022,2022-10-30,38872.0,https://www.sec.gov/Archives/edgar/data/354950/000035495023000240/0000354950-23-000240.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD9 - YTD6.
+Q4 FY2022,2023-01-29,35831.0,https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/0000354950-25-000085.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): FY total - YTD9.
+Q1 FY2023,2023-04-30,37257.0,https://www.sec.gov/Archives/edgar/data/354950/000035495024000201/0000354950-24-000201.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2023,2023-07-30,42916.0,https://www.sec.gov/Archives/edgar/data/354950/000035495024000201/0000354950-24-000201.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2023,2023-10-29,37710.0,https://www.sec.gov/Archives/edgar/data/354950/000035495024000240/0000354950-24-000240.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD9 - YTD6.
+Q4 FY2023,2024-01-28,34786.0,https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): FY total - YTD9.
+Q1 FY2024,2024-04-28,36418.0,https://www.sec.gov/Archives/edgar/data/354950/000035495025000217/0000354950-25-000217.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2024,2024-07-28,43175.0,https://www.sec.gov/Archives/edgar/data/354950/000035495025000217/0000354950-25-000217.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2024,2024-10-27,40217.0,https://www.sec.gov/Archives/edgar/data/354950/000162828025053868/0001628280-25-053868.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD9 - YTD6.
+Q4 FY2024,2025-02-02,39704.0,https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): FY total - YTD9.
+Q1 FY2025,2025-05-04,39856.0,https://www.sec.gov/Archives/edgar/data/354950/000162828026058715/0001628280-26-058715.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q2 standalone, or standalone Q1 fact."
+Q2 FY2025,2025-08-03,45277.0,https://www.sec.gov/Archives/edgar/data/354950/000162828026058715/0001628280-26-058715.txt,"XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD6 - Q1, or standalone Q2 fact."
+Q3 FY2025,2025-11-02,41352.0,https://www.sec.gov/Archives/edgar/data/354950/000162828025053868/0001628280-25-053868.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): YTD9 - YTD6.
+Q4 FY2025,2026-02-01,38198.0,https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436.txt,XBRL ladder (RevenueFromContractWithCustomerExcludingAssessedTax): FY total - YTD9.
+Q1 FY2026,2026-05-03,41765.0,https://www.sec.gov/Archives/edgar/data/354950/000162828026038247/0001628280-26-038247.txt,"XBRL standalone quarter fact (RevenueFromContractWithCustomerExcludingAssessedTax), 10-Q filed 2026-05-27."
+Q2 FY2026,2026-08-02,47861.0,https://www.sec.gov/Archives/edgar/data/354950/000162828026058715/0001628280-26-058715.txt,"XBRL standalone quarter fact (RevenueFromContractWithCustomerExcludingAssessedTax), 10-Q filed 2026-08-25."

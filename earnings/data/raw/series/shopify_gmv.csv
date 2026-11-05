@@ -1,0 +1,47 @@
+quarter,quarter_end_date,value_usd_m,source_url,notes
+Q1 2015,2015-03-31,1400.0,https://www.shopify.com/news/shopify-announces-first-quarter-2016-financial-results,Pre-IPO: no standalone release; revenue exact from H1 minus Q2 statement tables; GMV derived FY7700 minus Q2-Q4 rounded - APPROXIMATE +/-100; GPV not disclosed
+Q2 2015,2015-06-30,1600.0,https://www.shopify.com/news/shopify-announces-second-quarter-2015-financial-results,GMV rounded $0.1B; GPV not disclosed
+Q3 2015,2015-09-30,1900.0,https://www.shopify.com/news/shopify-announces-third-quarter-2015-financial-results,GMV rounded $0.1B; GPV not disclosed
+Q4 2015,2015-12-31,2800.0,http://www.sec.gov/Archives/edgar/data/1594805/000159480517000006/q42016pressrelease-final.htm,Exact from Q4 2016 comparative; GP is reclassified comparative (orig reported 35.5 rounded)
+Q1 2016,2016-03-31,2700.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480517000023/pressreleaseq12017.htm,Exact from Q1 2017 comparative; GP reclassified (orig 39.3)
+Q2 2016,2016-06-30,3400.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480517000038/pressreleaseq22017.htm,Exact from Q2 2017 comparative; GP reclassified (orig 46.166)
+Q3 2016,2016-09-30,3800.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480517000047/pressreleaseq32017.htm,Exact from Q3 2017 comparative; GP reclassified (orig 52.455)
+Q4 2016,2016-12-31,5500.0,http://www.sec.gov/Archives/edgar/data/1594805/000159480517000006/q42016pressrelease-final.htm,Exact own release
+Q1 2017,2017-03-31,4800.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480517000023/pressreleaseq12017.htm,Exact own release $000s
+Q2 2017,2017-06-30,5800.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480517000038/pressreleaseq22017.htm,Exact own release $000s
+Q3 2017,2017-09-30,6400.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480517000047/pressreleaseq32017.htm,Exact own release $000s
+Q4 2017,2017-12-31,9100.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480518000008/pressreleaseq42017.htm,Exact own release $000s
+Q1 2018,2018-03-31,8000.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480518000021/exhibit991pressreleaseq120.htm,SEC 6-K Exhibit 99.1 press release; GMV/GPV disclosed to nearest $0.1B
+Q2 2018,2018-06-30,9100.0,https://www.shopify.com/press/releases/shopify-announces-second-quarter-2018-financial-results,GMV/GPV disclosed to nearest $0.1B
+Q3 2018,2018-09-30,10000.0,https://www.shopify.com/press/releases/shopify-announces-third-quarter-2018-financial-results,Operating loss confirmed as $31.4M comparative in official Q3 2019 release
+Q4 2018,2018-12-31,14000.0,https://www.shopify.com/news/shopify-announces-fourth-quarter-and-full-year-2018-financial-results,Q4 and full-year release
+Q1 2019,2019-03-31,11900.0,https://www.shopify.com/news/shopify-announces-first-quarter-2019-financial-results,
+Q2 2019,2019-06-30,13800.0,https://www.shopify.com/news/shopify-announces-second-quarter-2019-financial-results,
+Q3 2019,2019-09-30,14800.0,https://www.shopify.com/news/shopify-announces-third-quarter-2019-financial-results,Statement tables give exact $000s: revenue 390552; gross profit 216696; operating loss -35658
+Q4 2019,2019-12-31,20600.0,https://s27.q4cdn.com/572064924/files/doc_financials/2019/q4/Press-Release-Q4-2019.pdf,Official Shopify IR PDF; GMV definition expanded to include orders on certain apps/channels with revenue-sharing
+Q1 2020,2020-03-31,17400.0,https://www.shopify.com/news/shopify-announces-first-quarter-2020-financial-results,COVID-era quarter
+Q2 2020,2020-06-30,30100.0,https://www.businesswire.com/news/home/20200729005239/en/Shopify-Announces-Second-Quarter-2020-Financial-Results,Shopify release as distributed on Business Wire
+Q3 2020,2020-09-30,30900.0,https://news.shopify.com/shopify-announces-third-quarter-2020-financial-results,Statement tables give exact $000s
+Q4 2020,2020-12-31,41100.0,https://www.shopify.com/news/shopify-announces-fourth-quarter-and-full-year-2020-financial-results,Q4 and full-year release
+Q1 2021,2021-03-31,37300.0,https://news.shopify.com/shopify-announces-first-quarter-2021-financial-results,GMV/GPV to nearest $0.1B
+Q2 2021,2021-06-30,42200.0,https://www.shopify.com/news/shopify-announces-second-quarter-2021-financial-results,
+Q3 2021,2021-09-30,41800.0,https://www.shopify.com/news/shopify-announces-third-quarter-2021-financial-results,Operating loss includes $30.1M real estate impairment
+Q4 2021,2021-12-31,54100.0,https://www.shopify.com/news/shopify-announces-fourth-quarter-and-full-year-2021-financial-results,Statement table exact: revenue 1380.024; op inc 14.404
+Q1 2022,2022-03-31,43200.0,https://www.shopify.com/news/shopify-reports-first-quarter-2022-financial-results-plans-to-acquire-ecommerce-fulfillment-technology-provider-deliverr,Deliverr acquisition announced
+Q2 2022,2022-06-30,46900.0,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001594805/dab2df19-c7f3-471a-bbdc-652b81a64ce1.pdf,SEC 6-K Ex-99.1 statement table exact $000s
+Q3 2022,2022-09-30,46200.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480522000050/exhibit991pressreleaseq320.htm,First quarter including Deliverr (closed Jul 8 2022)
+Q4 2022,2022-12-31,61000.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480523000008/exhibit991pressreleaseq420.htm,Statement table exact $000s
+Q1 2023,2023-03-31,49600.0,https://www.shopify.com/news/shopify-announces-first-quarter-2023-financial-results-agrees-to-sell-shopify-logistics-to-flexport,As reported incl logistics; sale to Flexport announced; whole $M
+Q2 2023,2023-06-30,55000.0,https://www.shopify.com/news/shopify-announces-second-quarter-2023-financial-results,Op loss incl ~$1.7B one-time logistics sale items
+Q3 2023,2023-09-30,56200.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480523000067/exhibit991pressreleaseq320.htm,MD&A constant-currency table gives GMV 56205
+Q4 2023,2023-12-31,75100.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480524000006/exhibit991pressreleaseq420.htm,
+Q1 2024,2024-03-31,60855.0,https://www.shopify.com/investors/press-releases/merchant-success-drives-shopifys-excellent-q1---delivering-strong-revenue-growth-and-profitability,As reported in comparative columns of Q1 2025 release; GPV from 10-Q MD&A $0.1B precision
+Q2 2024,2024-06-30,67245.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480525000072/exhibit991pressreleaseq220.htm,Comparatives in Q2 2025 release; GMV 67245 not 67166; GPV from 10-Q MD&A
+Q3 2024,2024-09-30,69715.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480525000088/exhibit991pressreleaseq320.htm,Comparatives in Q3 2025 release; GPV from 10-Q MD&A
+Q4 2024,2024-12-31,94460.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480526000006/exhibit991pressreleaseq420.htm,Comparatives in Q4 2025 release; GPV derived FY181.0B minus 9M 120.2B
+Q1 2025,2025-03-31,74750.0,https://www.shopify.com/investors/press-releases/merchant-success-drives-shopifys-excellent-q1---delivering-strong-revenue-growth-and-profitability,GPV from Q1 2025 10-Q MD&A 47.5B 64%
+Q2 2025,2025-06-30,87837.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480525000072/exhibit991pressreleaseq220.htm,GPV from 10-Q MD&A 56.6B 64%
+Q3 2025,2025-09-30,92013.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480525000088/exhibit991pressreleaseq320.htm,GPV from 10-Q MD&A 60.2B 65%
+Q4 2025,2025-12-31,123841.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480526000006/exhibit991pressreleaseq420.htm,GPV derived FY248.1B minus 9M 164.3B
+Q1 2026,2026-03-31,100743.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480526000018/exhibit991pressreleaseq120.htm,GPV 67.1B 67% per 10-Q MD&A as reported (not re-read verbatim by researcher; corroborated by investor deck $67B)
+Q2 2026,2026-06-30,115567.0,https://www.sec.gov/Archives/edgar/data/1594805/000159480526000046/exhibit991pressreleaseq220.htm,GPV 78.1B 68% verified verbatim from Q2 2026 10-Q MD&A

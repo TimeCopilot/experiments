@@ -1,0 +1,2935 @@
+{
+ "prints": [
+  {
+   "id": "coin_net",
+   "tick": "COIN",
+   "company": "Coinbase",
+   "metric": "Net revenue",
+   "q": "Q3 2026",
+   "actual": 1160.5,
+   "street": 1100.0,
+   "street_err": -60.5,
+   "street_src": "Zacks, Oct 26, 2026",
+   "best": {
+    "m": "auto-theta",
+    "kind": "statistical",
+    "fcst": 1156.2,
+    "err": -4.2999999999999545,
+    "rel": 0.006798418972331944,
+    "cv": 0.8606,
+    "cv_rank": 30,
+    "print_rank": 1
+   },
+   "cv1": {
+    "m": "timestral-5m",
+    "kind": "foundation",
+    "fcst": 1208.0,
+    "err": 47.5,
+    "rel": 0.07509881422924901,
+    "cv": 0.3921,
+    "cv_rank": 1,
+    "print_rank": 11
+   },
+   "naive_err": 632.5,
+   "beat": 12,
+   "n": 33,
+   "median_err": 81.40000000000009,
+   "rows": [
+    {
+     "m": "auto-theta",
+     "kind": "statistical",
+     "fcst": 1156.2,
+     "err": -4.2999999999999545,
+     "rel": 0.006798418972331944,
+     "cv": 0.8606,
+     "cv_rank": 30,
+     "print_rank": 1
+    },
+    {
+     "m": "naive",
+     "kind": "statistical",
+     "fcst": 1154.3,
+     "err": -6.2000000000000455,
+     "rel": 0.009802371541502049,
+     "cv": 0.7373,
+     "cv_rank": 25,
+     "print_rank": 2
+    },
+    {
+     "m": "toto-2-4m",
+     "kind": "foundation",
+     "fcst": 1171.9,
+     "err": 11.400000000000091,
+     "rel": 0.018023715415019907,
+     "cv": 0.4514,
+     "cv_rank": 2,
+     "print_rank": 3
+    },
+    {
+     "m": "xgboost",
+     "kind": "ML",
+     "fcst": 1145.1,
+     "err": -15.400000000000091,
+     "rel": 0.024347826086956667,
+     "cv": 0.7976,
+     "cv_rank": 28,
+     "print_rank": 4
+    },
+    {
+     "m": "timestral-123m",
+     "kind": "foundation",
+     "fcst": 1187.5,
+     "err": 27.0,
+     "rel": 0.042687747035573126,
+     "cv": 0.6529,
+     "cv_rank": 18,
+     "print_rank": 5
+    },
+    {
+     "m": "n-beats",
+     "kind": "deep learning",
+     "fcst": 1128.3,
+     "err": -32.200000000000045,
+     "rel": 0.05090909090909098,
+     "cv": 0.8843,
+     "cv_rank": 31,
+     "print_rank": 6
+    },
+    {
+     "m": "timestral-209m",
+     "kind": "foundation",
+     "fcst": 1197.6,
+     "err": 37.09999999999991,
+     "rel": 0.05865612648221329,
+     "cv": 0.6582,
+     "cv_rank": 19,
+     "print_rank": 7
+    },
+    {
+     "m": "prophet",
+     "kind": "statistical",
+     "fcst": 1203.8,
+     "err": 43.299999999999955,
+     "rel": 0.06845849802371534,
+     "cv": 1.0476,
+     "cv_rank": 33,
+     "print_rank": 8
+    },
+    {
+     "m": "toto-2-1b",
+     "kind": "foundation",
+     "fcst": 1206.9,
+     "err": 46.40000000000009,
+     "rel": 0.07335968379446654,
+     "cv": 0.5047,
+     "cv_rank": 5,
+     "print_rank": 9
+    },
+    {
+     "m": "tirex-2-gifteval-zs",
+     "kind": "foundation",
+     "fcst": 1207.0,
+     "err": 46.5,
+     "rel": 0.07351778656126483,
+     "cv": 0.592,
+     "cv_rank": 13,
+     "print_rank": 10
+    },
+    {
+     "m": "timestral-5m",
+     "kind": "foundation",
+     "fcst": 1208.0,
+     "err": 47.5,
+     "rel": 0.07509881422924901,
+     "cv": 0.3921,
+     "cv_rank": 1,
+     "print_rank": 11
+    },
+    {
+     "m": "lightgbm",
+     "kind": "ML",
+     "fcst": 1211.0,
+     "err": 50.5,
+     "rel": 0.07984189723320158,
+     "cv": 0.7871,
+     "cv_rank": 27,
+     "print_rank": 12
+    },
+    {
+     "m": "timestral-28m",
+     "kind": "foundation",
+     "fcst": 1221.2,
+     "err": 60.700000000000045,
+     "rel": 0.09596837944664038,
+     "cv": 0.4601,
+     "cv_rank": 3,
+     "print_rank": 13
+    },
+    {
+     "m": "auto-ets",
+     "kind": "statistical",
+     "fcst": 1223.0,
+     "err": 62.5,
+     "rel": 0.09881422924901186,
+     "cv": 0.5253,
+     "cv_rank": 6,
+     "print_rank": 14
+    },
+    {
+     "m": "toto-2-22m",
+     "kind": "foundation",
+     "fcst": 1096.3,
+     "err": -64.20000000000005,
+     "rel": 0.10150197628458506,
+     "cv": 0.589,
+     "cv_rank": 12,
+     "print_rank": 15
+    },
+    {
+     "m": "toto-2-313m",
+     "kind": "foundation",
+     "fcst": 1086.7,
+     "err": -73.79999999999995,
+     "rel": 0.11667984189723313,
+     "cv": 0.4854,
+     "cv_rank": 4,
+     "print_rank": 16
+    },
+    {
+     "m": "tirex-2",
+     "kind": "foundation",
+     "fcst": 1241.9,
+     "err": 81.40000000000009,
+     "rel": 0.12869565217391318,
+     "cv": 0.6148,
+     "cv_rank": 15,
+     "print_rank": 17
+    },
+    {
+     "m": "timeh2o-v1-tiny",
+     "kind": "foundation",
+     "fcst": 1248.3,
+     "err": 87.79999999999995,
+     "rel": 0.1388142292490118,
+     "cv": 0.6224,
+     "cv_rank": 16,
+     "print_rank": 18
+    },
+    {
+     "m": "auto-arima",
+     "kind": "statistical",
+     "fcst": 1248.9,
+     "err": 88.40000000000009,
+     "rel": 0.1397628458498025,
+     "cv": 0.6465,
+     "cv_rank": 17,
+     "print_rank": 19
+    },
+    {
+     "m": "timeh2o-v1",
+     "kind": "foundation",
+     "fcst": 1254.5,
+     "err": 94.0,
+     "rel": 0.14861660079051384,
+     "cv": 0.579,
+     "cv_rank": 9,
+     "print_rank": 20
+    },
+    {
+     "m": "granite-patchtst-r2",
+     "kind": "foundation",
+     "fcst": 1269.1,
+     "err": 108.59999999999991,
+     "rel": 0.17169960474308285,
+     "cv": 0.6817,
+     "cv_rank": 21,
+     "print_rank": 21
+    },
+    {
+     "m": "timesfm-2.5-200m",
+     "kind": "foundation",
+     "fcst": 1269.2,
+     "err": 108.70000000000005,
+     "rel": 0.1718577075098815,
+     "cv": 0.5737,
+     "cv_rank": 7,
+     "print_rank": 22
+    },
+    {
+     "m": "timesfm-3",
+     "kind": "foundation",
+     "fcst": 1274.8,
+     "err": 114.29999999999995,
+     "rel": 0.1807114624505928,
+     "cv": 0.5821,
+     "cv_rank": 10,
+     "print_rank": 23
+    },
+    {
+     "m": "t0-gamma",
+     "kind": "foundation",
+     "fcst": 1276.9,
+     "err": 116.40000000000009,
+     "rel": 0.18403162055335984,
+     "cv": 0.8171,
+     "cv_rank": 29,
+     "print_rank": 24
+    },
+    {
+     "m": "chronos-2-small",
+     "kind": "foundation",
+     "fcst": 1304.2,
+     "err": 143.70000000000005,
+     "rel": 0.22719367588932812,
+     "cv": 0.6124,
+     "cv_rank": 14,
+     "print_rank": 25
+    },
+    {
+     "m": "t0-beta",
+     "kind": "foundation",
+     "fcst": 1314.3,
+     "err": 153.79999999999995,
+     "rel": 0.2431620553359683,
+     "cv": 0.7732,
+     "cv_rank": 26,
+     "print_rank": 26
+    },
+    {
+     "m": "chronos-bolt-small",
+     "kind": "foundation",
+     "fcst": 1317.5,
+     "err": 157.0,
+     "rel": 0.2482213438735178,
+     "cv": 0.5855,
+     "cv_rank": 11,
+     "print_rank": 27
+    },
+    {
+     "m": "tabby",
+     "kind": "foundation",
+     "fcst": 1320.6,
+     "err": 160.0999999999999,
+     "rel": 0.2531225296442686,
+     "cv": 0.671,
+     "cv_rank": 20,
+     "print_rank": 28
+    },
+    {
+     "m": "t0-alpha",
+     "kind": "foundation",
+     "fcst": 1321.0,
+     "err": 160.5,
+     "rel": 0.25375494071146243,
+     "cv": 0.6999,
+     "cv_rank": 23,
+     "print_rank": 29
+    },
+    {
+     "m": "chronos-bolt-mini",
+     "kind": "foundation",
+     "fcst": 1351.2,
+     "err": 190.70000000000005,
+     "rel": 0.301501976284585,
+     "cv": 0.5763,
+     "cv_rank": 8,
+     "print_rank": 30
+    },
+    {
+     "m": "chronos-2",
+     "kind": "foundation",
+     "fcst": 1391.4,
+     "err": 230.9000000000001,
+     "rel": 0.36505928853754954,
+     "cv": 0.7326,
+     "cv_rank": 24,
+     "print_rank": 31
+    },
+    {
+     "m": "timesfm-2",
+     "kind": "foundation",
+     "fcst": 1459.6,
+     "err": 299.0999999999999,
+     "rel": 0.472885375494071,
+     "cv": 0.6825,
+     "cv_rank": 22,
+     "print_rank": 32
+    },
+    {
+     "m": "seasonal-naive",
+     "kind": "baseline",
+     "fcst": 1793.0,
+     "err": 632.5,
+     "rel": 1.0,
+     "cv": 1.0,
+     "cv_rank": 32,
+     "print_rank": 33
+    }
+   ]
+  },
+  {
+   "id": "apple_iphone",
+   "tick": "AAPL",
+   "company": "Apple",
+   "metric": "iPhone net sales",
+   "q": "Q4 FY2026",
+   "actual": 57583.0,
+   "street": 57180.0,
+   "street_err": -403.0,
+   "street_src": "Zacks, Oct 31, 2026",
+   "best": {
+    "m": "chronos-bolt-small",
+    "kind": "foundation",
+    "fcst": 57640.0,
+    "err": 57.0,
+    "rel": 0.0066604346810002334,
+    "cv": 0.5141,
+    "cv_rank": 2,
+    "print_rank": 1
+   },
+   "cv1": {
+    "m": "tabby",
+    "kind": "foundation",
+    "fcst": 58991.5,
+    "err": 1408.5,
+    "rel": 0.16458284645945315,
+    "cv": 0.3238,
+    "cv_rank": 1,
+    "print_rank": 21
+   },
+   "naive_err": -8558.0,
+   "beat": 7,
+   "n": 33,
+   "median_err": -497.8000000000029,
+   "rows": [
+    {
+     "m": "chronos-bolt-small",
+     "kind": "foundation",
+     "fcst": 57640.0,
+     "err": 57.0,
+     "rel": 0.0066604346810002334,
+     "cv": 0.5141,
+     "cv_rank": 2,
+     "print_rank": 1
+    },
+    {
+     "m": "tirex-2",
+     "kind": "foundation",
+     "fcst": 57697.4,
+     "err": 114.40000000000146,
+     "rel": 0.013367609254498885,
+     "cv": 1.0703,
+     "cv_rank": 23,
+     "print_rank": 2
+    },
+    {
+     "m": "t0-alpha",
+     "kind": "foundation",
+     "fcst": 57431.4,
+     "err": -151.59999999999854,
+     "rel": 0.017714419256835538,
+     "cv": 1.5014,
+     "cv_rank": 32,
+     "print_rank": 3
+    },
+    {
+     "m": "t0-gamma",
+     "kind": "foundation",
+     "fcst": 57395.1,
+     "err": -187.90000000000146,
+     "rel": 0.02195606450105182,
+     "cv": 0.9645,
+     "cv_rank": 17,
+     "print_rank": 4
+    },
+    {
+     "m": "toto-2-4m",
+     "kind": "foundation",
+     "fcst": 57797.8,
+     "err": 214.8000000000029,
+     "rel": 0.025099322271559116,
+     "cv": 1.0148,
+     "cv_rank": 21,
+     "print_rank": 5
+    },
+    {
+     "m": "chronos-2",
+     "kind": "foundation",
+     "fcst": 57315.2,
+     "err": -267.8000000000029,
+     "rel": 0.03129235802757688,
+     "cv": 1.1813,
+     "cv_rank": 28,
+     "print_rank": 6
+    },
+    {
+     "m": "timestral-28m",
+     "kind": "foundation",
+     "fcst": 57914.4,
+     "err": 331.40000000000146,
+     "rel": 0.03872400093479802,
+     "cv": 1.1006,
+     "cv_rank": 25,
+     "print_rank": 7
+    },
+    {
+     "m": "toto-2-1b",
+     "kind": "foundation",
+     "fcst": 57989.8,
+     "err": 406.8000000000029,
+     "rel": 0.047534470670717796,
+     "cv": 0.8068,
+     "cv_rank": 11,
+     "print_rank": 8
+    },
+    {
+     "m": "timestral-123m",
+     "kind": "foundation",
+     "fcst": 58002.7,
+     "err": 419.6999999999971,
+     "rel": 0.04904183220378559,
+     "cv": 0.901,
+     "cv_rank": 15,
+     "print_rank": 9
+    },
+    {
+     "m": "timeh2o-v1",
+     "kind": "foundation",
+     "fcst": 57158.5,
+     "err": -424.5,
+     "rel": 0.0496027109137649,
+     "cv": 0.7642,
+     "cv_rank": 7,
+     "print_rank": 10
+    },
+    {
+     "m": "timeh2o-v1-tiny",
+     "kind": "foundation",
+     "fcst": 57094.1,
+     "err": -488.90000000000146,
+     "rel": 0.05712783360598288,
+     "cv": 0.6774,
+     "cv_rank": 3,
+     "print_rank": 11
+    },
+    {
+     "m": "toto-2-313m",
+     "kind": "foundation",
+     "fcst": 57085.2,
+     "err": -497.8000000000029,
+     "rel": 0.05816779621406905,
+     "cv": 0.8272,
+     "cv_rank": 13,
+     "print_rank": 12
+    },
+    {
+     "m": "chronos-bolt-mini",
+     "kind": "foundation",
+     "fcst": 56991.4,
+     "err": -591.5999999999985,
+     "rel": 0.06912830100490752,
+     "cv": 1.0826,
+     "cv_rank": 24,
+     "print_rank": 13
+    },
+    {
+     "m": "granite-patchtst-r2",
+     "kind": "foundation",
+     "fcst": 56877.8,
+     "err": -705.1999999999971,
+     "rel": 0.08240243047440957,
+     "cv": 0.8085,
+     "cv_rank": 12,
+     "print_rank": 14
+    },
+    {
+     "m": "lightgbm",
+     "kind": "ML",
+     "fcst": 56772.4,
+     "err": -810.5999999999985,
+     "rel": 0.0947183921476979,
+     "cv": 0.729,
+     "cv_rank": 6,
+     "print_rank": 15
+    },
+    {
+     "m": "tirex-2-gifteval-zs",
+     "kind": "foundation",
+     "fcst": 56754.7,
+     "err": -828.3000000000029,
+     "rel": 0.09678663239074584,
+     "cv": 0.7892,
+     "cv_rank": 10,
+     "print_rank": 16
+    },
+    {
+     "m": "timestral-209m",
+     "kind": "foundation",
+     "fcst": 56691.0,
+     "err": -892.0,
+     "rel": 0.10422996027109138,
+     "cv": 1.0123,
+     "cv_rank": 20,
+     "print_rank": 17
+    },
+    {
+     "m": "xgboost",
+     "kind": "ML",
+     "fcst": 58635.4,
+     "err": 1052.4000000000015,
+     "rel": 0.1229726571628887,
+     "cv": 0.6796,
+     "cv_rank": 4,
+     "print_rank": 18
+    },
+    {
+     "m": "n-beats",
+     "kind": "deep learning",
+     "fcst": 58696.6,
+     "err": 1113.5999999999985,
+     "rel": 0.1301238607151202,
+     "cv": 0.8352,
+     "cv_rank": 14,
+     "print_rank": 19
+    },
+    {
+     "m": "auto-arima",
+     "kind": "statistical",
+     "fcst": 56385.8,
+     "err": -1197.199999999997,
+     "rel": 0.1398924982472537,
+     "cv": 0.931,
+     "cv_rank": 16,
+     "print_rank": 20
+    },
+    {
+     "m": "tabby",
+     "kind": "foundation",
+     "fcst": 58991.5,
+     "err": 1408.5,
+     "rel": 0.16458284645945315,
+     "cv": 0.3238,
+     "cv_rank": 1,
+     "print_rank": 21
+    },
+    {
+     "m": "timestral-5m",
+     "kind": "foundation",
+     "fcst": 56142.5,
+     "err": -1440.5,
+     "rel": 0.16832203785931293,
+     "cv": 0.7875,
+     "cv_rank": 9,
+     "print_rank": 22
+    },
+    {
+     "m": "auto-theta",
+     "kind": "statistical",
+     "fcst": 55841.6,
+     "err": -1741.4000000000015,
+     "rel": 0.2034821219911196,
+     "cv": 1.3797,
+     "cv_rank": 31,
+     "print_rank": 23
+    },
+    {
+     "m": "timesfm-2",
+     "kind": "foundation",
+     "fcst": 59531.9,
+     "err": 1948.9000000000015,
+     "rel": 0.22772844122458535,
+     "cv": 0.7706,
+     "cv_rank": 8,
+     "print_rank": 24
+    },
+    {
+     "m": "chronos-2-small",
+     "kind": "foundation",
+     "fcst": 59625.6,
+     "err": 2042.5999999999985,
+     "rel": 0.23867726104229944,
+     "cv": 1.1235,
+     "cv_rank": 26,
+     "print_rank": 25
+    },
+    {
+     "m": "toto-2-22m",
+     "kind": "foundation",
+     "fcst": 55112.9,
+     "err": -2470.0999999999985,
+     "rel": 0.2886305211498012,
+     "cv": 0.9893,
+     "cv_rank": 18,
+     "print_rank": 26
+    },
+    {
+     "m": "prophet",
+     "kind": "statistical",
+     "fcst": 54793.3,
+     "err": -2789.699999999997,
+     "rel": 0.3259756952559006,
+     "cv": 1.0668,
+     "cv_rank": 22,
+     "print_rank": 27
+    },
+    {
+     "m": "t0-beta",
+     "kind": "foundation",
+     "fcst": 54759.3,
+     "err": -2823.699999999997,
+     "rel": 0.32994858611825156,
+     "cv": 0.6943,
+     "cv_rank": 5,
+     "print_rank": 28
+    },
+    {
+     "m": "naive",
+     "kind": "statistical",
+     "fcst": 54252.0,
+     "err": -3331.0,
+     "rel": 0.389226454779154,
+     "cv": 3.6958,
+     "cv_rank": 33,
+     "print_rank": 29
+    },
+    {
+     "m": "timesfm-2.5-200m",
+     "kind": "foundation",
+     "fcst": 53105.5,
+     "err": -4477.5,
+     "rel": 0.5231946716522552,
+     "cv": 1.1795,
+     "cv_rank": 27,
+     "print_rank": 30
+    },
+    {
+     "m": "auto-ets",
+     "kind": "statistical",
+     "fcst": 52888.0,
+     "err": -4695.0,
+     "rel": 0.5486094881981771,
+     "cv": 1.2335,
+     "cv_rank": 29,
+     "print_rank": 31
+    },
+    {
+     "m": "timesfm-3",
+     "kind": "foundation",
+     "fcst": 50047.2,
+     "err": -7535.800000000003,
+     "rel": 0.8805562047207295,
+     "cv": 1.3318,
+     "cv_rank": 30,
+     "print_rank": 32
+    },
+    {
+     "m": "seasonal-naive",
+     "kind": "baseline",
+     "fcst": 49025.0,
+     "err": -8558.0,
+     "rel": 1.0,
+     "cv": 1.0,
+     "cv_rank": 19,
+     "print_rank": 33
+    }
+   ]
+  },
+  {
+   "id": "palantir_total",
+   "tick": "PLTR",
+   "company": "Palantir",
+   "metric": "Total revenue",
+   "q": "Q3 2026",
+   "actual": 2313.411,
+   "street": 2170.0,
+   "street_err": -143.41100000000006,
+   "street_src": "Zacks, Oct 31, 2026",
+   "best": {
+    "m": "auto-arima",
+    "kind": "statistical",
+    "fcst": 2292.6,
+    "err": -20.81100000000015,
+    "rel": 0.018379226201988806,
+    "cv": 0.0657,
+    "cv_rank": 2,
+    "print_rank": 1
+   },
+   "cv1": {
+    "m": "tabby",
+    "kind": "foundation",
+    "fcst": 2343.9,
+    "err": 30.489000000000033,
+    "rel": 0.02692634797330418,
+    "cv": 0.0542,
+    "cv_rank": 1,
+    "print_rank": 5
+   },
+   "naive_err": -1132.3110000000001,
+   "beat": 21,
+   "n": 33,
+   "median_err": -90.11099999999988,
+   "rows": [
+    {
+     "m": "auto-arima",
+     "kind": "statistical",
+     "fcst": 2292.6,
+     "err": -20.81100000000015,
+     "rel": 0.018379226201988806,
+     "cv": 0.0657,
+     "cv_rank": 2,
+     "print_rank": 1
+    },
+    {
+     "m": "timestral-28m",
+     "kind": "foundation",
+     "fcst": 2334.9,
+     "err": 21.489000000000033,
+     "rel": 0.018978001626761578,
+     "cv": 0.0819,
+     "cv_rank": 4,
+     "print_rank": 2
+    },
+    {
+     "m": "timeh2o-v1",
+     "kind": "foundation",
+     "fcst": 2291.6,
+     "err": -21.81100000000015,
+     "rel": 0.019262375796049093,
+     "cv": 0.0941,
+     "cv_rank": 9,
+     "print_rank": 3
+    },
+    {
+     "m": "toto-2-4m",
+     "kind": "foundation",
+     "fcst": 2338.1,
+     "err": 24.68899999999985,
+     "rel": 0.02180408032775434,
+     "cv": 0.1519,
+     "cv_rank": 21,
+     "print_rank": 4
+    },
+    {
+     "m": "tabby",
+     "kind": "foundation",
+     "fcst": 2343.9,
+     "err": 30.489000000000033,
+     "rel": 0.02692634797330418,
+     "cv": 0.0542,
+     "cv_rank": 1,
+     "print_rank": 5
+    },
+    {
+     "m": "toto-2-22m",
+     "kind": "foundation",
+     "fcst": 2349.3,
+     "err": 35.889000000000124,
+     "rel": 0.03169535578122982,
+     "cv": 0.0819,
+     "cv_rank": 5,
+     "print_rank": 6
+    },
+    {
+     "m": "timestral-123m",
+     "kind": "foundation",
+     "fcst": 2273.1,
+     "err": -40.31100000000015,
+     "rel": 0.03560064328616444,
+     "cv": 0.0905,
+     "cv_rank": 7,
+     "print_rank": 7
+    },
+    {
+     "m": "toto-2-1b",
+     "kind": "foundation",
+     "fcst": 2272.3,
+     "err": -41.110999999999876,
+     "rel": 0.03630716296141243,
+     "cv": 0.1186,
+     "cv_rank": 16,
+     "print_rank": 8
+    },
+    {
+     "m": "timestral-5m",
+     "kind": "foundation",
+     "fcst": 2354.6,
+     "err": 41.18899999999985,
+     "rel": 0.03637604862974911,
+     "cv": 0.117,
+     "cv_rank": 14,
+     "print_rank": 9
+    },
+    {
+     "m": "tirex-2",
+     "kind": "foundation",
+     "fcst": 2252.2,
+     "err": -61.21100000000024,
+     "rel": 0.05405846980202456,
+     "cv": 0.1022,
+     "cv_rank": 11,
+     "print_rank": 10
+    },
+    {
+     "m": "timestral-209m",
+     "kind": "foundation",
+     "fcst": 2245.8,
+     "err": -67.61099999999988,
+     "rel": 0.05971062720401009,
+     "cv": 0.0748,
+     "cv_rank": 3,
+     "print_rank": 11
+    },
+    {
+     "m": "lightgbm",
+     "kind": "ML",
+     "fcst": 2234.2,
+     "err": -79.21100000000024,
+     "rel": 0.06995516249510976,
+     "cv": 0.1127,
+     "cv_rank": 13,
+     "print_rank": 12
+    },
+    {
+     "m": "granite-patchtst-r2",
+     "kind": "foundation",
+     "fcst": 2224.4,
+     "err": -89.01099999999997,
+     "rel": 0.07861002851690035,
+     "cv": 0.2064,
+     "cv_rank": 26,
+     "print_rank": 13
+    },
+    {
+     "m": "t0-beta",
+     "kind": "foundation",
+     "fcst": 2223.3,
+     "err": -90.11099999999988,
+     "rel": 0.07958149307036659,
+     "cv": 0.1092,
+     "cv_rank": 12,
+     "print_rank": 14
+    },
+    {
+     "m": "xgboost",
+     "kind": "ML",
+     "fcst": 2220.1,
+     "err": -93.31100000000015,
+     "rel": 0.08240757177135975,
+     "cv": 0.118,
+     "cv_rank": 15,
+     "print_rank": 15
+    },
+    {
+     "m": "timesfm-3",
+     "kind": "foundation",
+     "fcst": 2207.2,
+     "err": -106.21100000000024,
+     "rel": 0.09380020153473756,
+     "cv": 0.1694,
+     "cv_rank": 24,
+     "print_rank": 16
+    },
+    {
+     "m": "t0-alpha",
+     "kind": "foundation",
+     "fcst": 2427.6,
+     "err": 114.18899999999985,
+     "rel": 0.10084596899615021,
+     "cv": 0.1003,
+     "cv_rank": 10,
+     "print_rank": 17
+    },
+    {
+     "m": "tirex-2-gifteval-zs",
+     "kind": "foundation",
+     "fcst": 2185.6,
+     "err": -127.81100000000015,
+     "rel": 0.11287623276643972,
+     "cv": 0.1505,
+     "cv_rank": 20,
+     "print_rank": 18
+    },
+    {
+     "m": "toto-2-313m",
+     "kind": "foundation",
+     "fcst": 2179.0,
+     "err": -134.41100000000006,
+     "rel": 0.11870502008723756,
+     "cv": 0.1632,
+     "cv_rank": 23,
+     "print_rank": 19
+    },
+    {
+     "m": "timeh2o-v1-tiny",
+     "kind": "foundation",
+     "fcst": 2172.7,
+     "err": -140.71100000000024,
+     "rel": 0.12426886252981753,
+     "cv": 0.084,
+     "cv_rank": 6,
+     "print_rank": 20
+    },
+    {
+     "m": "timesfm-2",
+     "kind": "foundation",
+     "fcst": 2172.5,
+     "err": -140.91100000000006,
+     "rel": 0.12444549244862943,
+     "cv": 0.1964,
+     "cv_rank": 25,
+     "print_rank": 21
+    },
+    {
+     "m": "t0-gamma",
+     "kind": "foundation",
+     "fcst": 2143.1,
+     "err": -170.31100000000015,
+     "rel": 0.150410090514002,
+     "cv": 0.1313,
+     "cv_rank": 17,
+     "print_rank": 22
+    },
+    {
+     "m": "n-beats",
+     "kind": "deep learning",
+     "fcst": 2141.9,
+     "err": -171.51099999999997,
+     "rel": 0.1514698700268742,
+     "cv": 0.1565,
+     "cv_rank": 22,
+     "print_rank": 23
+    },
+    {
+     "m": "chronos-2-small",
+     "kind": "foundation",
+     "fcst": 2486.5,
+     "err": 173.08899999999994,
+     "rel": 0.1528634800863013,
+     "cv": 0.1447,
+     "cv_rank": 18,
+     "print_rank": 24
+    },
+    {
+     "m": "chronos-bolt-mini",
+     "kind": "foundation",
+     "fcst": 2100.4,
+     "err": -213.01099999999997,
+     "rel": 0.1881205781803762,
+     "cv": 0.2929,
+     "cv_rank": 31,
+     "print_rank": 25
+    },
+    {
+     "m": "chronos-bolt-small",
+     "kind": "foundation",
+     "fcst": 2030.9,
+     "err": -282.51099999999997,
+     "rel": 0.24949947496756628,
+     "cv": 0.277,
+     "cv_rank": 29,
+     "print_rank": 26
+    },
+    {
+     "m": "auto-theta",
+     "kind": "statistical",
+     "fcst": 1986.5,
+     "err": -326.91100000000006,
+     "rel": 0.28871131694384317,
+     "cv": 0.2129,
+     "cv_rank": 27,
+     "print_rank": 27
+    },
+    {
+     "m": "auto-ets",
+     "kind": "statistical",
+     "fcst": 1970.5,
+     "err": -342.91100000000006,
+     "rel": 0.3028417104488078,
+     "cv": 0.2214,
+     "cv_rank": 28,
+     "print_rank": 28
+    },
+    {
+     "m": "timesfm-2.5-200m",
+     "kind": "foundation",
+     "fcst": 1940.0,
+     "err": -373.41100000000006,
+     "rel": 0.3297777730676466,
+     "cv": 0.1474,
+     "cv_rank": 19,
+     "print_rank": 29
+    },
+    {
+     "m": "naive",
+     "kind": "statistical",
+     "fcst": 1935.5,
+     "err": -377.91100000000006,
+     "rel": 0.3337519462409179,
+     "cv": 0.3325,
+     "cv_rank": 32,
+     "print_rank": 30
+    },
+    {
+     "m": "chronos-2",
+     "kind": "foundation",
+     "fcst": 2781.0,
+     "err": 467.58899999999994,
+     "rel": 0.4129510355370564,
+     "cv": 0.0932,
+     "cv_rank": 8,
+     "print_rank": 31
+    },
+    {
+     "m": "prophet",
+     "kind": "statistical",
+     "fcst": 1342.7,
+     "err": -970.711,
+     "rel": 0.8572830255998571,
+     "cv": 0.2811,
+     "cv_rank": 30,
+     "print_rank": 32
+    },
+    {
+     "m": "seasonal-naive",
+     "kind": "baseline",
+     "fcst": 1181.1,
+     "err": -1132.3110000000001,
+     "rel": 1.0,
+     "cv": 1.0,
+     "cv_rank": 33,
+     "print_rank": 33
+    }
+   ]
+  },
+  {
+   "id": "amd_dc",
+   "tick": "AMD",
+   "company": "AMD",
+   "metric": "Data Center revenue",
+   "q": "Q3 2026",
+   "actual": 8546.0,
+   "street": 8270.0,
+   "street_err": -276.0,
+   "street_src": "Zacks, Oct 29, 2026",
+   "best": {
+    "m": "timesfm-2",
+    "kind": "foundation",
+    "fcst": 7581.8,
+    "err": -964.1999999999998,
+    "rel": 0.22929845422116524,
+    "cv": 0.3246,
+    "cv_rank": 1,
+    "print_rank": 1
+   },
+   "cv1": {
+    "m": "timesfm-2",
+    "kind": "foundation",
+    "fcst": 7581.8,
+    "err": -964.1999999999998,
+    "rel": 0.22929845422116524,
+    "cv": 0.3246,
+    "cv_rank": 1,
+    "print_rank": 1
+   },
+   "naive_err": -4205.0,
+   "beat": 0,
+   "n": 33,
+   "median_err": -1522.0,
+   "rows": [
+    {
+     "m": "timesfm-2",
+     "kind": "foundation",
+     "fcst": 7581.8,
+     "err": -964.1999999999998,
+     "rel": 0.22929845422116524,
+     "cv": 0.3246,
+     "cv_rank": 1,
+     "print_rank": 1
+    },
+    {
+     "m": "n-beats",
+     "kind": "deep learning",
+     "fcst": 7474.3,
+     "err": -1071.6999999999998,
+     "rel": 0.2548632580261593,
+     "cv": 0.4071,
+     "cv_rank": 11,
+     "print_rank": 2
+    },
+    {
+     "m": "tabby",
+     "kind": "foundation",
+     "fcst": 7462.2,
+     "err": -1083.8000000000002,
+     "rel": 0.2577407847800238,
+     "cv": 0.392,
+     "cv_rank": 8,
+     "print_rank": 3
+    },
+    {
+     "m": "timeh2o-v1",
+     "kind": "foundation",
+     "fcst": 7314.6,
+     "err": -1231.3999999999996,
+     "rel": 0.2928418549346016,
+     "cv": 0.4301,
+     "cv_rank": 14,
+     "print_rank": 4
+    },
+    {
+     "m": "t0-gamma",
+     "kind": "foundation",
+     "fcst": 7302.8,
+     "err": -1243.1999999999998,
+     "rel": 0.2956480380499405,
+     "cv": 0.3888,
+     "cv_rank": 7,
+     "print_rank": 5
+    },
+    {
+     "m": "timestral-28m",
+     "kind": "foundation",
+     "fcst": 7300.3,
+     "err": -1245.6999999999998,
+     "rel": 0.2962425683709869,
+     "cv": 0.4196,
+     "cv_rank": 12,
+     "print_rank": 6
+    },
+    {
+     "m": "lightgbm",
+     "kind": "ML",
+     "fcst": 7282.3,
+     "err": -1263.6999999999998,
+     "rel": 0.30052318668252076,
+     "cv": 0.589,
+     "cv_rank": 30,
+     "print_rank": 7
+    },
+    {
+     "m": "t0-beta",
+     "kind": "foundation",
+     "fcst": 7270.5,
+     "err": -1275.5,
+     "rel": 0.3033293697978597,
+     "cv": 0.4373,
+     "cv_rank": 16,
+     "print_rank": 8
+    },
+    {
+     "m": "toto-2-1b",
+     "kind": "foundation",
+     "fcst": 7246.8,
+     "err": -1299.1999999999998,
+     "rel": 0.3089655172413793,
+     "cv": 0.5099,
+     "cv_rank": 25,
+     "print_rank": 9
+    },
+    {
+     "m": "timeh2o-v1-tiny",
+     "kind": "foundation",
+     "fcst": 7208.8,
+     "err": -1337.1999999999998,
+     "rel": 0.3180023781212841,
+     "cv": 0.3735,
+     "cv_rank": 6,
+     "print_rank": 10
+    },
+    {
+     "m": "timestral-209m",
+     "kind": "foundation",
+     "fcst": 7152.6,
+     "err": -1393.3999999999996,
+     "rel": 0.33136741973840655,
+     "cv": 0.4501,
+     "cv_rank": 17,
+     "print_rank": 11
+    },
+    {
+     "m": "timestral-123m",
+     "kind": "foundation",
+     "fcst": 7143.8,
+     "err": -1402.1999999999998,
+     "rel": 0.33346016646848986,
+     "cv": 0.4234,
+     "cv_rank": 13,
+     "print_rank": 12
+    },
+    {
+     "m": "chronos-2-small",
+     "kind": "foundation",
+     "fcst": 7118.1,
+     "err": -1427.8999999999996,
+     "rel": 0.3395719381688465,
+     "cv": 0.507,
+     "cv_rank": 23,
+     "print_rank": 13
+    },
+    {
+     "m": "tirex-2-gifteval-zs",
+     "kind": "foundation",
+     "fcst": 7111.0,
+     "err": -1435.0,
+     "rel": 0.3412604042806183,
+     "cv": 0.4329,
+     "cv_rank": 15,
+     "print_rank": 14
+    },
+    {
+     "m": "timestral-5m",
+     "kind": "foundation",
+     "fcst": 7103.6,
+     "err": -1442.3999999999996,
+     "rel": 0.3430202140309155,
+     "cv": 0.3701,
+     "cv_rank": 4,
+     "print_rank": 15
+    },
+    {
+     "m": "timesfm-3",
+     "kind": "foundation",
+     "fcst": 7061.6,
+     "err": -1484.3999999999996,
+     "rel": 0.35300832342449456,
+     "cv": 0.398,
+     "cv_rank": 9,
+     "print_rank": 16
+    },
+    {
+     "m": "tirex-2",
+     "kind": "foundation",
+     "fcst": 7024.0,
+     "err": -1522.0,
+     "rel": 0.3619500594530321,
+     "cv": 0.5088,
+     "cv_rank": 24,
+     "print_rank": 17
+    },
+    {
+     "m": "auto-arima",
+     "kind": "statistical",
+     "fcst": 7013.2,
+     "err": -1532.8000000000002,
+     "rel": 0.36451843043995247,
+     "cv": 0.4034,
+     "cv_rank": 10,
+     "print_rank": 18
+    },
+    {
+     "m": "auto-theta",
+     "kind": "statistical",
+     "fcst": 6966.1,
+     "err": -1579.8999999999996,
+     "rel": 0.375719381688466,
+     "cv": 0.5295,
+     "cv_rank": 26,
+     "print_rank": 19
+    },
+    {
+     "m": "toto-2-22m",
+     "kind": "foundation",
+     "fcst": 6936.2,
+     "err": -1609.8000000000002,
+     "rel": 0.3828299643281808,
+     "cv": 0.3479,
+     "cv_rank": 2,
+     "print_rank": 20
+    },
+    {
+     "m": "granite-patchtst-r2",
+     "kind": "foundation",
+     "fcst": 6925.4,
+     "err": -1620.6000000000004,
+     "rel": 0.38539833531510115,
+     "cv": 0.5683,
+     "cv_rank": 29,
+     "print_rank": 21
+    },
+    {
+     "m": "timesfm-2.5-200m",
+     "kind": "foundation",
+     "fcst": 6921.4,
+     "err": -1624.6000000000004,
+     "rel": 0.3863495838287754,
+     "cv": 0.4981,
+     "cv_rank": 21,
+     "print_rank": 22
+    },
+    {
+     "m": "auto-ets",
+     "kind": "statistical",
+     "fcst": 6917.5,
+     "err": -1628.5,
+     "rel": 0.3872770511296076,
+     "cv": 0.4632,
+     "cv_rank": 20,
+     "print_rank": 23
+    },
+    {
+     "m": "t0-alpha",
+     "kind": "foundation",
+     "fcst": 6906.1,
+     "err": -1639.8999999999996,
+     "rel": 0.389988109393579,
+     "cv": 0.3501,
+     "cv_rank": 3,
+     "print_rank": 24
+    },
+    {
+     "m": "toto-2-313m",
+     "kind": "foundation",
+     "fcst": 6886.0,
+     "err": -1660.0,
+     "rel": 0.3947681331747919,
+     "cv": 0.456,
+     "cv_rank": 19,
+     "print_rank": 25
+    },
+    {
+     "m": "chronos-2",
+     "kind": "foundation",
+     "fcst": 6870.5,
+     "err": -1675.5,
+     "rel": 0.39845422116527945,
+     "cv": 0.5548,
+     "cv_rank": 28,
+     "print_rank": 26
+    },
+    {
+     "m": "xgboost",
+     "kind": "ML",
+     "fcst": 6863.7,
+     "err": -1682.3000000000002,
+     "rel": 0.4000713436385256,
+     "cv": 0.5379,
+     "cv_rank": 27,
+     "print_rank": 27
+    },
+    {
+     "m": "toto-2-4m",
+     "kind": "foundation",
+     "fcst": 6820.5,
+     "err": -1725.5,
+     "rel": 0.4103448275862069,
+     "cv": 0.3726,
+     "cv_rank": 5,
+     "print_rank": 28
+    },
+    {
+     "m": "naive",
+     "kind": "statistical",
+     "fcst": 6718.0,
+     "err": -1828.0,
+     "rel": 0.4347205707491082,
+     "cv": 0.5003,
+     "cv_rank": 22,
+     "print_rank": 29
+    },
+    {
+     "m": "chronos-bolt-mini",
+     "kind": "foundation",
+     "fcst": 6542.8,
+     "err": -2003.1999999999998,
+     "rel": 0.476385255648038,
+     "cv": 0.4512,
+     "cv_rank": 18,
+     "print_rank": 30
+    },
+    {
+     "m": "chronos-bolt-small",
+     "kind": "foundation",
+     "fcst": 6372.6,
+     "err": -2173.3999999999996,
+     "rel": 0.5168608799048751,
+     "cv": 0.6215,
+     "cv_rank": 31,
+     "print_rank": 31
+    },
+    {
+     "m": "prophet",
+     "kind": "statistical",
+     "fcst": 5495.0,
+     "err": -3051.0,
+     "rel": 0.7255648038049941,
+     "cv": 0.8991,
+     "cv_rank": 32,
+     "print_rank": 32
+    },
+    {
+     "m": "seasonal-naive",
+     "kind": "baseline",
+     "fcst": 4341.0,
+     "err": -4205.0,
+     "rel": 1.0,
+     "cv": 1.0,
+     "cv_rank": 33,
+     "print_rank": 33
+    }
+   ]
+  },
+  {
+   "id": "mcd_total",
+   "tick": "MCD",
+   "company": "McDonald's",
+   "metric": "Total revenues",
+   "q": "Q3 2026",
+   "actual": 7157.0,
+   "street": 7280.0,
+   "street_err": 123.0,
+   "street_src": "Zacks, Oct 30, 2026",
+   "best": {
+    "m": "timesfm-2",
+    "kind": "foundation",
+    "fcst": 7159.5,
+    "err": 2.5,
+    "rel": 0.03164556962025317,
+    "cv": 1.0298,
+    "cv_rank": 29,
+    "print_rank": 1
+   },
+   "cv1": {
+    "m": "granite-patchtst-r2",
+    "kind": "foundation",
+    "fcst": 7098.4,
+    "err": -58.600000000000364,
+    "rel": 0.7417721518987388,
+    "cv": 0.3662,
+    "cv_rank": 1,
+    "print_rank": 14
+   },
+   "naive_err": -79.0,
+   "beat": 25,
+   "n": 33,
+   "median_err": 52.399999999999636,
+   "rows": [
+    {
+     "m": "timesfm-2",
+     "kind": "foundation",
+     "fcst": 7159.5,
+     "err": 2.5,
+     "rel": 0.03164556962025317,
+     "cv": 1.0298,
+     "cv_rank": 29,
+     "print_rank": 1
+    },
+    {
+     "m": "t0-beta",
+     "kind": "foundation",
+     "fcst": 7151.3,
+     "err": -5.699999999999818,
+     "rel": 0.07215189873417491,
+     "cv": 1.0427,
+     "cv_rank": 30,
+     "print_rank": 2
+    },
+    {
+     "m": "chronos-2-small",
+     "kind": "foundation",
+     "fcst": 7149.6,
+     "err": -7.399999999999636,
+     "rel": 0.09367088607594476,
+     "cv": 0.7199,
+     "cv_rank": 18,
+     "print_rank": 3
+    },
+    {
+     "m": "toto-2-313m",
+     "kind": "foundation",
+     "fcst": 7135.8,
+     "err": -21.199999999999818,
+     "rel": 0.26835443037974455,
+     "cv": 0.5229,
+     "cv_rank": 8,
+     "print_rank": 4
+    },
+    {
+     "m": "t0-gamma",
+     "kind": "foundation",
+     "fcst": 7132.6,
+     "err": -24.399999999999636,
+     "rel": 0.30886075949366626,
+     "cv": 0.7847,
+     "cv_rank": 22,
+     "print_rank": 5
+    },
+    {
+     "m": "n-beats",
+     "kind": "deep learning",
+     "fcst": 7129.7,
+     "err": -27.300000000000182,
+     "rel": 0.34556962025316684,
+     "cv": 0.9248,
+     "cv_rank": 25,
+     "print_rank": 6
+    },
+    {
+     "m": "chronos-bolt-small",
+     "kind": "foundation",
+     "fcst": 7124.3,
+     "err": -32.69999999999982,
+     "rel": 0.4139240506329091,
+     "cv": 0.9285,
+     "cv_rank": 26,
+     "print_rank": 7
+    },
+    {
+     "m": "timesfm-2.5-200m",
+     "kind": "foundation",
+     "fcst": 7191.1,
+     "err": 34.100000000000364,
+     "rel": 0.4316455696202578,
+     "cv": 0.7395,
+     "cv_rank": 20,
+     "print_rank": 8
+    },
+    {
+     "m": "toto-2-1b",
+     "kind": "foundation",
+     "fcst": 7196.7,
+     "err": 39.69999999999982,
+     "rel": 0.5025316455696179,
+     "cv": 0.5573,
+     "cv_rank": 9,
+     "print_rank": 9
+    },
+    {
+     "m": "tirex-2",
+     "kind": "foundation",
+     "fcst": 7197.6,
+     "err": 40.600000000000364,
+     "rel": 0.513924050632916,
+     "cv": 0.7238,
+     "cv_rank": 19,
+     "print_rank": 10
+    },
+    {
+     "m": "timestral-5m",
+     "kind": "foundation",
+     "fcst": 7209.4,
+     "err": 52.399999999999636,
+     "rel": 0.6632911392405018,
+     "cv": 0.4361,
+     "cv_rank": 2,
+     "print_rank": 11
+    },
+    {
+     "m": "timeh2o-v1-tiny",
+     "kind": "foundation",
+     "fcst": 7104.2,
+     "err": -52.80000000000018,
+     "rel": 0.6683544303797492,
+     "cv": 0.575,
+     "cv_rank": 10,
+     "print_rank": 12
+    },
+    {
+     "m": "naive",
+     "kind": "statistical",
+     "fcst": 7099.0,
+     "err": -58.0,
+     "rel": 0.7341772151898734,
+     "cv": 1.6431,
+     "cv_rank": 32,
+     "print_rank": 13
+    },
+    {
+     "m": "granite-patchtst-r2",
+     "kind": "foundation",
+     "fcst": 7098.4,
+     "err": -58.600000000000364,
+     "rel": 0.7417721518987388,
+     "cv": 0.3662,
+     "cv_rank": 1,
+     "print_rank": 14
+    },
+    {
+     "m": "timesfm-3",
+     "kind": "foundation",
+     "fcst": 7217.8,
+     "err": 60.80000000000018,
+     "rel": 0.7696202531645593,
+     "cv": 0.6982,
+     "cv_rank": 17,
+     "print_rank": 15
+    },
+    {
+     "m": "toto-2-4m",
+     "kind": "foundation",
+     "fcst": 7233.2,
+     "err": 76.19999999999982,
+     "rel": 0.9645569620253142,
+     "cv": 0.6212,
+     "cv_rank": 12,
+     "print_rank": 16
+    },
+    {
+     "m": "seasonal-naive",
+     "kind": "baseline",
+     "fcst": 7078.0,
+     "err": -79.0,
+     "rel": 1.0,
+     "cv": 1.0,
+     "cv_rank": 27,
+     "print_rank": 17
+    },
+    {
+     "m": "chronos-2",
+     "kind": "foundation",
+     "fcst": 7239.6,
+     "err": 82.60000000000036,
+     "rel": 1.0455696202531692,
+     "cv": 0.6351,
+     "cv_rank": 14,
+     "print_rank": 18
+    },
+    {
+     "m": "tirex-2-gifteval-zs",
+     "kind": "foundation",
+     "fcst": 7246.4,
+     "err": 89.39999999999964,
+     "rel": 1.1316455696202485,
+     "cv": 0.6562,
+     "cv_rank": 15,
+     "print_rank": 19
+    },
+    {
+     "m": "timeh2o-v1",
+     "kind": "foundation",
+     "fcst": 7246.9,
+     "err": 89.89999999999964,
+     "rel": 1.1379746835442992,
+     "cv": 0.5982,
+     "cv_rank": 11,
+     "print_rank": 20
+    },
+    {
+     "m": "timestral-123m",
+     "kind": "foundation",
+     "fcst": 7250.8,
+     "err": 93.80000000000018,
+     "rel": 1.187341772151901,
+     "cv": 0.4482,
+     "cv_rank": 3,
+     "print_rank": 21
+    },
+    {
+     "m": "auto-arima",
+     "kind": "statistical",
+     "fcst": 7259.9,
+     "err": 102.89999999999964,
+     "rel": 1.3025316455696156,
+     "cv": 1.0105,
+     "cv_rank": 28,
+     "print_rank": 22
+    },
+    {
+     "m": "timestral-28m",
+     "kind": "foundation",
+     "fcst": 7260.2,
+     "err": 103.19999999999982,
+     "rel": 1.3063291139240483,
+     "cv": 0.5181,
+     "cv_rank": 7,
+     "print_rank": 23
+    },
+    {
+     "m": "tabby",
+     "kind": "foundation",
+     "fcst": 7264.8,
+     "err": 107.80000000000018,
+     "rel": 1.3645569620253188,
+     "cv": 0.6224,
+     "cv_rank": 13,
+     "print_rank": 24
+    },
+    {
+     "m": "prophet",
+     "kind": "statistical",
+     "fcst": 7035.3,
+     "err": -121.69999999999982,
+     "rel": 1.5405063291139218,
+     "cv": 2.1995,
+     "cv_rank": 33,
+     "print_rank": 25
+    },
+    {
+     "m": "chronos-bolt-mini",
+     "kind": "foundation",
+     "fcst": 7033.2,
+     "err": -123.80000000000018,
+     "rel": 1.567088607594939,
+     "cv": 0.898,
+     "cv_rank": 24,
+     "print_rank": 26
+    },
+    {
+     "m": "auto-ets",
+     "kind": "statistical",
+     "fcst": 7288.1,
+     "err": 131.10000000000036,
+     "rel": 1.6594936708860806,
+     "cv": 0.491,
+     "cv_rank": 5,
+     "print_rank": 27
+    },
+    {
+     "m": "timestral-209m",
+     "kind": "foundation",
+     "fcst": 7292.1,
+     "err": 135.10000000000036,
+     "rel": 1.7101265822784857,
+     "cv": 0.6623,
+     "cv_rank": 16,
+     "print_rank": 28
+    },
+    {
+     "m": "t0-alpha",
+     "kind": "foundation",
+     "fcst": 7303.5,
+     "err": 146.5,
+     "rel": 1.8544303797468353,
+     "cv": 1.1869,
+     "cv_rank": 31,
+     "print_rank": 29
+    },
+    {
+     "m": "toto-2-22m",
+     "kind": "foundation",
+     "fcst": 7327.0,
+     "err": 170.0,
+     "rel": 2.151898734177215,
+     "cv": 0.837,
+     "cv_rank": 23,
+     "print_rank": 30
+    },
+    {
+     "m": "auto-theta",
+     "kind": "statistical",
+     "fcst": 7347.2,
+     "err": 190.19999999999982,
+     "rel": 2.4075949367088585,
+     "cv": 0.4609,
+     "cv_rank": 4,
+     "print_rank": 31
+    },
+    {
+     "m": "xgboost",
+     "kind": "ML",
+     "fcst": 7577.6,
+     "err": 420.60000000000036,
+     "rel": 5.324050632911397,
+     "cv": 0.5164,
+     "cv_rank": 6,
+     "print_rank": 32
+    },
+    {
+     "m": "lightgbm",
+     "kind": "ML",
+     "fcst": 7655.8,
+     "err": 498.8000000000002,
+     "rel": 6.313924050632914,
+     "cv": 0.7593,
+     "cv_rank": 21,
+     "print_rank": 33
+    }
+   ]
+  },
+  {
+   "id": "mcd_franchised",
+   "tick": "MCD",
+   "company": "McDonald's",
+   "metric": "Franchised revenues",
+   "q": "Q3 2026",
+   "actual": 4487.0,
+   "street": 4520.0,
+   "street_err": 33.0,
+   "street_src": "Zacks, Oct 30, 2026",
+   "best": {
+    "m": "toto-2-4m",
+    "kind": "foundation",
+    "fcst": 4490.9,
+    "err": 3.899999999999636,
+    "rel": 0.031451612903222875,
+    "cv": 1.0416,
+    "cv_rank": 30,
+    "print_rank": 1
+   },
+   "cv1": {
+    "m": "granite-patchtst-r2",
+    "kind": "foundation",
+    "fcst": 4546.7,
+    "err": 59.69999999999982,
+    "rel": 0.48145161290322436,
+    "cv": 0.2708,
+    "cv_rank": 1,
+    "print_rank": 24
+   },
+   "naive_err": -124.0,
+   "beat": 14,
+   "n": 33,
+   "median_err": 11.100000000000364,
+   "rows": [
+    {
+     "m": "toto-2-4m",
+     "kind": "foundation",
+     "fcst": 4490.9,
+     "err": 3.899999999999636,
+     "rel": 0.031451612903222875,
+     "cv": 1.0416,
+     "cv_rank": 30,
+     "print_rank": 1
+    },
+    {
+     "m": "tirex-2",
+     "kind": "foundation",
+     "fcst": 4482.2,
+     "err": -4.800000000000182,
+     "rel": 0.038709677419356305,
+     "cv": 0.6365,
+     "cv_rank": 22,
+     "print_rank": 2
+    },
+    {
+     "m": "toto-2-313m",
+     "kind": "foundation",
+     "fcst": 4481.4,
+     "err": -5.600000000000364,
+     "rel": 0.04516129032258358,
+     "cv": 0.2743,
+     "cv_rank": 2,
+     "print_rank": 3
+    },
+    {
+     "m": "toto-2-22m",
+     "kind": "foundation",
+     "fcst": 4480.6,
+     "err": -6.399999999999636,
+     "rel": 0.051612903225803516,
+     "cv": 0.5725,
+     "cv_rank": 18,
+     "print_rank": 4
+    },
+    {
+     "m": "tirex-2-gifteval-zs",
+     "kind": "foundation",
+     "fcst": 4479.6,
+     "err": -7.399999999999636,
+     "rel": 0.059677419354835774,
+     "cv": 0.6633,
+     "cv_rank": 23,
+     "print_rank": 5
+    },
+    {
+     "m": "timestral-123m",
+     "kind": "foundation",
+     "fcst": 4478.1,
+     "err": -8.899999999999636,
+     "rel": 0.07177419354838416,
+     "cv": 0.4391,
+     "cv_rank": 13,
+     "print_rank": 6
+    },
+    {
+     "m": "timestral-209m",
+     "kind": "foundation",
+     "fcst": 4497.1,
+     "err": 10.100000000000364,
+     "rel": 0.08145161290322873,
+     "cv": 0.3662,
+     "cv_rank": 6,
+     "print_rank": 7
+    },
+    {
+     "m": "toto-2-1b",
+     "kind": "foundation",
+     "fcst": 4498.1,
+     "err": 11.100000000000364,
+     "rel": 0.089516129032261,
+     "cv": 0.5436,
+     "cv_rank": 16,
+     "print_rank": 8
+    },
+    {
+     "m": "timestral-28m",
+     "kind": "foundation",
+     "fcst": 4473.9,
+     "err": -13.100000000000364,
+     "rel": 0.10564516129032551,
+     "cv": 0.4418,
+     "cv_rank": 14,
+     "print_rank": 9
+    },
+    {
+     "m": "chronos-bolt-small",
+     "kind": "foundation",
+     "fcst": 4463.9,
+     "err": -23.100000000000364,
+     "rel": 0.1862903225806481,
+     "cv": 1.0958,
+     "cv_rank": 31,
+     "print_rank": 10
+    },
+    {
+     "m": "auto-arima",
+     "kind": "statistical",
+     "fcst": 4511.9,
+     "err": 24.899999999999636,
+     "rel": 0.20080645161290028,
+     "cv": 0.6322,
+     "cv_rank": 21,
+     "print_rank": 11
+    },
+    {
+     "m": "chronos-2-small",
+     "kind": "foundation",
+     "fcst": 4459.0,
+     "err": -28.0,
+     "rel": 0.22580645161290322,
+     "cv": 0.8785,
+     "cv_rank": 27,
+     "print_rank": 12
+    },
+    {
+     "m": "timesfm-3",
+     "kind": "foundation",
+     "fcst": 4518.1,
+     "err": 31.100000000000364,
+     "rel": 0.25080645161290616,
+     "cv": 0.7079,
+     "cv_rank": 25,
+     "print_rank": 13
+    },
+    {
+     "m": "xgboost",
+     "kind": "ML",
+     "fcst": 4519.1,
+     "err": 32.100000000000364,
+     "rel": 0.2588709677419384,
+     "cv": 0.4125,
+     "cv_rank": 11,
+     "print_rank": 14
+    },
+    {
+     "m": "t0-alpha",
+     "kind": "foundation",
+     "fcst": 4453.6,
+     "err": -33.399999999999636,
+     "rel": 0.26935483870967447,
+     "cv": 0.8182,
+     "cv_rank": 26,
+     "print_rank": 15
+    },
+    {
+     "m": "lightgbm",
+     "kind": "ML",
+     "fcst": 4523.1,
+     "err": 36.100000000000364,
+     "rel": 0.29112903225806747,
+     "cv": 0.3418,
+     "cv_rank": 4,
+     "print_rank": 16
+    },
+    {
+     "m": "tabby",
+     "kind": "foundation",
+     "fcst": 4529.6,
+     "err": 42.600000000000364,
+     "rel": 0.34354838709677715,
+     "cv": 0.6095,
+     "cv_rank": 19,
+     "print_rank": 17
+    },
+    {
+     "m": "chronos-2",
+     "kind": "foundation",
+     "fcst": 4531.0,
+     "err": 44.0,
+     "rel": 0.3548387096774194,
+     "cv": 0.6123,
+     "cv_rank": 20,
+     "print_rank": 18
+    },
+    {
+     "m": "n-beats",
+     "kind": "deep learning",
+     "fcst": 4535.4,
+     "err": 48.399999999999636,
+     "rel": 0.39032258064515835,
+     "cv": 0.5242,
+     "cv_rank": 15,
+     "print_rank": 19
+    },
+    {
+     "m": "t0-gamma",
+     "kind": "foundation",
+     "fcst": 4537.4,
+     "err": 50.399999999999636,
+     "rel": 0.40645161290322285,
+     "cv": 0.429,
+     "cv_rank": 12,
+     "print_rank": 20
+    },
+    {
+     "m": "timeh2o-v1",
+     "kind": "foundation",
+     "fcst": 4538.2,
+     "err": 51.19999999999982,
+     "rel": 0.41290322580645017,
+     "cv": 0.3922,
+     "cv_rank": 9,
+     "print_rank": 21
+    },
+    {
+     "m": "timestral-5m",
+     "kind": "foundation",
+     "fcst": 4543.2,
+     "err": 56.19999999999982,
+     "rel": 0.4532258064516114,
+     "cv": 0.3782,
+     "cv_rank": 8,
+     "print_rank": 22
+    },
+    {
+     "m": "timesfm-2",
+     "kind": "foundation",
+     "fcst": 4429.9,
+     "err": -57.100000000000364,
+     "rel": 0.46048387096774485,
+     "cv": 0.6644,
+     "cv_rank": 24,
+     "print_rank": 23
+    },
+    {
+     "m": "granite-patchtst-r2",
+     "kind": "foundation",
+     "fcst": 4546.7,
+     "err": 59.69999999999982,
+     "rel": 0.48145161290322436,
+     "cv": 0.2708,
+     "cv_rank": 1,
+     "print_rank": 24
+    },
+    {
+     "m": "prophet",
+     "kind": "statistical",
+     "fcst": 4559.2,
+     "err": 72.19999999999982,
+     "rel": 0.5822580645161276,
+     "cv": 0.5571,
+     "cv_rank": 17,
+     "print_rank": 25
+    },
+    {
+     "m": "chronos-bolt-mini",
+     "kind": "foundation",
+     "fcst": 4414.3,
+     "err": -72.69999999999982,
+     "rel": 0.5862903225806437,
+     "cv": 1.1131,
+     "cv_rank": 32,
+     "print_rank": 26
+    },
+    {
+     "m": "timeh2o-v1-tiny",
+     "kind": "foundation",
+     "fcst": 4562.7,
+     "err": 75.69999999999982,
+     "rel": 0.6104838709677405,
+     "cv": 0.2857,
+     "cv_rank": 3,
+     "print_rank": 27
+    },
+    {
+     "m": "auto-ets",
+     "kind": "statistical",
+     "fcst": 4572.6,
+     "err": 85.60000000000036,
+     "rel": 0.6903225806451643,
+     "cv": 0.3608,
+     "cv_rank": 5,
+     "print_rank": 28
+    },
+    {
+     "m": "naive",
+     "kind": "statistical",
+     "fcst": 4393.0,
+     "err": -94.0,
+     "rel": 0.7580645161290323,
+     "cv": 1.4131,
+     "cv_rank": 33,
+     "print_rank": 29
+    },
+    {
+     "m": "auto-theta",
+     "kind": "statistical",
+     "fcst": 4601.9,
+     "err": 114.89999999999964,
+     "rel": 0.9266129032258035,
+     "cv": 0.3723,
+     "cv_rank": 7,
+     "print_rank": 30
+    },
+    {
+     "m": "seasonal-naive",
+     "kind": "baseline",
+     "fcst": 4363.0,
+     "err": -124.0,
+     "rel": 1.0,
+     "cv": 1.0,
+     "cv_rank": 28,
+     "print_rank": 31
+    },
+    {
+     "m": "t0-beta",
+     "kind": "foundation",
+     "fcst": 4355.9,
+     "err": -131.10000000000036,
+     "rel": 1.057258064516132,
+     "cv": 1.0236,
+     "cv_rank": 29,
+     "print_rank": 32
+    },
+    {
+     "m": "timesfm-2.5-200m",
+     "kind": "foundation",
+     "fcst": 4647.5,
+     "err": 160.5,
+     "rel": 1.2943548387096775,
+     "cv": 0.4086,
+     "cv_rank": 10,
+     "print_rank": 33
+    }
+   ]
+  },
+  {
+   "id": "shopify_gmv",
+   "tick": "SHOP",
+   "company": "Shopify",
+   "metric": "GMV",
+   "q": "Q3 2026",
+   "actual": 119145.0,
+   "street": 120030.0,
+   "street_err": 885.0,
+   "street_src": "StreetAccount; Zacks/CIBC pre-print range $117.8-118.7B",
+   "best": {
+    "m": "toto-2-313m",
+    "kind": "foundation",
+    "fcst": 119246.0,
+    "err": 101.0,
+    "rel": 0.003722541648238243,
+    "cv": 0.2092,
+    "cv_rank": 10,
+    "print_rank": 1
+   },
+   "cv1": {
+    "m": "n-beats",
+    "kind": "deep learning",
+    "fcst": 121482.7,
+    "err": 2337.699999999997,
+    "rel": 0.08616025357511414,
+    "cv": 0.1048,
+    "cv_rank": 1,
+    "print_rank": 14
+   },
+   "naive_err": -27132.0,
+   "beat": 4,
+   "n": 33,
+   "median_err": -3509.0,
+   "rows": [
+    {
+     "m": "toto-2-313m",
+     "kind": "foundation",
+     "fcst": 119246.0,
+     "err": 101.0,
+     "rel": 0.003722541648238243,
+     "cv": 0.2092,
+     "cv_rank": 10,
+     "print_rank": 1
+    },
+    {
+     "m": "chronos-2-small",
+     "kind": "foundation",
+     "fcst": 119769.0,
+     "err": 624.0,
+     "rel": 0.022998673153471916,
+     "cv": 0.3015,
+     "cv_rank": 21,
+     "print_rank": 2
+    },
+    {
+     "m": "lightgbm",
+     "kind": "ML",
+     "fcst": 119924.0,
+     "err": 779.0,
+     "rel": 0.028711484593837534,
+     "cv": 0.2105,
+     "cv_rank": 11,
+     "print_rank": 3
+    },
+    {
+     "m": "xgboost",
+     "kind": "ML",
+     "fcst": 119924.4,
+     "err": 779.3999999999942,
+     "rel": 0.028726227333038264,
+     "cv": 0.2548,
+     "cv_rank": 17,
+     "print_rank": 4
+    },
+    {
+     "m": "tabby",
+     "kind": "foundation",
+     "fcst": 120380.0,
+     "err": 1235.0,
+     "rel": 0.04551820728291316,
+     "cv": 0.4077,
+     "cv_rank": 27,
+     "print_rank": 5
+    },
+    {
+     "m": "auto-arima",
+     "kind": "statistical",
+     "fcst": 117798.3,
+     "err": -1346.699999999997,
+     "rel": 0.04963511720477654,
+     "cv": 0.1487,
+     "cv_rank": 5,
+     "print_rank": 6
+    },
+    {
+     "m": "timesfm-2.5-200m",
+     "kind": "foundation",
+     "fcst": 117581.0,
+     "err": -1564.0,
+     "rel": 0.05764411027568922,
+     "cv": 0.2141,
+     "cv_rank": 12,
+     "print_rank": 7
+    },
+    {
+     "m": "timeh2o-v1",
+     "kind": "foundation",
+     "fcst": 120743.0,
+     "err": 1598.0,
+     "rel": 0.05889724310776942,
+     "cv": 0.1295,
+     "cv_rank": 2,
+     "print_rank": 8
+    },
+    {
+     "m": "granite-patchtst-r2",
+     "kind": "foundation",
+     "fcst": 117512.0,
+     "err": -1633.0,
+     "rel": 0.060187232787851985,
+     "cv": 0.2001,
+     "cv_rank": 9,
+     "print_rank": 9
+    },
+    {
+     "m": "timestral-209m",
+     "kind": "foundation",
+     "fcst": 117480.0,
+     "err": -1665.0,
+     "rel": 0.061366651923927464,
+     "cv": 0.2228,
+     "cv_rank": 14,
+     "print_rank": 10
+    },
+    {
+     "m": "toto-2-1b",
+     "kind": "foundation",
+     "fcst": 121033.0,
+     "err": 1888.0,
+     "rel": 0.06958572902845349,
+     "cv": 0.1774,
+     "cv_rank": 7,
+     "print_rank": 11
+    },
+    {
+     "m": "timestral-5m",
+     "kind": "foundation",
+     "fcst": 121073.0,
+     "err": 1928.0,
+     "rel": 0.07106000294854783,
+     "cv": 0.1297,
+     "cv_rank": 3,
+     "print_rank": 12
+    },
+    {
+     "m": "timesfm-3",
+     "kind": "foundation",
+     "fcst": 121261.0,
+     "err": 2116.0,
+     "rel": 0.0779890903729913,
+     "cv": 0.2462,
+     "cv_rank": 16,
+     "print_rank": 13
+    },
+    {
+     "m": "n-beats",
+     "kind": "deep learning",
+     "fcst": 121482.7,
+     "err": 2337.699999999997,
+     "rel": 0.08616025357511414,
+     "cv": 0.1048,
+     "cv_rank": 1,
+     "print_rank": 14
+    },
+    {
+     "m": "timestral-123m",
+     "kind": "foundation",
+     "fcst": 116736.0,
+     "err": -2409.0,
+     "rel": 0.08878814683768244,
+     "cv": 0.2253,
+     "cv_rank": 15,
+     "print_rank": 15
+    },
+    {
+     "m": "t0-gamma",
+     "kind": "foundation",
+     "fcst": 116170.0,
+     "err": -2975.0,
+     "rel": 0.10964912280701754,
+     "cv": 0.1885,
+     "cv_rank": 8,
+     "print_rank": 16
+    },
+    {
+     "m": "chronos-bolt-small",
+     "kind": "foundation",
+     "fcst": 115636.0,
+     "err": -3509.0,
+     "rel": 0.12933067964027717,
+     "cv": 0.5657,
+     "cv_rank": 30,
+     "print_rank": 17
+    },
+    {
+     "m": "tirex-2",
+     "kind": "foundation",
+     "fcst": 115617.0,
+     "err": -3528.0,
+     "rel": 0.13003095975232198,
+     "cv": 0.3067,
+     "cv_rank": 22,
+     "print_rank": 18
+    },
+    {
+     "m": "toto-2-22m",
+     "kind": "foundation",
+     "fcst": 115603.0,
+     "err": -3542.0,
+     "rel": 0.130546955624355,
+     "cv": 0.2923,
+     "cv_rank": 19,
+     "print_rank": 19
+    },
+    {
+     "m": "naive",
+     "kind": "statistical",
+     "fcst": 115567.0,
+     "err": -3578.0,
+     "rel": 0.13187380215243993,
+     "cv": 0.5995,
+     "cv_rank": 31,
+     "print_rank": 20
+    },
+    {
+     "m": "timestral-28m",
+     "kind": "foundation",
+     "fcst": 114386.0,
+     "err": -4759.0,
+     "rel": 0.17540173964322572,
+     "cv": 0.2647,
+     "cv_rank": 18,
+     "print_rank": 21
+    },
+    {
+     "m": "tirex-2-gifteval-zs",
+     "kind": "foundation",
+     "fcst": 114215.0,
+     "err": -4930.0,
+     "rel": 0.18170426065162906,
+     "cv": 0.2161,
+     "cv_rank": 13,
+     "print_rank": 22
+    },
+    {
+     "m": "t0-beta",
+     "kind": "foundation",
+     "fcst": 113545.0,
+     "err": -5600.0,
+     "rel": 0.20639834881320948,
+     "cv": 0.494,
+     "cv_rank": 28,
+     "print_rank": 23
+    },
+    {
+     "m": "t0-alpha",
+     "kind": "foundation",
+     "fcst": 113370.0,
+     "err": -5775.0,
+     "rel": 0.21284829721362228,
+     "cv": 0.3934,
+     "cv_rank": 25,
+     "print_rank": 24
+    },
+    {
+     "m": "auto-ets",
+     "kind": "statistical",
+     "fcst": 113132.4,
+     "err": -6012.600000000006,
+     "rel": 0.22160548429898297,
+     "cv": 0.1413,
+     "cv_rank": 4,
+     "print_rank": 25
+    },
+    {
+     "m": "chronos-2",
+     "kind": "foundation",
+     "fcst": 112649.0,
+     "err": -6496.0,
+     "rel": 0.239422084623323,
+     "cv": 0.3495,
+     "cv_rank": 24,
+     "print_rank": 26
+    },
+    {
+     "m": "timeh2o-v1-tiny",
+     "kind": "foundation",
+     "fcst": 112473.0,
+     "err": -6672.0,
+     "rel": 0.24590888987173817,
+     "cv": 0.3094,
+     "cv_rank": 23,
+     "print_rank": 27
+    },
+    {
+     "m": "auto-theta",
+     "kind": "statistical",
+     "fcst": 112275.4,
+     "err": -6869.600000000006,
+     "rel": 0.2531918030370045,
+     "cv": 0.1544,
+     "cv_rank": 6,
+     "print_rank": 28
+    },
+    {
+     "m": "chronos-bolt-mini",
+     "kind": "foundation",
+     "fcst": 110456.0,
+     "err": -8689.0,
+     "rel": 0.32024915229249595,
+     "cv": 0.7429,
+     "cv_rank": 32,
+     "print_rank": 29
+    },
+    {
+     "m": "prophet",
+     "kind": "statistical",
+     "fcst": 106682.9,
+     "err": -12462.100000000006,
+     "rel": 0.4593137254901963,
+     "cv": 0.2982,
+     "cv_rank": 20,
+     "print_rank": 30
+    },
+    {
+     "m": "timesfm-2",
+     "kind": "foundation",
+     "fcst": 104078.0,
+     "err": -15067.0,
+     "rel": 0.5553221288515406,
+     "cv": 0.4003,
+     "cv_rank": 26,
+     "print_rank": 31
+    },
+    {
+     "m": "toto-2-4m",
+     "kind": "foundation",
+     "fcst": 103422.0,
+     "err": -15723.0,
+     "rel": 0.579500221141088,
+     "cv": 0.5428,
+     "cv_rank": 29,
+     "print_rank": 32
+    },
+    {
+     "m": "seasonal-naive",
+     "kind": "baseline",
+     "fcst": 92013.0,
+     "err": -27132.0,
+     "rel": 1.0,
+     "cv": 1.0,
+     "cv_rank": 33,
+     "print_rank": 33
+    }
+   ]
+  }
+ ],
+ "board": [
+  {
+   "m": "auto-arima",
+   "kind": "statistical",
+   "cv": 0.3332285259887093,
+   "print": 0.149898838443438,
+   "beat_street": 3,
+   "gift": 1.0736,
+   "fev": 0.8837,
+   "gift_q": 0.7988779885392948
+  },
+  {
+   "m": "auto-ets",
+   "kind": "statistical",
+   "cv": 0.3872177501414206,
+   "print": 0.3991467837583127,
+   "beat_street": 0,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  },
+  {
+   "m": "auto-theta",
+   "kind": "statistical",
+   "cv": 0.43815751480694715,
+   "print": 0.2620072357653777,
+   "beat_street": 1,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  },
+  {
+   "m": "chronos-2",
+   "kind": "foundation",
+   "cv": 0.4366587371414707,
+   "print": 0.2886524598945706,
+   "beat_street": 2,
+   "gift": 0.6978,
+   "fev": 0.645,
+   "gift_q": 0.720398256165774
+  },
+  {
+   "m": "chronos-2-small",
+   "kind": "foundation",
+   "cv": 0.44586177302591645,
+   "print": 0.14532998378060108,
+   "beat_street": 3,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  },
+  {
+   "m": "chronos-bolt-mini",
+   "kind": "foundation",
+   "cv": 0.5898951300408568,
+   "print": 0.3422084304491106,
+   "beat_street": 0,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  },
+  {
+   "m": "chronos-bolt-small",
+   "kind": "foundation",
+   "cv": 0.517208459129467,
+   "print": 0.15475931089106704,
+   "beat_street": 3,
+   "gift": 0.8221,
+   "fev": null,
+   "gift_q": 0.7786500286757639
+  },
+  {
+   "m": "granite-patchtst-r2",
+   "kind": "foundation",
+   "cv": 0.34934227947751473,
+   "print": 0.19082360367178447,
+   "beat_street": 2,
+   "gift": 0.6846,
+   "fev": null,
+   "gift_q": 0.741666707426868
+  },
+  {
+   "m": "lightgbm",
+   "kind": "ML",
+   "cv": 0.35020963688538975,
+   "print": 0.18829078362429244,
+   "beat_street": 3,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  },
+  {
+   "m": "n-beats",
+   "kind": "deep learning",
+   "cv": 0.3491980585761432,
+   "print": 0.162343907586164,
+   "beat_street": 2,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  },
+  {
+   "m": "naive",
+   "kind": "statistical",
+   "cv": 0.8449041733512714,
+   "print": 0.23587963324455918,
+   "beat_street": 2,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  },
+  {
+   "m": "prophet",
+   "kind": "statistical",
+   "cv": 0.6601429488598568,
+   "print": 0.4782054173185193,
+   "beat_street": 2,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  },
+  {
+   "m": "seasonal-naive",
+   "kind": "baseline",
+   "cv": 1.0,
+   "print": 1.0,
+   "beat_street": 1,
+   "gift": 1.0,
+   "fev": 1.0,
+   "gift_q": 1.0
+  },
+  {
+   "m": "t0-alpha",
+   "kind": "foundation",
+   "cv": 0.5248778650086056,
+   "print": 0.21128334380757743,
+   "beat_street": 2,
+   "gift": 0.724,
+   "fev": null,
+   "gift_q": 0.8410605503300509
+  },
+  {
+   "m": "t0-beta",
+   "kind": "foundation",
+   "cv": 0.45826748832789377,
+   "print": 0.22640511294048282,
+   "beat_street": 2,
+   "gift": 0.6865,
+   "fev": 0.6514,
+   "gift_q": 0.7912287527713409
+  },
+  {
+   "m": "t0-gamma",
+   "kind": "foundation",
+   "cv": 0.3758999473627111,
+   "print": 0.15813914320894895,
+   "beat_street": 2,
+   "gift": 0.6608,
+   "fev": 0.6201,
+   "gift_q": 0.6888642648886361
+  },
+  {
+   "m": "tabby",
+   "kind": "foundation",
+   "cv": 0.3519247258295568,
+   "print": 0.18019746292043767,
+   "beat_street": 2,
+   "gift": 0.6880205314278008,
+   "fev": null,
+   "gift_q": 0.73573125710917
+  },
+  {
+   "m": "timeh2o-v1",
+   "kind": "foundation",
+   "cv": 0.30662573271067123,
+   "print": 0.141765392830758,
+   "beat_street": 2,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  },
+  {
+   "m": "timeh2o-v1-tiny",
+   "kind": "foundation",
+   "cv": 0.3028249567192438,
+   "print": 0.22739973553654771,
+   "beat_street": 2,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  },
+  {
+   "m": "timesfm-2",
+   "kind": "foundation",
+   "cv": 0.42143187395431886,
+   "print": 0.21990355662843208,
+   "beat_street": 2,
+   "gift": 0.7581,
+   "fev": null,
+   "gift_q": 0.6022146995283472
+  },
+  {
+   "m": "timesfm-2.5-200m",
+   "kind": "foundation",
+   "cv": 0.388288652803836,
+   "print": 0.3232712668329839,
+   "beat_street": 1,
+   "gift": 0.705,
+   "fev": 0.698,
+   "gift_q": 0.7520502508734129
+  },
+  {
+   "m": "timesfm-3",
+   "kind": "foundation",
+   "cv": 0.3607850129377509,
+   "print": 0.2595357692700571,
+   "beat_street": 3,
+   "gift": 0.6668,
+   "fev": 0.6218,
+   "gift_q": 0.7219099538675874
+  },
+  {
+   "m": "timestral-123m",
+   "kind": "foundation",
+   "cv": 0.3233276475010609,
+   "print": 0.10944137514822798,
+   "beat_street": 4,
+   "gift": 0.6589,
+   "fev": 0.6081,
+   "gift_q": 0.7057414206335628
+  },
+  {
+   "m": "timestral-209m",
+   "kind": "foundation",
+   "cv": 0.32683551443810605,
+   "print": 0.13961514706596997,
+   "beat_street": 3,
+   "gift": 0.6575,
+   "fev": 0.6051,
+   "gift_q": 0.7060908213903245
+  },
+  {
+   "m": "timestral-28m",
+   "kind": "foundation",
+   "cv": 0.3164007138787728,
+   "print": 0.1260559081906865,
+   "beat_street": 4,
+   "gift": 0.678,
+   "fev": 0.6273,
+   "gift_q": 0.70558328272061
+  },
+  {
+   "m": "timestral-5m",
+   "kind": "foundation",
+   "cv": 0.3054790319579523,
+   "print": 0.16528060965781524,
+   "beat_street": 3,
+   "gift": 0.7049,
+   "fev": 0.6546,
+   "gift_q": 0.7129352847291007
+  },
+  {
+   "m": "tirex-2",
+   "kind": "foundation",
+   "cv": 0.4178246758504456,
+   "print": 0.0980423272181257,
+   "beat_street": 4,
+   "gift": 0.6777,
+   "fev": 0.6626,
+   "gift_q": 0.7368615445593694
+  },
+  {
+   "m": "tirex-2-gifteval-zs",
+   "kind": "foundation",
+   "cv": 0.36282622476670884,
+   "print": 0.16523866715789484,
+   "beat_street": 4,
+   "gift": 0.6973,
+   "fev": null,
+   "gift_q": 0.7428797182555349
+  },
+  {
+   "m": "toto-2-1b",
+   "kind": "foundation",
+   "cv": 0.3322844812876929,
+   "print": 0.1029354011595999,
+   "beat_street": 4,
+   "gift": 0.6992,
+   "fev": 0.6761,
+   "gift_q": 0.7151833117654236
+  },
+  {
+   "m": "toto-2-22m",
+   "kind": "foundation",
+   "cv": 0.36385157035989985,
+   "print": 0.17562851318058892,
+   "beat_street": 2,
+   "gift": 0.7188,
+   "fev": 0.6939,
+   "gift_q": 0.7300817819264955
+  },
+  {
+   "m": "toto-2-313m",
+   "kind": "foundation",
+   "cv": 0.30908325890307103,
+   "print": 0.07577805785639298,
+   "beat_street": 4,
+   "gift": 0.7028,
+   "fev": 0.679,
+   "gift_q": 0.7166116600135153
+  },
+  {
+   "m": "toto-2-4m",
+   "kind": "foundation",
+   "cv": 0.42672962635774847,
+   "print": 0.09525509373705948,
+   "beat_street": 5,
+   "gift": 0.7565,
+   "fev": 0.7196,
+   "gift_q": 0.7714757071484524
+  },
+  {
+   "m": "xgboost",
+   "kind": "ML",
+   "cv": 0.3586897147188193,
+   "print": 0.1688205639953577,
+   "beat_street": 4,
+   "gift": null,
+   "fev": null,
+   "gift_q": null
+  }
+ ],
+ "corr": {
+  "gift~cv": {
+   "n": 20,
+   "rho": 0.445
+  },
+  "gift~print": {
+   "n": 20,
+   "rho": 0.126
+  },
+  "gift_q~cv": {
+   "n": 20,
+   "rho": 0.605
+  },
+  "gift_q~print": {
+   "n": 20,
+   "rho": 0.224
+  },
+  "fev~cv": {
+   "n": 14,
+   "rho": 0.24
+  },
+  "fev~print": {
+   "n": 14,
+   "rho": -0.147
+  },
+  "cv~print": {
+   "n": 24,
+   "rho": 0.338
+  }
+ }
+}

@@ -1,0 +1,35 @@
+model,model_type,report_day_score,cv_score,report_days_beating_wall_street,report_days,gift_eval_all,gift_eval_quarterly,fev_bench
+toto-2-313m,foundation model,0.0758,0.3091,4,7,0.7028,0.7166,0.679
+toto-2-4m,foundation model,0.0953,0.4267,5,7,0.7565,0.7715,0.7196
+tirex-2,foundation model,0.098,0.4178,4,7,0.6777,0.7369,0.6626
+toto-2-1b,foundation model,0.1029,0.3323,4,7,0.6992,0.7152,0.6761
+timestral-123m,foundation model,0.1094,0.3233,4,7,0.6589,0.7057,0.6081
+timestral-28m,foundation model,0.1261,0.3164,4,7,0.678,0.7056,0.6273
+timestral-209m,foundation model,0.1396,0.3268,3,7,0.6575,0.7061,0.6051
+timeh2o-v1,foundation model,0.1418,0.3066,2,7,,,
+chronos-2-small,foundation model,0.1453,0.4459,3,7,,,
+auto-arima,statistical,0.1499,0.3332,3,7,1.0736,0.7989,0.8837
+chronos-bolt-small,foundation model,0.1548,0.5172,3,7,0.8221,0.7787,
+t0-gamma,foundation model,0.1581,0.3759,2,7,0.6608,0.6889,0.6201
+n-beats,deep learning,0.1623,0.3492,2,7,,,
+tirex-2-gifteval-zs,foundation model,0.1652,0.3628,4,7,0.6973,0.7429,
+timestral-5m,foundation model,0.1653,0.3055,3,7,0.7049,0.7129,0.6546
+xgboost,machine learning,0.1688,0.3587,4,7,,,
+toto-2-22m,foundation model,0.1756,0.3639,2,7,0.7188,0.7301,0.6939
+tabby,foundation model,0.1802,0.3519,2,7,0.688,0.7357,
+lightgbm,machine learning,0.1883,0.3502,3,7,,,
+granite-patchtst-r2,foundation model,0.1908,0.3493,2,7,0.6846,0.7417,
+t0-alpha,foundation model,0.2113,0.5249,2,7,0.724,0.8411,
+timesfm-2,foundation model,0.2199,0.4214,2,7,0.7581,0.6022,
+t0-beta,foundation model,0.2264,0.4583,2,7,0.6865,0.7912,0.6514
+timeh2o-v1-tiny,foundation model,0.2274,0.3028,2,7,,,
+naive,statistical,0.2359,0.8449,2,7,,,
+timesfm-3,foundation model,0.2595,0.3608,3,7,0.6668,0.7219,0.6218
+auto-theta,statistical,0.262,0.4382,1,7,,,
+chronos-2,foundation model,0.2887,0.4367,2,7,0.6978,0.7204,0.645
+timesfm-2.5-200m,foundation model,0.3233,0.3883,1,7,0.705,0.7521,0.698
+chronos-bolt-mini,foundation model,0.3422,0.5899,0,7,,,
+auto-ets,statistical,0.3991,0.3872,0,7,,,
+prophet,statistical,0.4782,0.6601,2,7,,,
+seasonal-naive,baseline,1.0,1.0,1,7,1.0,1.0,1.0
+Wall Street consensus,Wall Street,0.1261,,,7,,,

@@ -1,0 +1,34 @@
+model,model_type,cv_rank,Q3 FY2027_usd_m,Q4 FY2027_usd_m,Q1 FY2028_usd_m,Q2 FY2028_usd_m
+prophet,statistical,1,124197.5,133496.5,125490.5,130463.6
+toto-2-1b,foundation model,2,124915.1,132729.9,121854.0,129522.3
+auto-arima,statistical,3,125502.5,133849.4,122373.9,130383.7
+timeh2o-v1,foundation model,4,124084.3,133291.3,122041.8,129822.7
+timesfm-3,foundation model,5,124411.4,133347.2,121414.2,129412.5
+timestral-209m,foundation model,6,125785.6,133456.5,122003.3,130057.2
+toto-2-313m,foundation model,7,124999.1,133734.3,121713.4,130150.0
+timestral-123m,foundation model,8,124815.8,133357.3,121823.4,130130.0
+timestral-28m,foundation model,9,125792.1,133609.1,121273.4,129201.6
+tirex-2-gifteval-zs,foundation model,10,124413.3,132935.3,121194.4,129775.6
+n-beats,deep learning,11,124776.4,133073.7,122381.9,129190.8
+t0-gamma,foundation model,12,123073.6,133863.6,122772.5,129410.9
+auto-ets,statistical,13,124923.0,133245.3,122563.9,130525.9
+toto-2-4m,foundation model,14,123416.1,134975.0,122118.1,130267.7
+tirex-2,foundation model,15,125164.5,133246.6,122024.2,130441.6
+xgboost,machine learning,16,124403.9,132948.8,123464.7,131234.4
+lightgbm,machine learning,17,124387.2,133078.5,123259.9,131080.1
+granite-patchtst-r2,foundation model,18,124960.8,133231.5,121640.6,129801.6
+toto-2-22m,foundation model,19,124585.3,132533.0,122528.4,128980.5
+timesfm-2.5-200m,foundation model,20,123803.9,134738.5,124344.4,128515.2
+chronos-2,foundation model,21,123558.5,132712.2,123429.2,130202.2
+timestral-5m,foundation model,22,125214.5,131782.4,121879.8,129110.9
+timeh2o-v1-tiny,foundation model,23,123559.9,131510.4,121537.5,130167.3
+chronos-2-small,foundation model,24,123882.1,131452.7,122128.0,128185.3
+tabby,foundation model,25,126412.1,131041.1,127157.2,130809.7
+timesfm-2,foundation model,26,121240.8,129163.4,122700.3,130362.8
+t0-alpha,foundation model,27,119778.7,134049.7,122652.2,129185.7
+auto-theta,statistical,28,121881.2,135186.7,122295.3,128244.9
+t0-beta,foundation model,29,123462.7,128807.0,126847.2,128342.3
+chronos-bolt-small,foundation model,30,124858.7,127466.4,126541.3,127470.6
+chronos-bolt-mini,foundation model,31,121766.6,125488.8,124098.2,125315.2
+naive,statistical,32,125189.0,125189.0,125189.0,125189.0
+seasonal-naive,baseline,33,120678.0,129223.0,117169.0,125189.0
