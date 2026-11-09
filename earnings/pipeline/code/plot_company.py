@@ -26,7 +26,7 @@ SLOTS = ["var(--purple)", "var(--c-blue)", "var(--c-orange)", "var(--c-aqua)", "
 CONSENSUS = {"apple_iphone": (57180.0, "Zacks, Oct 31, 2026"), "palantir_total": (2170.0, "Zacks, Oct 31, 2026"),
              "amd_dc": (8270.0, "Zacks, Oct 29, 2026"), "mcd_total": (7280.0, "Zacks, Oct 30, 2026"),
              "mcd_franchised": (4520.0, "Zacks, Oct 30, 2026"), "hd_net_sales": (42740.0, "Yahoo Finance, 25 analysts, Nov 2, 2026"),
-             "shopify_gmv": (120030.0, "StreetAccount; Zacks/CIBC pre-print range $117.8-118.7B")}
+             "shopify_gmv": (120030.0, "StreetAccount via CNBC, Nov 3, 2026")}
 # Reported actuals for prints that are already out, USD millions (company 8-K press releases, Nov 2, 2026)
 RESULTS = {"apple_iphone": 57583.0, "palantir_total": 2313.411, "amd_dc": 8546.0, "mcd_total": 7157.0, "mcd_franchised": 4487.0, "shopify_gmv": 119145.0}
 SUBJECT = {"Apple": "Apple iPhone net sales", "Palantir": "Palantir revenue", "AMD": "AMD Data Center revenue",
