@@ -1,0 +1,239 @@
+series_id,quarter,entry,model_type,forecast_usd_m,actual_usd_m,miss_usd_m,miss_pct,rank_of_34,cv_rank,relative_to_naive,beat_wall_street
+coin_net,Q3 2026,auto-theta,statistical,1156.2,1160.5,-4.3,-0.371,1,30,0.0068,True
+coin_net,Q3 2026,naive,statistical,1154.3,1160.5,-6.2,-0.534,2,25,0.0098,True
+coin_net,Q3 2026,toto-2-4m,foundation model,1171.9,1160.5,11.4,0.982,3,2,0.018,True
+coin_net,Q3 2026,xgboost,machine learning,1145.1,1160.5,-15.4,-1.327,4,28,0.0243,True
+coin_net,Q3 2026,timestral-123m,foundation model,1187.5,1160.5,27.0,2.327,5,18,0.0427,True
+coin_net,Q3 2026,n-beats,deep learning,1128.3,1160.5,-32.2,-2.775,6,31,0.0509,True
+coin_net,Q3 2026,timestral-209m,foundation model,1197.6,1160.5,37.1,3.197,7,19,0.0587,True
+coin_net,Q3 2026,prophet,statistical,1203.8,1160.5,43.3,3.731,8,33,0.0685,True
+coin_net,Q3 2026,toto-2-1b,foundation model,1206.9,1160.5,46.4,3.998,9,5,0.0734,True
+coin_net,Q3 2026,tirex-2-gifteval-zs,foundation model,1207.0,1160.5,46.5,4.007,10,13,0.0735,True
+coin_net,Q3 2026,timestral-5m,foundation model,1208.0,1160.5,47.5,4.093,11,1,0.0751,True
+coin_net,Q3 2026,lightgbm,machine learning,1211.0,1160.5,50.5,4.352,12,27,0.0798,True
+coin_net,Q3 2026,Wall Street consensus,Wall Street,1100.0,1160.5,-60.5,-5.213,13,,0.0957,
+coin_net,Q3 2026,timestral-28m,foundation model,1221.2,1160.5,60.7,5.231,14,3,0.096,False
+coin_net,Q3 2026,auto-ets,statistical,1223.0,1160.5,62.5,5.386,15,6,0.0988,False
+coin_net,Q3 2026,toto-2-22m,foundation model,1096.3,1160.5,-64.2,-5.532,16,12,0.1015,False
+coin_net,Q3 2026,toto-2-313m,foundation model,1086.7,1160.5,-73.8,-6.359,17,4,0.1167,False
+coin_net,Q3 2026,tirex-2,foundation model,1241.9,1160.5,81.4,7.014,18,15,0.1287,False
+coin_net,Q3 2026,timeh2o-v1-tiny,foundation model,1248.3,1160.5,87.8,7.566,19,16,0.1388,False
+coin_net,Q3 2026,auto-arima,statistical,1248.9,1160.5,88.4,7.617,20,17,0.1398,False
+coin_net,Q3 2026,timeh2o-v1,foundation model,1254.5,1160.5,94.0,8.1,21,9,0.1486,False
+coin_net,Q3 2026,granite-patchtst-r2,foundation model,1269.1,1160.5,108.6,9.358,22,21,0.1717,False
+coin_net,Q3 2026,timesfm-2.5-200m,foundation model,1269.2,1160.5,108.7,9.367,23,7,0.1719,False
+coin_net,Q3 2026,timesfm-3,foundation model,1274.8,1160.5,114.3,9.849,24,10,0.1807,False
+coin_net,Q3 2026,t0-gamma,foundation model,1276.9,1160.5,116.4,10.03,25,29,0.184,False
+coin_net,Q3 2026,chronos-2-small,foundation model,1304.2,1160.5,143.7,12.383,26,14,0.2272,False
+coin_net,Q3 2026,t0-beta,foundation model,1314.3,1160.5,153.8,13.253,27,26,0.2432,False
+coin_net,Q3 2026,chronos-bolt-small,foundation model,1317.5,1160.5,157.0,13.529,28,11,0.2482,False
+coin_net,Q3 2026,tabby,foundation model,1320.6,1160.5,160.1,13.796,29,20,0.2531,False
+coin_net,Q3 2026,t0-alpha,foundation model,1321.0,1160.5,160.5,13.83,30,23,0.2538,False
+coin_net,Q3 2026,chronos-bolt-mini,foundation model,1351.2,1160.5,190.7,16.433,31,8,0.3015,False
+coin_net,Q3 2026,chronos-2,foundation model,1391.4,1160.5,230.9,19.897,32,24,0.3651,False
+coin_net,Q3 2026,timesfm-2,foundation model,1459.6,1160.5,299.1,25.773,33,22,0.4729,False
+coin_net,Q3 2026,seasonal-naive,baseline,1793.0,1160.5,632.5,54.502,34,32,1.0,False
+apple_iphone,Q4 FY2026,chronos-bolt-small,foundation model,57640.0,57583.0,57.0,0.099,1,2,0.0067,True
+apple_iphone,Q4 FY2026,tirex-2,foundation model,57697.4,57583.0,114.4,0.199,2,23,0.0134,True
+apple_iphone,Q4 FY2026,t0-alpha,foundation model,57431.4,57583.0,-151.6,-0.263,3,32,0.0177,True
+apple_iphone,Q4 FY2026,t0-gamma,foundation model,57395.1,57583.0,-187.9,-0.326,4,17,0.022,True
+apple_iphone,Q4 FY2026,toto-2-4m,foundation model,57797.8,57583.0,214.8,0.373,5,21,0.0251,True
+apple_iphone,Q4 FY2026,chronos-2,foundation model,57315.2,57583.0,-267.8,-0.465,6,28,0.0313,True
+apple_iphone,Q4 FY2026,timestral-28m,foundation model,57914.4,57583.0,331.4,0.576,7,25,0.0387,True
+apple_iphone,Q4 FY2026,Wall Street consensus,Wall Street,57180.0,57583.0,-403.0,-0.7,8,,0.0471,
+apple_iphone,Q4 FY2026,toto-2-1b,foundation model,57989.8,57583.0,406.8,0.706,9,11,0.0475,False
+apple_iphone,Q4 FY2026,timestral-123m,foundation model,58002.7,57583.0,419.7,0.729,10,15,0.049,False
+apple_iphone,Q4 FY2026,timeh2o-v1,foundation model,57158.5,57583.0,-424.5,-0.737,11,7,0.0496,False
+apple_iphone,Q4 FY2026,timeh2o-v1-tiny,foundation model,57094.1,57583.0,-488.9,-0.849,12,3,0.0571,False
+apple_iphone,Q4 FY2026,toto-2-313m,foundation model,57085.2,57583.0,-497.8,-0.864,13,13,0.0582,False
+apple_iphone,Q4 FY2026,chronos-bolt-mini,foundation model,56991.4,57583.0,-591.6,-1.027,14,24,0.0691,False
+apple_iphone,Q4 FY2026,granite-patchtst-r2,foundation model,56877.8,57583.0,-705.2,-1.225,15,12,0.0824,False
+apple_iphone,Q4 FY2026,lightgbm,machine learning,56772.4,57583.0,-810.6,-1.408,16,6,0.0947,False
+apple_iphone,Q4 FY2026,tirex-2-gifteval-zs,foundation model,56754.7,57583.0,-828.3,-1.438,17,10,0.0968,False
+apple_iphone,Q4 FY2026,timestral-209m,foundation model,56691.0,57583.0,-892.0,-1.549,18,20,0.1042,False
+apple_iphone,Q4 FY2026,xgboost,machine learning,58635.4,57583.0,1052.4,1.828,19,4,0.123,False
+apple_iphone,Q4 FY2026,n-beats,deep learning,58696.6,57583.0,1113.6,1.934,20,14,0.1301,False
+apple_iphone,Q4 FY2026,auto-arima,statistical,56385.8,57583.0,-1197.2,-2.079,21,16,0.1399,False
+apple_iphone,Q4 FY2026,tabby,foundation model,58991.5,57583.0,1408.5,2.446,22,1,0.1646,False
+apple_iphone,Q4 FY2026,timestral-5m,foundation model,56142.5,57583.0,-1440.5,-2.502,23,9,0.1683,False
+apple_iphone,Q4 FY2026,auto-theta,statistical,55841.6,57583.0,-1741.4,-3.024,24,31,0.2035,False
+apple_iphone,Q4 FY2026,timesfm-2,foundation model,59531.9,57583.0,1948.9,3.385,25,8,0.2277,False
+apple_iphone,Q4 FY2026,chronos-2-small,foundation model,59625.6,57583.0,2042.6,3.547,26,26,0.2387,False
+apple_iphone,Q4 FY2026,toto-2-22m,foundation model,55112.9,57583.0,-2470.1,-4.29,27,18,0.2886,False
+apple_iphone,Q4 FY2026,prophet,statistical,54793.3,57583.0,-2789.7,-4.845,28,22,0.326,False
+apple_iphone,Q4 FY2026,t0-beta,foundation model,54759.3,57583.0,-2823.7,-4.904,29,5,0.3299,False
+apple_iphone,Q4 FY2026,naive,statistical,54252.0,57583.0,-3331.0,-5.785,30,33,0.3892,False
+apple_iphone,Q4 FY2026,timesfm-2.5-200m,foundation model,53105.5,57583.0,-4477.5,-7.776,31,27,0.5232,False
+apple_iphone,Q4 FY2026,auto-ets,statistical,52888.0,57583.0,-4695.0,-8.153,32,29,0.5486,False
+apple_iphone,Q4 FY2026,timesfm-3,foundation model,50047.2,57583.0,-7535.8,-13.087,33,30,0.8806,False
+apple_iphone,Q4 FY2026,seasonal-naive,baseline,49025.0,57583.0,-8558.0,-14.862,34,19,1.0,False
+palantir_total,Q3 2026,auto-arima,statistical,2292.6,2313.411,-20.811,-0.9,1,2,0.0184,True
+palantir_total,Q3 2026,timestral-28m,foundation model,2334.9,2313.411,21.489,0.929,2,4,0.019,True
+palantir_total,Q3 2026,timeh2o-v1,foundation model,2291.6,2313.411,-21.811,-0.943,3,9,0.0193,True
+palantir_total,Q3 2026,toto-2-4m,foundation model,2338.1,2313.411,24.689,1.067,4,21,0.0218,True
+palantir_total,Q3 2026,tabby,foundation model,2343.9,2313.411,30.489,1.318,5,1,0.0269,True
+palantir_total,Q3 2026,toto-2-22m,foundation model,2349.3,2313.411,35.889,1.551,6,5,0.0317,True
+palantir_total,Q3 2026,timestral-123m,foundation model,2273.1,2313.411,-40.311,-1.742,7,7,0.0356,True
+palantir_total,Q3 2026,toto-2-1b,foundation model,2272.3,2313.411,-41.111,-1.777,8,16,0.0363,True
+palantir_total,Q3 2026,timestral-5m,foundation model,2354.6,2313.411,41.189,1.78,9,14,0.0364,True
+palantir_total,Q3 2026,tirex-2,foundation model,2252.2,2313.411,-61.211,-2.646,10,11,0.0541,True
+palantir_total,Q3 2026,timestral-209m,foundation model,2245.8,2313.411,-67.611,-2.923,11,3,0.0597,True
+palantir_total,Q3 2026,lightgbm,machine learning,2234.2,2313.411,-79.211,-3.424,12,13,0.07,True
+palantir_total,Q3 2026,granite-patchtst-r2,foundation model,2224.4,2313.411,-89.011,-3.848,13,26,0.0786,True
+palantir_total,Q3 2026,t0-beta,foundation model,2223.3,2313.411,-90.111,-3.895,14,12,0.0796,True
+palantir_total,Q3 2026,xgboost,machine learning,2220.1,2313.411,-93.311,-4.033,15,15,0.0824,True
+palantir_total,Q3 2026,timesfm-3,foundation model,2207.2,2313.411,-106.211,-4.591,16,24,0.0938,True
+palantir_total,Q3 2026,t0-alpha,foundation model,2427.6,2313.411,114.189,4.936,17,10,0.1008,True
+palantir_total,Q3 2026,tirex-2-gifteval-zs,foundation model,2185.6,2313.411,-127.811,-5.525,18,20,0.1129,True
+palantir_total,Q3 2026,toto-2-313m,foundation model,2179.0,2313.411,-134.411,-5.81,19,23,0.1187,True
+palantir_total,Q3 2026,timeh2o-v1-tiny,foundation model,2172.7,2313.411,-140.711,-6.082,20,6,0.1243,True
+palantir_total,Q3 2026,timesfm-2,foundation model,2172.5,2313.411,-140.911,-6.091,21,25,0.1244,True
+palantir_total,Q3 2026,Wall Street consensus,Wall Street,2170.0,2313.411,-143.411,-6.199,22,,0.1267,
+palantir_total,Q3 2026,t0-gamma,foundation model,2143.1,2313.411,-170.311,-7.362,23,17,0.1504,False
+palantir_total,Q3 2026,n-beats,deep learning,2141.9,2313.411,-171.511,-7.414,24,22,0.1515,False
+palantir_total,Q3 2026,chronos-2-small,foundation model,2486.5,2313.411,173.089,7.482,25,18,0.1529,False
+palantir_total,Q3 2026,chronos-bolt-mini,foundation model,2100.4,2313.411,-213.011,-9.208,26,31,0.1881,False
+palantir_total,Q3 2026,chronos-bolt-small,foundation model,2030.9,2313.411,-282.511,-12.212,27,29,0.2495,False
+palantir_total,Q3 2026,auto-theta,statistical,1986.5,2313.411,-326.911,-14.131,28,27,0.2887,False
+palantir_total,Q3 2026,auto-ets,statistical,1970.5,2313.411,-342.911,-14.823,29,28,0.3028,False
+palantir_total,Q3 2026,timesfm-2.5-200m,foundation model,1940.0,2313.411,-373.411,-16.141,30,19,0.3298,False
+palantir_total,Q3 2026,naive,statistical,1935.5,2313.411,-377.911,-16.336,31,32,0.3338,False
+palantir_total,Q3 2026,chronos-2,foundation model,2781.0,2313.411,467.589,20.212,32,8,0.413,False
+palantir_total,Q3 2026,prophet,statistical,1342.7,2313.411,-970.711,-41.96,33,30,0.8573,False
+palantir_total,Q3 2026,seasonal-naive,baseline,1181.1,2313.411,-1132.311,-48.946,34,33,1.0,False
+amd_dc,Q3 2026,Wall Street consensus,Wall Street,8270.0,8546.0,-276.0,-3.23,1,,0.0656,
+amd_dc,Q3 2026,timesfm-2,foundation model,7581.8,8546.0,-964.2,-11.282,2,1,0.2293,False
+amd_dc,Q3 2026,n-beats,deep learning,7474.3,8546.0,-1071.7,-12.54,3,11,0.2549,False
+amd_dc,Q3 2026,tabby,foundation model,7462.2,8546.0,-1083.8,-12.682,4,8,0.2577,False
+amd_dc,Q3 2026,timeh2o-v1,foundation model,7314.6,8546.0,-1231.4,-14.409,5,14,0.2928,False
+amd_dc,Q3 2026,t0-gamma,foundation model,7302.8,8546.0,-1243.2,-14.547,6,7,0.2956,False
+amd_dc,Q3 2026,timestral-28m,foundation model,7300.3,8546.0,-1245.7,-14.576,7,12,0.2962,False
+amd_dc,Q3 2026,lightgbm,machine learning,7282.3,8546.0,-1263.7,-14.787,8,30,0.3005,False
+amd_dc,Q3 2026,t0-beta,foundation model,7270.5,8546.0,-1275.5,-14.925,9,16,0.3033,False
+amd_dc,Q3 2026,toto-2-1b,foundation model,7246.8,8546.0,-1299.2,-15.202,10,25,0.309,False
+amd_dc,Q3 2026,timeh2o-v1-tiny,foundation model,7208.8,8546.0,-1337.2,-15.647,11,6,0.318,False
+amd_dc,Q3 2026,timestral-209m,foundation model,7152.6,8546.0,-1393.4,-16.305,12,17,0.3314,False
+amd_dc,Q3 2026,timestral-123m,foundation model,7143.8,8546.0,-1402.2,-16.408,13,13,0.3335,False
+amd_dc,Q3 2026,chronos-2-small,foundation model,7118.1,8546.0,-1427.9,-16.708,14,23,0.3396,False
+amd_dc,Q3 2026,tirex-2-gifteval-zs,foundation model,7111.0,8546.0,-1435.0,-16.791,15,15,0.3413,False
+amd_dc,Q3 2026,timestral-5m,foundation model,7103.6,8546.0,-1442.4,-16.878,16,4,0.343,False
+amd_dc,Q3 2026,timesfm-3,foundation model,7061.6,8546.0,-1484.4,-17.37,17,9,0.353,False
+amd_dc,Q3 2026,tirex-2,foundation model,7024.0,8546.0,-1522.0,-17.81,18,24,0.362,False
+amd_dc,Q3 2026,auto-arima,statistical,7013.2,8546.0,-1532.8,-17.936,19,10,0.3645,False
+amd_dc,Q3 2026,auto-theta,statistical,6966.1,8546.0,-1579.9,-18.487,20,26,0.3757,False
+amd_dc,Q3 2026,toto-2-22m,foundation model,6936.2,8546.0,-1609.8,-18.837,21,2,0.3828,False
+amd_dc,Q3 2026,granite-patchtst-r2,foundation model,6925.4,8546.0,-1620.6,-18.963,22,29,0.3854,False
+amd_dc,Q3 2026,timesfm-2.5-200m,foundation model,6921.4,8546.0,-1624.6,-19.01,23,21,0.3863,False
+amd_dc,Q3 2026,auto-ets,statistical,6917.5,8546.0,-1628.5,-19.056,24,20,0.3873,False
+amd_dc,Q3 2026,t0-alpha,foundation model,6906.1,8546.0,-1639.9,-19.189,25,3,0.39,False
+amd_dc,Q3 2026,toto-2-313m,foundation model,6886.0,8546.0,-1660.0,-19.424,26,19,0.3948,False
+amd_dc,Q3 2026,chronos-2,foundation model,6870.5,8546.0,-1675.5,-19.606,27,28,0.3985,False
+amd_dc,Q3 2026,xgboost,machine learning,6863.7,8546.0,-1682.3,-19.685,28,27,0.4001,False
+amd_dc,Q3 2026,toto-2-4m,foundation model,6820.5,8546.0,-1725.5,-20.191,29,5,0.4103,False
+amd_dc,Q3 2026,naive,statistical,6718.0,8546.0,-1828.0,-21.39,30,22,0.4347,False
+amd_dc,Q3 2026,chronos-bolt-mini,foundation model,6542.8,8546.0,-2003.2,-23.44,31,18,0.4764,False
+amd_dc,Q3 2026,chronos-bolt-small,foundation model,6372.6,8546.0,-2173.4,-25.432,32,31,0.5169,False
+amd_dc,Q3 2026,prophet,statistical,5495.0,8546.0,-3051.0,-35.701,33,32,0.7256,False
+amd_dc,Q3 2026,seasonal-naive,baseline,4341.0,8546.0,-4205.0,-49.204,34,33,1.0,False
+mcd_total,Q3 2026,timesfm-2,foundation model,7159.5,7157.0,2.5,0.035,1,29,0.0316,True
+mcd_total,Q3 2026,t0-beta,foundation model,7151.3,7157.0,-5.7,-0.08,2,30,0.0722,True
+mcd_total,Q3 2026,chronos-2-small,foundation model,7149.6,7157.0,-7.4,-0.103,3,18,0.0937,True
+mcd_total,Q3 2026,toto-2-313m,foundation model,7135.8,7157.0,-21.2,-0.296,4,8,0.2684,True
+mcd_total,Q3 2026,t0-gamma,foundation model,7132.6,7157.0,-24.4,-0.341,5,22,0.3089,True
+mcd_total,Q3 2026,n-beats,deep learning,7129.7,7157.0,-27.3,-0.381,6,25,0.3456,True
+mcd_total,Q3 2026,chronos-bolt-small,foundation model,7124.3,7157.0,-32.7,-0.457,7,26,0.4139,True
+mcd_total,Q3 2026,timesfm-2.5-200m,foundation model,7191.1,7157.0,34.1,0.476,8,20,0.4316,True
+mcd_total,Q3 2026,toto-2-1b,foundation model,7196.7,7157.0,39.7,0.555,9,9,0.5025,True
+mcd_total,Q3 2026,tirex-2,foundation model,7197.6,7157.0,40.6,0.567,10,19,0.5139,True
+mcd_total,Q3 2026,timestral-5m,foundation model,7209.4,7157.0,52.4,0.732,11,2,0.6633,True
+mcd_total,Q3 2026,timeh2o-v1-tiny,foundation model,7104.2,7157.0,-52.8,-0.738,12,10,0.6684,True
+mcd_total,Q3 2026,naive,statistical,7099.0,7157.0,-58.0,-0.81,13,32,0.7342,True
+mcd_total,Q3 2026,granite-patchtst-r2,foundation model,7098.4,7157.0,-58.6,-0.819,14,1,0.7418,True
+mcd_total,Q3 2026,timesfm-3,foundation model,7217.8,7157.0,60.8,0.85,15,17,0.7696,True
+mcd_total,Q3 2026,toto-2-4m,foundation model,7233.2,7157.0,76.2,1.065,16,12,0.9646,True
+mcd_total,Q3 2026,seasonal-naive,baseline,7078.0,7157.0,-79.0,-1.104,17,27,1.0,True
+mcd_total,Q3 2026,chronos-2,foundation model,7239.6,7157.0,82.6,1.154,18,14,1.0456,True
+mcd_total,Q3 2026,tirex-2-gifteval-zs,foundation model,7246.4,7157.0,89.4,1.249,19,15,1.1316,True
+mcd_total,Q3 2026,timeh2o-v1,foundation model,7246.9,7157.0,89.9,1.256,20,11,1.138,True
+mcd_total,Q3 2026,timestral-123m,foundation model,7250.8,7157.0,93.8,1.311,21,3,1.1873,True
+mcd_total,Q3 2026,auto-arima,statistical,7259.9,7157.0,102.9,1.438,22,28,1.3025,True
+mcd_total,Q3 2026,timestral-28m,foundation model,7260.2,7157.0,103.2,1.442,23,7,1.3063,True
+mcd_total,Q3 2026,tabby,foundation model,7264.8,7157.0,107.8,1.506,24,13,1.3646,True
+mcd_total,Q3 2026,prophet,statistical,7035.3,7157.0,-121.7,-1.7,25,33,1.5405,True
+mcd_total,Q3 2026,Wall Street consensus,Wall Street,7280.0,7157.0,123.0,1.719,26,,1.557,
+mcd_total,Q3 2026,chronos-bolt-mini,foundation model,7033.2,7157.0,-123.8,-1.73,27,24,1.5671,False
+mcd_total,Q3 2026,auto-ets,statistical,7288.1,7157.0,131.1,1.832,28,5,1.6595,False
+mcd_total,Q3 2026,timestral-209m,foundation model,7292.1,7157.0,135.1,1.888,29,16,1.7101,False
+mcd_total,Q3 2026,t0-alpha,foundation model,7303.5,7157.0,146.5,2.047,30,31,1.8544,False
+mcd_total,Q3 2026,toto-2-22m,foundation model,7327.0,7157.0,170.0,2.375,31,23,2.1519,False
+mcd_total,Q3 2026,auto-theta,statistical,7347.2,7157.0,190.2,2.658,32,4,2.4076,False
+mcd_total,Q3 2026,xgboost,machine learning,7577.6,7157.0,420.6,5.877,33,6,5.3241,False
+mcd_total,Q3 2026,lightgbm,machine learning,7655.8,7157.0,498.8,6.969,34,21,6.3139,False
+mcd_franchised,Q3 2026,toto-2-4m,foundation model,4490.9,4487.0,3.9,0.087,1,30,0.0315,True
+mcd_franchised,Q3 2026,tirex-2,foundation model,4482.2,4487.0,-4.8,-0.107,2,22,0.0387,True
+mcd_franchised,Q3 2026,toto-2-313m,foundation model,4481.4,4487.0,-5.6,-0.125,3,2,0.0452,True
+mcd_franchised,Q3 2026,toto-2-22m,foundation model,4480.6,4487.0,-6.4,-0.143,4,18,0.0516,True
+mcd_franchised,Q3 2026,tirex-2-gifteval-zs,foundation model,4479.6,4487.0,-7.4,-0.165,5,23,0.0597,True
+mcd_franchised,Q3 2026,timestral-123m,foundation model,4478.1,4487.0,-8.9,-0.198,6,13,0.0718,True
+mcd_franchised,Q3 2026,timestral-209m,foundation model,4497.1,4487.0,10.1,0.225,7,6,0.0815,True
+mcd_franchised,Q3 2026,toto-2-1b,foundation model,4498.1,4487.0,11.1,0.247,8,16,0.0895,True
+mcd_franchised,Q3 2026,timestral-28m,foundation model,4473.9,4487.0,-13.1,-0.292,9,14,0.1056,True
+mcd_franchised,Q3 2026,chronos-bolt-small,foundation model,4463.9,4487.0,-23.1,-0.515,10,31,0.1863,True
+mcd_franchised,Q3 2026,auto-arima,statistical,4511.9,4487.0,24.9,0.555,11,21,0.2008,True
+mcd_franchised,Q3 2026,chronos-2-small,foundation model,4459.0,4487.0,-28.0,-0.624,12,27,0.2258,True
+mcd_franchised,Q3 2026,timesfm-3,foundation model,4518.1,4487.0,31.1,0.693,13,25,0.2508,True
+mcd_franchised,Q3 2026,xgboost,machine learning,4519.1,4487.0,32.1,0.715,14,11,0.2589,True
+mcd_franchised,Q3 2026,Wall Street consensus,Wall Street,4520.0,4487.0,33.0,0.735,15,,0.2661,
+mcd_franchised,Q3 2026,t0-alpha,foundation model,4453.6,4487.0,-33.4,-0.744,16,26,0.2694,False
+mcd_franchised,Q3 2026,lightgbm,machine learning,4523.1,4487.0,36.1,0.805,17,4,0.2911,False
+mcd_franchised,Q3 2026,tabby,foundation model,4529.6,4487.0,42.6,0.949,18,19,0.3435,False
+mcd_franchised,Q3 2026,chronos-2,foundation model,4531.0,4487.0,44.0,0.981,19,20,0.3548,False
+mcd_franchised,Q3 2026,n-beats,deep learning,4535.4,4487.0,48.4,1.079,20,15,0.3903,False
+mcd_franchised,Q3 2026,t0-gamma,foundation model,4537.4,4487.0,50.4,1.123,21,12,0.4065,False
+mcd_franchised,Q3 2026,timeh2o-v1,foundation model,4538.2,4487.0,51.2,1.141,22,9,0.4129,False
+mcd_franchised,Q3 2026,timestral-5m,foundation model,4543.2,4487.0,56.2,1.253,23,8,0.4532,False
+mcd_franchised,Q3 2026,timesfm-2,foundation model,4429.9,4487.0,-57.1,-1.273,24,24,0.4605,False
+mcd_franchised,Q3 2026,granite-patchtst-r2,foundation model,4546.7,4487.0,59.7,1.331,25,1,0.4815,False
+mcd_franchised,Q3 2026,prophet,statistical,4559.2,4487.0,72.2,1.609,26,17,0.5823,False
+mcd_franchised,Q3 2026,chronos-bolt-mini,foundation model,4414.3,4487.0,-72.7,-1.62,27,32,0.5863,False
+mcd_franchised,Q3 2026,timeh2o-v1-tiny,foundation model,4562.7,4487.0,75.7,1.687,28,3,0.6105,False
+mcd_franchised,Q3 2026,auto-ets,statistical,4572.6,4487.0,85.6,1.908,29,5,0.6903,False
+mcd_franchised,Q3 2026,naive,statistical,4393.0,4487.0,-94.0,-2.095,30,33,0.7581,False
+mcd_franchised,Q3 2026,auto-theta,statistical,4601.9,4487.0,114.9,2.561,31,7,0.9266,False
+mcd_franchised,Q3 2026,seasonal-naive,baseline,4363.0,4487.0,-124.0,-2.764,32,28,1.0,False
+mcd_franchised,Q3 2026,t0-beta,foundation model,4355.9,4487.0,-131.1,-2.922,33,29,1.0573,False
+mcd_franchised,Q3 2026,timesfm-2.5-200m,foundation model,4647.5,4487.0,160.5,3.577,34,10,1.2944,False
+shopify_gmv,Q3 2026,toto-2-313m,foundation model,119246.0,119145.0,101.0,0.085,1,10,0.0037,True
+shopify_gmv,Q3 2026,chronos-2-small,foundation model,119769.0,119145.0,624.0,0.524,2,21,0.023,True
+shopify_gmv,Q3 2026,lightgbm,machine learning,119924.0,119145.0,779.0,0.654,3,11,0.0287,True
+shopify_gmv,Q3 2026,xgboost,machine learning,119924.4,119145.0,779.4,0.654,4,17,0.0287,True
+shopify_gmv,Q3 2026,Wall Street consensus,Wall Street,120030.0,119145.0,885.0,0.743,5,,0.0326,
+shopify_gmv,Q3 2026,tabby,foundation model,120380.0,119145.0,1235.0,1.037,6,27,0.0455,False
+shopify_gmv,Q3 2026,auto-arima,statistical,117798.3,119145.0,-1346.7,-1.13,7,5,0.0496,False
+shopify_gmv,Q3 2026,timesfm-2.5-200m,foundation model,117581.0,119145.0,-1564.0,-1.313,8,12,0.0576,False
+shopify_gmv,Q3 2026,timeh2o-v1,foundation model,120743.0,119145.0,1598.0,1.341,9,2,0.0589,False
+shopify_gmv,Q3 2026,granite-patchtst-r2,foundation model,117512.0,119145.0,-1633.0,-1.371,10,9,0.0602,False
+shopify_gmv,Q3 2026,timestral-209m,foundation model,117480.0,119145.0,-1665.0,-1.397,11,14,0.0614,False
+shopify_gmv,Q3 2026,toto-2-1b,foundation model,121033.0,119145.0,1888.0,1.585,12,7,0.0696,False
+shopify_gmv,Q3 2026,timestral-5m,foundation model,121073.0,119145.0,1928.0,1.618,13,3,0.0711,False
+shopify_gmv,Q3 2026,timesfm-3,foundation model,121261.0,119145.0,2116.0,1.776,14,16,0.078,False
+shopify_gmv,Q3 2026,n-beats,deep learning,121482.7,119145.0,2337.7,1.962,15,1,0.0862,False
+shopify_gmv,Q3 2026,timestral-123m,foundation model,116736.0,119145.0,-2409.0,-2.022,16,15,0.0888,False
+shopify_gmv,Q3 2026,t0-gamma,foundation model,116170.0,119145.0,-2975.0,-2.497,17,8,0.1096,False
+shopify_gmv,Q3 2026,chronos-bolt-small,foundation model,115636.0,119145.0,-3509.0,-2.945,18,30,0.1293,False
+shopify_gmv,Q3 2026,tirex-2,foundation model,115617.0,119145.0,-3528.0,-2.961,19,22,0.13,False
+shopify_gmv,Q3 2026,toto-2-22m,foundation model,115603.0,119145.0,-3542.0,-2.973,20,19,0.1305,False
+shopify_gmv,Q3 2026,naive,statistical,115567.0,119145.0,-3578.0,-3.003,21,31,0.1319,False
+shopify_gmv,Q3 2026,timestral-28m,foundation model,114386.0,119145.0,-4759.0,-3.994,22,18,0.1754,False
+shopify_gmv,Q3 2026,tirex-2-gifteval-zs,foundation model,114215.0,119145.0,-4930.0,-4.138,23,13,0.1817,False
+shopify_gmv,Q3 2026,t0-beta,foundation model,113545.0,119145.0,-5600.0,-4.7,24,28,0.2064,False
+shopify_gmv,Q3 2026,t0-alpha,foundation model,113370.0,119145.0,-5775.0,-4.847,25,25,0.2128,False
+shopify_gmv,Q3 2026,auto-ets,statistical,113132.4,119145.0,-6012.6,-5.046,26,4,0.2216,False
+shopify_gmv,Q3 2026,chronos-2,foundation model,112649.0,119145.0,-6496.0,-5.452,27,24,0.2394,False
+shopify_gmv,Q3 2026,timeh2o-v1-tiny,foundation model,112473.0,119145.0,-6672.0,-5.6,28,23,0.2459,False
+shopify_gmv,Q3 2026,auto-theta,statistical,112275.4,119145.0,-6869.6,-5.766,29,6,0.2532,False
+shopify_gmv,Q3 2026,chronos-bolt-mini,foundation model,110456.0,119145.0,-8689.0,-7.293,30,32,0.3202,False
+shopify_gmv,Q3 2026,prophet,statistical,106682.9,119145.0,-12462.1,-10.46,31,20,0.4593,False
+shopify_gmv,Q3 2026,timesfm-2,foundation model,104078.0,119145.0,-15067.0,-12.646,32,26,0.5553,False
+shopify_gmv,Q3 2026,toto-2-4m,foundation model,103422.0,119145.0,-15723.0,-13.197,33,29,0.5795,False
+shopify_gmv,Q3 2026,seasonal-naive,baseline,92013.0,119145.0,-27132.0,-22.772,34,33,1.0,False

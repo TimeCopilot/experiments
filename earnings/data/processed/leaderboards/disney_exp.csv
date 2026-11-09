@@ -1,0 +1,34 @@
+rank,model,model_type,cv_relative_mase
+1,n-beats,deep learning,0.3284
+2,timesfm-3,foundation model,0.3574
+3,timestral-28m,foundation model,0.3831
+4,timesfm-2,foundation model,0.4295
+5,tirex-2-gifteval-zs,foundation model,0.4453
+6,timestral-209m,foundation model,0.4886
+7,timesfm-2.5-200m,foundation model,0.4907
+8,chronos-2-small,foundation model,0.4927
+9,t0-beta,foundation model,0.4962
+10,timeh2o-v1-tiny,foundation model,0.4978
+11,timestral-123m,foundation model,0.5046
+12,lightgbm,machine learning,0.513
+13,xgboost,machine learning,0.5381
+14,tirex-2,foundation model,0.5407
+15,chronos-2,foundation model,0.5501
+16,timeh2o-v1,foundation model,0.5602
+17,chronos-bolt-mini,foundation model,0.566
+18,auto-ets,statistical,0.568
+19,naive,statistical,0.6036
+20,timestral-5m,foundation model,0.6047
+21,toto-2-4m,foundation model,0.6055
+22,chronos-bolt-small,foundation model,0.6085
+23,toto-2-22m,foundation model,0.614
+24,toto-2-1b,foundation model,0.6193
+25,toto-2-313m,foundation model,0.6398
+26,auto-arima,statistical,0.6642
+27,t0-gamma,foundation model,0.6817
+28,tabby,foundation model,0.719
+29,auto-theta,statistical,0.7407
+30,prophet,statistical,0.793
+31,granite-patchtst-r2,foundation model,0.8393
+32,seasonal-naive,baseline,1.0
+33,t0-alpha,foundation model,1.0447

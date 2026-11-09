@@ -1,0 +1,25 @@
+quarter,quarter_end_date,value_usd_m,source_url,notes
+Q3 2020,2020-09-30,289.366,https://www.sec.gov/Archives/edgar/data/1321655/000119312520292177/d31861d10q.htm,"First public quarter (direct listing Sep 30, 2020). Value eyeball-verified in the 10-Q document (accn 0001193125-20-292177, filed 2020-11-13)."
+Q4 2020,2020-12-31,322.091,https://www.sec.gov/Archives/edgar/data/1321655/000119312521060650/,Q4 derived as 10-K FY total minus Q1-Q3; derivation verified exact vs 9M YTD (FY-9M) for all years 2020-2025.
+Q1 2021,2021-03-31,341.234,https://www.sec.gov/Archives/edgar/data/1321655/000119312521159222/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q2 2021,2021-06-30,375.642,https://www.sec.gov/Archives/edgar/data/1321655/000095012321010430/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q3 2021,2021-09-30,392.146,https://www.sec.gov/Archives/edgar/data/1321655/000119312521323920/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q4 2021,2021-12-31,432.867,https://www.sec.gov/Archives/edgar/data/1321655/000119312522050913/,Q4 derived as 10-K FY total minus Q1-Q3; derivation verified exact vs 9M YTD (FY-9M) for all years 2020-2025.
+Q1 2022,2022-03-31,446.357,https://www.sec.gov/Archives/edgar/data/1321655/000132165522000006/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q2 2022,2022-06-30,473.01,https://www.sec.gov/Archives/edgar/data/1321655/000132165522000016/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q3 2022,2022-09-30,477.88,https://www.sec.gov/Archives/edgar/data/1321655/000132165522000032/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q4 2022,2022-12-31,508.624,https://www.sec.gov/Archives/edgar/data/1321655/000132165523000011/,Q4 derived as 10-K FY total minus Q1-Q3; derivation verified exact vs 9M YTD (FY-9M) for all years 2020-2025.
+Q1 2023,2023-03-31,525.186,https://www.sec.gov/Archives/edgar/data/1321655/000132165523000044/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q2 2023,2023-06-30,533.317,https://www.sec.gov/Archives/edgar/data/1321655/000132165523000090/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q3 2023,2023-09-30,558.159,https://www.sec.gov/Archives/edgar/data/1321655/000132165523000118/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q4 2023,2023-12-31,608.35,https://www.sec.gov/Archives/edgar/data/1321655/000132165524000022/,Q4 derived as 10-K FY total minus Q1-Q3; derivation verified exact vs 9M YTD (FY-9M) for all years 2020-2025.
+Q1 2024,2024-03-31,634.338,https://www.sec.gov/Archives/edgar/data/1321655/000132165524000071/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q2 2024,2024-06-30,678.134,https://www.sec.gov/Archives/edgar/data/1321655/000132165524000135/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q3 2024,2024-09-30,725.516,https://www.sec.gov/Archives/edgar/data/1321655/000132165524000209/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q4 2024,2024-12-31,827.519,https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/,Q4 derived as 10-K FY total minus Q1-Q3; derivation verified exact vs 9M YTD (FY-9M) for all years 2020-2025.
+Q1 2025,2025-03-31,883.855,https://www.sec.gov/Archives/edgar/data/1321655/000132165525000066/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q2 2025,2025-06-30,1003.697,https://www.sec.gov/Archives/edgar/data/1321655/000132165525000106/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q3 2025,2025-09-30,1181.092,https://www.sec.gov/Archives/edgar/data/1321655/000132165525000131/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q4 2025,2025-12-31,1406.802,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/,Q4 derived as 10-K FY total minus Q1-Q3; derivation verified exact vs 9M YTD (FY-9M) for all years 2020-2025.
+Q1 2026,2026-03-31,1632.583,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).
+Q2 2026,2026-06-30,1935.464,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/,QA 2026-11-01: earliest-filed value equals latest-filed value (no restatement).

@@ -1,0 +1,34 @@
+model,model_type,cv_rank,Q3 2026_usd_m,Q4 2026_usd_m,Q1 2027_usd_m,Q2 2027_usd_m
+granite-patchtst-r2,foundation model,1,4546.7,4412.7,4217.8,4616.2
+toto-2-313m,foundation model,2,4481.4,4379.5,4125.6,4527.7
+timeh2o-v1-tiny,foundation model,3,4562.7,4448.1,4078.9,4599.1
+lightgbm,machine learning,4,4523.1,4441.6,4276.2,4513.4
+auto-ets,statistical,5,4572.6,4438.3,4172.9,4485.0
+timestral-209m,foundation model,6,4497.1,4397.8,4160.5,4495.6
+auto-theta,statistical,7,4601.9,4481.4,4214.9,4499.4
+timestral-5m,foundation model,8,4543.2,4440.0,4197.8,4478.7
+timeh2o-v1,foundation model,9,4538.2,4441.6,4220.4,4582.8
+timesfm-2.5-200m,foundation model,10,4647.5,4365.7,4134.3,4411.0
+xgboost,machine learning,11,4519.1,4452.7,4293.9,4504.3
+t0-gamma,foundation model,12,4537.4,4436.1,4186.9,4497.2
+timestral-123m,foundation model,13,4478.1,4389.5,4158.0,4451.3
+timestral-28m,foundation model,14,4473.9,4413.6,4159.9,4468.3
+n-beats,deep learning,15,4535.4,4375.7,4017.4,4434.5
+toto-2-1b,foundation model,16,4498.1,4385.3,4136.9,4489.7
+prophet,statistical,17,4559.2,4530.4,4376.8,4616.9
+toto-2-22m,foundation model,18,4480.6,4401.6,4246.2,4587.3
+tabby,foundation model,19,4529.6,4431.2,4314.6,4454.2
+chronos-2,foundation model,20,4531.0,4429.1,4211.2,4511.1
+auto-arima,statistical,21,4511.9,4378.6,4106.1,4506.9
+tirex-2,foundation model,22,4482.2,4425.1,4293.7,4523.0
+tirex-2-gifteval-zs,foundation model,23,4479.6,4442.5,4099.9,4489.2
+timesfm-2,foundation model,24,4429.9,4349.6,4253.5,4424.6
+timesfm-3,foundation model,25,4518.1,4390.3,4240.8,4497.5
+t0-alpha,foundation model,26,4453.6,4374.3,4173.4,4486.8
+chronos-2-small,foundation model,27,4459.0,4406.8,4306.5,4456.7
+seasonal-naive,baseline,28,4363.0,4310.0,4007.0,4393.0
+t0-beta,foundation model,29,4355.9,4327.8,4287.5,4325.6
+toto-2-4m,foundation model,30,4490.9,4329.9,4120.0,4521.5
+chronos-bolt-small,foundation model,31,4463.9,4381.5,4311.6,4420.4
+chronos-bolt-mini,foundation model,32,4414.3,4387.0,4363.2,4469.1
+naive,statistical,33,4393.0,4393.0,4393.0,4393.0

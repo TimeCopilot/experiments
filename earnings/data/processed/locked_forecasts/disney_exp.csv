@@ -1,0 +1,34 @@
+model,model_type,cv_rank,Q4 FY2026_usd_m,Q1 FY2027_usd_m,Q2 FY2027_usd_m,Q3 FY2027_usd_m
+n-beats,deep learning,1,9721.8,10156.3,9889.9,9850.6
+timesfm-3,foundation model,2,9681.4,10435.1,9766.2,10085.8
+timestral-28m,foundation model,3,9690.2,10512.2,10122.1,10440.1
+timesfm-2,foundation model,4,9797.1,9856.0,9858.7,9871.1
+tirex-2-gifteval-zs,foundation model,5,9824.5,10024.7,9920.7,10036.1
+timestral-209m,foundation model,6,9714.4,10547.1,10127.9,10434.4
+timesfm-2.5-200m,foundation model,7,9996.9,10004.8,9942.4,9899.1
+chronos-2-small,foundation model,8,10175.8,10334.0,10403.9,10539.4
+t0-beta,foundation model,9,9668.8,9598.5,9545.2,9490.5
+timeh2o-v1-tiny,foundation model,10,9785.8,9962.4,9756.3,9815.1
+timestral-123m,foundation model,11,9589.0,10504.6,10017.6,10347.6
+lightgbm,machine learning,12,9473.2,10610.3,9821.6,10224.7
+xgboost,machine learning,13,9577.7,10565.0,9789.2,10096.7
+tirex-2,foundation model,14,9540.0,10427.9,9828.7,9941.6
+chronos-2,foundation model,15,9909.1,10234.7,10182.0,10342.5
+timeh2o-v1,foundation model,16,9525.8,10387.2,9864.5,10102.1
+chronos-bolt-mini,foundation model,17,9550.3,9527.3,9352.9,9219.1
+auto-ets,statistical,18,9914.3,9914.3,9914.3,9914.3
+naive,statistical,19,9968.0,9968.0,9968.0,9968.0
+timestral-5m,foundation model,20,9783.8,10515.8,10070.3,10267.4
+toto-2-4m,foundation model,21,9880.9,9968.7,10040.0,10117.4
+chronos-bolt-small,foundation model,22,9553.2,9448.0,9274.9,9203.3
+toto-2-22m,foundation model,23,9879.7,10500.7,10167.8,10322.8
+toto-2-1b,foundation model,24,9604.6,10629.6,10139.9,10343.5
+toto-2-313m,foundation model,25,9844.5,10773.7,10415.6,10612.3
+auto-arima,statistical,26,9968.0,9968.0,9968.0,9968.0
+t0-gamma,foundation model,27,9780.1,9853.5,9752.9,9741.8
+tabby,foundation model,28,10088.7,10134.0,10062.1,10056.5
+auto-theta,statistical,29,10027.9,10128.5,10229.1,10329.7
+prophet,statistical,30,9170.0,11392.0,10605.1,9783.3
+granite-patchtst-r2,foundation model,31,9623.6,9810.8,9588.6,9612.4
+seasonal-naive,baseline,32,8766.0,10006.0,9487.0,9968.0
+t0-alpha,foundation model,33,10015.4,9678.9,9436.4,9459.5

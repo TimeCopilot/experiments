@@ -1,0 +1,34 @@
+model,model_type,cv_rank,Q3 FY2027_usd_m,Q4 FY2027_usd_m,Q1 FY2028_usd_m,Q2 FY2028_usd_m
+timeh2o-v1-tiny,foundation model,1,102972.4,112291.8,120739.4,129613.7
+toto-2-313m,foundation model,2,103817.7,115897.0,128561.6,142061.5
+timesfm-3,foundation model,3,102966.8,115721.1,126383.5,137246.5
+granite-patchtst-r2,foundation model,4,102801.3,112373.8,112160.9,113846.6
+lightgbm,machine learning,5,102608.4,116193.8,129779.2,143364.6
+auto-arima,statistical,6,102592.5,116097.6,129985.0,143619.1
+timestral-5m,foundation model,7,103759.3,114903.4,124613.7,130861.9
+toto-2-4m,foundation model,8,106302.1,114878.7,123721.2,133145.8
+timeh2o-v1,foundation model,9,101230.4,109474.1,117139.1,123600.2
+t0-beta,foundation model,10,93688.8,100285.4,106261.4,112221.8
+timestral-28m,foundation model,11,100885.0,112837.7,124017.8,134743.3
+chronos-bolt-small,foundation model,12,105465.2,114947.4,123103.4,129154.9
+xgboost,machine learning,13,102269.1,115515.1,128761.2,142007.2
+timesfm-2,foundation model,14,105143.3,108271.8,106334.4,112698.0
+timestral-209m,foundation model,15,102418.5,116550.0,129226.9,141082.8
+timestral-123m,foundation model,16,99744.8,111093.6,122796.4,135138.6
+tabby,foundation model,17,109811.2,121464.2,136971.8,153870.5
+toto-2-1b,foundation model,18,103705.7,117812.6,133121.1,149363.8
+toto-2-22m,foundation model,19,96213.8,105733.4,116456.6,127849.6
+t0-gamma,foundation model,20,93324.5,100104.6,106402.7,113325.7
+chronos-bolt-mini,foundation model,21,100894.7,106251.0,113464.4,120729.6
+n-beats,deep learning,22,102693.4,115392.0,130270.4,149913.0
+tirex-2-gifteval-zs,foundation model,23,101225.7,107879.3,112383.7,116348.5
+t0-alpha,foundation model,24,90410.2,91816.0,93885.3,95931.1
+chronos-2-small,foundation model,25,134450.5,151355.1,157761.4,171489.4
+tirex-2,foundation model,26,102382.7,117100.8,129119.7,139765.9
+timesfm-2.5-200m,foundation model,27,103395.5,112801.8,119611.2,124112.5
+chronos-2,foundation model,28,152460.7,167675.5,184598.7,205653.5
+auto-theta,statistical,29,90342.8,91787.0,93231.2,94675.5
+auto-ets,statistical,30,92215.8,95409.7,98539.5,101606.5
+naive,statistical,31,89023.0,89023.0,89023.0,89023.0
+seasonal-naive,baseline,32,51215.0,62314.0,75246.0,89023.0
+prophet,statistical,33,42222.9,44845.2,46466.4,50965.8

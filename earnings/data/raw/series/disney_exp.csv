@@ -1,0 +1,32 @@
+quarter,quarter_end_date,value_usd_m,source_url,notes
+Q1 FY2019,2018-12-29,6824.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448920000046/,value from Q1 FY2020 10-Q comparative column (Q1 FY2019 10-Q was filed under predecessor CIK 1001039)
+Q2 FY2019,2019-03-30,6171.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448920000102/,"conformed value per latest filing; first-reported revenue was 6,169"
+Q3 FY2019,2019-06-29,6575.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448920000151/,
+Q4 FY2019,2019-09-28,7216.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448921000220/,Q4 derived: FY 10-K annual minus 9M per Q3 10-Q (both filing-grade); ties exactly; conformed basis (derived from conformed FY/9M)
+Q1 FY2020,2019-12-28,7580.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448921000047/,"conformed value per latest filing; first-reported revenue was 7,396"
+Q2 FY2020,2020-03-28,5660.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448921000108/,"conformed value per latest filing; first-reported revenue was 5,543; COVID-19 parks closures distorting level"
+Q3 FY2020,2020-06-27,1065.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448921000181/,conformed value per latest filing; first-reported revenue was 983; COVID-19 parks closures distorting level
+Q4 FY2020,2020-10-03,2733.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448922000213/,Q4 derived: FY 10-K annual minus 9M per Q3 10-Q (both filing-grade); ties exactly; conformed basis (derived from conformed FY/9M); COVID-19 parks closures distorting level
+Q1 FY2021,2021-01-02,3588.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448922000059/,
+Q2 FY2021,2021-04-03,3173.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448922000100/,
+Q3 FY2021,2021-07-03,4341.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448922000161/,
+Q4 FY2021,2021-10-02,4859.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448923000216/,Q4 derived: FY 10-K annual minus 9M per Q3 10-Q (both filing-grade); ties exactly
+Q1 FY2022,2022-01-01,7234.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448923000049/,
+Q2 FY2022,2022-04-02,6652.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448923000099/,
+Q3 FY2022,2022-07-02,7394.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448923000171/,
+Q4 FY2022,2022-10-01,6805.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/,Q4 derived: FY 10-K annual minus 9M per Q3 10-Q (both filing-grade); ties exactly
+Q1 FY2023,2022-12-31,8545.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448924000081/,"conformed value per latest filing; first-reported revenue was 8,736"
+Q2 FY2023,2023-04-01,7646.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448924000152/,"conformed value per latest filing; first-reported revenue was 7,776"
+Q3 FY2023,2023-07-01,8198.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448924000232/,"conformed value per latest filing; first-reported revenue was 8,326"
+Q4 FY2023,2023-09-30,8160.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/,Q4 derived: FY 10-K annual minus 9M per Q3 10-Q (both filing-grade); ties exactly; conformed basis (derived from conformed FY/9M)
+Q1 FY2024,2023-12-30,9132.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448925000067/,
+Q2 FY2024,2024-03-30,8393.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448925000098/,
+Q3 FY2024,2024-06-29,8386.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448925000136/,
+Q4 FY2024,2024-09-28,8240.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/,Q4 derived: FY 10-K annual minus 9M per Q3 10-Q (both filing-grade); ties exactly
+Q1 FY2025,2024-12-28,9415.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448926000019/,
+Q2 FY2025,2025-03-29,8889.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448926000037/,
+Q3 FY2025,2025-06-28,9086.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/,
+Q4 FY2025,2025-09-27,8766.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/,Q4 derived: FY 10-K annual minus 9M per Q3 10-Q (both filing-grade); ties exactly
+Q1 FY2026,2025-12-27,10006.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448926000019/,
+Q2 FY2026,2026-03-28,9487.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448926000037/,
+Q3 FY2026,2026-06-27,9968.0,https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/,

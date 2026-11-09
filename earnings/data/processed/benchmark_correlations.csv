@@ -1,0 +1,8 @@
+ranking,compared_with,foundation_models,spearman_rho
+"GIFT-Eval, all data",earnings cross-validation,20,0.445
+"GIFT-Eval, all data",report day,20,0.126
+"GIFT-Eval, quarterly",earnings cross-validation,20,0.605
+"GIFT-Eval, quarterly",report day,20,0.224
+fev-bench,earnings cross-validation,14,0.24
+fev-bench,report day,14,-0.147
+earnings cross-validation,report day,24,0.338

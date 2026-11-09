@@ -1,0 +1,397 @@
+model,model_type,fold,quarter,actual_usd_m,forecast_usd_m,abs_error_usd_m,seasonal_naive_abs_error_usd_m,relative_to_naive
+auto-theta,statistical,1,Q3 FY2023,37710.0,37742.7,32.7,1162.0,0.0281
+auto-theta,statistical,2,Q4 FY2023,34786.0,34865.3,79.3,1045.0,0.0759
+auto-theta,statistical,3,Q1 FY2024,36418.0,37702.0,1284.0,839.0,1.5304
+auto-theta,statistical,4,Q2 FY2024,43175.0,42706.1,468.9,259.0,1.8104
+auto-theta,statistical,5,Q3 FY2024,40217.0,37854.3,2362.7,2507.0,0.9424
+auto-theta,statistical,6,Q4 FY2024,39704.0,36904.3,2799.7,4918.0,0.5693
+auto-theta,statistical,7,Q1 FY2025,39856.0,42905.5,3049.5,3438.0,0.887
+auto-theta,statistical,8,Q2 FY2025,45277.0,46931.1,1654.1,2102.0,0.7869
+auto-theta,statistical,9,Q3 FY2025,41352.0,39956.3,1395.7,1135.0,1.2297
+auto-theta,statistical,10,Q4 FY2025,38198.0,38154.9,43.1,1506.0,0.0286
+auto-theta,statistical,11,Q1 FY2026,41765.0,41191.0,574.0,1909.0,0.3007
+auto-theta,statistical,12,Q2 FY2026,47861.0,48609.2,748.2,2584.0,0.2896
+toto-2-22m,foundation model,1,Q3 FY2023,37710.0,37727.0,17.0,1162.0,0.0146
+toto-2-22m,foundation model,2,Q4 FY2023,34786.0,35122.8,336.8,1045.0,0.3223
+toto-2-22m,foundation model,3,Q1 FY2024,36418.0,36626.0,208.0,839.0,0.2479
+toto-2-22m,foundation model,4,Q2 FY2024,43175.0,40668.9,2506.1,259.0,9.6761
+toto-2-22m,foundation model,5,Q3 FY2024,40217.0,37542.9,2674.1,2507.0,1.0667
+toto-2-22m,foundation model,6,Q4 FY2024,39704.0,37631.5,2072.5,4918.0,0.4214
+toto-2-22m,foundation model,7,Q1 FY2025,39856.0,41195.9,1339.9,3438.0,0.3897
+toto-2-22m,foundation model,8,Q2 FY2025,45277.0,45158.0,119.0,2102.0,0.0566
+toto-2-22m,foundation model,9,Q3 FY2025,41352.0,40714.6,637.4,1135.0,0.5616
+toto-2-22m,foundation model,10,Q4 FY2025,38198.0,39589.9,1391.9,1506.0,0.9242
+toto-2-22m,foundation model,11,Q1 FY2026,41765.0,39428.5,2336.5,1909.0,1.2239
+toto-2-22m,foundation model,12,Q2 FY2026,47861.0,47131.2,729.8,2584.0,0.2824
+timeh2o-v1-tiny,foundation model,1,Q3 FY2023,37710.0,38338.9,628.9,1162.0,0.5412
+timeh2o-v1-tiny,foundation model,2,Q4 FY2023,34786.0,35502.0,716.0,1045.0,0.6852
+timeh2o-v1-tiny,foundation model,3,Q1 FY2024,36418.0,36409.8,8.2,839.0,0.0098
+timeh2o-v1-tiny,foundation model,4,Q2 FY2024,43175.0,42191.1,983.9,259.0,3.7988
+timeh2o-v1-tiny,foundation model,5,Q3 FY2024,40217.0,38559.1,1657.9,2507.0,0.6613
+timeh2o-v1-tiny,foundation model,6,Q4 FY2024,39704.0,38229.1,1474.9,4918.0,0.2999
+timeh2o-v1-tiny,foundation model,7,Q1 FY2025,39856.0,41910.4,2054.4,3438.0,0.5976
+timeh2o-v1-tiny,foundation model,8,Q2 FY2025,45277.0,46369.4,1092.4,2102.0,0.5197
+timeh2o-v1-tiny,foundation model,9,Q3 FY2025,41352.0,41747.8,395.8,1135.0,0.3487
+timeh2o-v1-tiny,foundation model,10,Q4 FY2025,38198.0,39923.7,1725.7,1506.0,1.1459
+timeh2o-v1-tiny,foundation model,11,Q1 FY2026,41765.0,40172.8,1592.2,1909.0,0.834
+timeh2o-v1-tiny,foundation model,12,Q2 FY2026,47861.0,48190.0,329.0,2584.0,0.1273
+timesfm-2.5-200m,foundation model,1,Q3 FY2023,37710.0,37892.9,182.9,1162.0,0.1574
+timesfm-2.5-200m,foundation model,2,Q4 FY2023,34786.0,35037.2,251.2,1045.0,0.2404
+timesfm-2.5-200m,foundation model,3,Q1 FY2024,36418.0,36226.9,191.1,839.0,0.2278
+timesfm-2.5-200m,foundation model,4,Q2 FY2024,43175.0,41202.7,1972.3,259.0,7.6151
+timesfm-2.5-200m,foundation model,5,Q3 FY2024,40217.0,37555.8,2661.2,2507.0,1.0615
+timesfm-2.5-200m,foundation model,6,Q4 FY2024,39704.0,34851.1,4852.9,4918.0,0.9868
+timesfm-2.5-200m,foundation model,7,Q1 FY2025,39856.0,40384.8,528.8,3438.0,0.1538
+timesfm-2.5-200m,foundation model,8,Q2 FY2025,45277.0,45571.5,294.5,2102.0,0.1401
+timesfm-2.5-200m,foundation model,9,Q3 FY2025,41352.0,40180.9,1171.1,1135.0,1.0318
+timesfm-2.5-200m,foundation model,10,Q4 FY2025,38198.0,38004.1,193.9,1506.0,0.1288
+timesfm-2.5-200m,foundation model,11,Q1 FY2026,41765.0,40431.8,1333.2,1909.0,0.6984
+timesfm-2.5-200m,foundation model,12,Q2 FY2026,47861.0,47105.2,755.8,2584.0,0.2925
+tirex-2-gifteval-zs,foundation model,1,Q3 FY2023,37710.0,37355.2,354.8,1162.0,0.3053
+tirex-2-gifteval-zs,foundation model,2,Q4 FY2023,34786.0,35032.6,246.6,1045.0,0.236
+tirex-2-gifteval-zs,foundation model,3,Q1 FY2024,36418.0,37021.7,603.7,839.0,0.7195
+tirex-2-gifteval-zs,foundation model,4,Q2 FY2024,43175.0,40532.5,2642.5,259.0,10.2027
+tirex-2-gifteval-zs,foundation model,5,Q3 FY2024,40217.0,37326.2,2890.8,2507.0,1.1531
+tirex-2-gifteval-zs,foundation model,6,Q4 FY2024,39704.0,38604.2,1099.8,4918.0,0.2236
+tirex-2-gifteval-zs,foundation model,7,Q1 FY2025,39856.0,41683.5,1827.5,3438.0,0.5316
+tirex-2-gifteval-zs,foundation model,8,Q2 FY2025,45277.0,45375.8,98.8,2102.0,0.047
+tirex-2-gifteval-zs,foundation model,9,Q3 FY2025,41352.0,41498.2,146.2,1135.0,0.1288
+tirex-2-gifteval-zs,foundation model,10,Q4 FY2025,38198.0,39780.9,1582.9,1506.0,1.0511
+tirex-2-gifteval-zs,foundation model,11,Q1 FY2026,41765.0,40028.1,1736.9,1909.0,0.9098
+tirex-2-gifteval-zs,foundation model,12,Q2 FY2026,47861.0,47166.8,694.2,2584.0,0.2687
+timestral-123m,foundation model,1,Q3 FY2023,37710.0,37552.4,157.6,1162.0,0.1356
+timestral-123m,foundation model,2,Q4 FY2023,34786.0,35810.4,1024.4,1045.0,0.9803
+timestral-123m,foundation model,3,Q1 FY2024,36418.0,36876.7,458.7,839.0,0.5467
+timestral-123m,foundation model,4,Q2 FY2024,43175.0,41972.4,1202.6,259.0,4.6432
+timestral-123m,foundation model,5,Q3 FY2024,40217.0,37604.7,2612.3,2507.0,1.042
+timestral-123m,foundation model,6,Q4 FY2024,39704.0,37885.6,1818.4,4918.0,0.3697
+timestral-123m,foundation model,7,Q1 FY2025,39856.0,41150.9,1294.9,3438.0,0.3766
+timestral-123m,foundation model,8,Q2 FY2025,45277.0,45311.6,34.6,2102.0,0.0165
+timestral-123m,foundation model,9,Q3 FY2025,41352.0,40498.3,853.7,1135.0,0.7522
+timestral-123m,foundation model,10,Q4 FY2025,38198.0,39861.7,1663.7,1506.0,1.1047
+timestral-123m,foundation model,11,Q1 FY2026,41765.0,39991.8,1773.2,1909.0,0.9289
+timestral-123m,foundation model,12,Q2 FY2026,47861.0,47165.7,695.3,2584.0,0.2691
+toto-2-313m,foundation model,1,Q3 FY2023,37710.0,37798.6,88.6,1162.0,0.0762
+toto-2-313m,foundation model,2,Q4 FY2023,34786.0,35430.4,644.4,1045.0,0.6167
+toto-2-313m,foundation model,3,Q1 FY2024,36418.0,36511.0,93.0,839.0,0.1108
+toto-2-313m,foundation model,4,Q2 FY2024,43175.0,41108.3,2066.7,259.0,7.9795
+toto-2-313m,foundation model,5,Q3 FY2024,40217.0,37234.0,2983.0,2507.0,1.1899
+toto-2-313m,foundation model,6,Q4 FY2024,39704.0,36982.2,2721.8,4918.0,0.5534
+toto-2-313m,foundation model,7,Q1 FY2025,39856.0,40812.6,956.6,3438.0,0.2782
+toto-2-313m,foundation model,8,Q2 FY2025,45277.0,44612.8,664.2,2102.0,0.316
+toto-2-313m,foundation model,9,Q3 FY2025,41352.0,40858.1,493.9,1135.0,0.4352
+toto-2-313m,foundation model,10,Q4 FY2025,38198.0,39522.8,1324.8,1506.0,0.8797
+toto-2-313m,foundation model,11,Q1 FY2026,41765.0,40341.3,1423.7,1909.0,0.7458
+toto-2-313m,foundation model,12,Q2 FY2026,47861.0,47054.0,807.0,2584.0,0.3123
+n-beats,deep learning,1,Q3 FY2023,37710.0,37705.5,4.5,1162.0,0.0039
+n-beats,deep learning,2,Q4 FY2023,34786.0,34123.4,662.6,1045.0,0.6341
+n-beats,deep learning,3,Q1 FY2024,36418.0,37963.9,1545.9,839.0,1.8426
+n-beats,deep learning,4,Q2 FY2024,43175.0,42123.7,1051.3,259.0,4.0591
+n-beats,deep learning,5,Q3 FY2024,40217.0,37453.0,2764.0,2507.0,1.1025
+n-beats,deep learning,6,Q4 FY2024,39704.0,39340.5,363.5,4918.0,0.0739
+n-beats,deep learning,7,Q1 FY2025,39856.0,42577.0,2721.0,3438.0,0.7914
+n-beats,deep learning,8,Q2 FY2025,45277.0,42919.5,2357.5,2102.0,1.1216
+n-beats,deep learning,9,Q3 FY2025,41352.0,40659.5,692.5,1135.0,0.6101
+n-beats,deep learning,10,Q4 FY2025,38198.0,40435.8,2237.8,1506.0,1.4859
+n-beats,deep learning,11,Q1 FY2026,41765.0,42787.8,1022.8,1909.0,0.5358
+n-beats,deep learning,12,Q2 FY2026,47861.0,46819.9,1041.1,2584.0,0.4029
+toto-2-1b,foundation model,1,Q3 FY2023,37710.0,37989.6,279.6,1162.0,0.2406
+toto-2-1b,foundation model,2,Q4 FY2023,34786.0,35378.1,592.1,1045.0,0.5666
+toto-2-1b,foundation model,3,Q1 FY2024,36418.0,36831.5,413.5,839.0,0.4928
+toto-2-1b,foundation model,4,Q2 FY2024,43175.0,41004.2,2170.8,259.0,8.3815
+toto-2-1b,foundation model,5,Q3 FY2024,40217.0,37473.3,2743.7,2507.0,1.0944
+toto-2-1b,foundation model,6,Q4 FY2024,39704.0,37058.1,2645.9,4918.0,0.538
+toto-2-1b,foundation model,7,Q1 FY2025,39856.0,41479.6,1623.6,3438.0,0.4723
+toto-2-1b,foundation model,8,Q2 FY2025,45277.0,45492.6,215.6,2102.0,0.1026
+toto-2-1b,foundation model,9,Q3 FY2025,41352.0,41089.7,262.3,1135.0,0.2311
+toto-2-1b,foundation model,10,Q4 FY2025,38198.0,39063.8,865.8,1506.0,0.5749
+toto-2-1b,foundation model,11,Q1 FY2026,41765.0,39910.9,1854.1,1909.0,0.9712
+toto-2-1b,foundation model,12,Q2 FY2026,47861.0,47338.0,523.0,2584.0,0.2024
+timestral-28m,foundation model,1,Q3 FY2023,37710.0,37795.7,85.7,1162.0,0.0738
+timestral-28m,foundation model,2,Q4 FY2023,34786.0,35565.4,779.4,1045.0,0.7458
+timestral-28m,foundation model,3,Q1 FY2024,36418.0,36742.0,324.0,839.0,0.3862
+timestral-28m,foundation model,4,Q2 FY2024,43175.0,41425.8,1749.2,259.0,6.7537
+timestral-28m,foundation model,5,Q3 FY2024,40217.0,37951.7,2265.3,2507.0,0.9036
+timestral-28m,foundation model,6,Q4 FY2024,39704.0,37960.7,1743.3,4918.0,0.3545
+timestral-28m,foundation model,7,Q1 FY2025,39856.0,41170.1,1314.1,3438.0,0.3822
+timestral-28m,foundation model,8,Q2 FY2025,45277.0,44896.1,380.9,2102.0,0.1812
+timestral-28m,foundation model,9,Q3 FY2025,41352.0,41030.2,321.8,1135.0,0.2835
+timestral-28m,foundation model,10,Q4 FY2025,38198.0,39816.6,1618.6,1506.0,1.0748
+timestral-28m,foundation model,11,Q1 FY2026,41765.0,39435.8,2329.2,1909.0,1.2201
+timestral-28m,foundation model,12,Q2 FY2026,47861.0,46901.1,959.9,2584.0,0.3715
+timestral-209m,foundation model,1,Q3 FY2023,37710.0,37852.5,142.5,1162.0,0.1226
+timestral-209m,foundation model,2,Q4 FY2023,34786.0,35803.3,1017.3,1045.0,0.9735
+timestral-209m,foundation model,3,Q1 FY2024,36418.0,36601.7,183.7,839.0,0.219
+timestral-209m,foundation model,4,Q2 FY2024,43175.0,41637.2,1537.8,259.0,5.9375
+timestral-209m,foundation model,5,Q3 FY2024,40217.0,37758.8,2458.2,2507.0,0.9805
+timestral-209m,foundation model,6,Q4 FY2024,39704.0,37706.4,1997.6,4918.0,0.4062
+timestral-209m,foundation model,7,Q1 FY2025,39856.0,40963.6,1107.6,3438.0,0.3222
+timestral-209m,foundation model,8,Q2 FY2025,45277.0,44981.9,295.1,2102.0,0.1404
+timestral-209m,foundation model,9,Q3 FY2025,41352.0,40865.0,487.0,1135.0,0.4291
+timestral-209m,foundation model,10,Q4 FY2025,38198.0,40026.8,1828.8,1506.0,1.2143
+timestral-209m,foundation model,11,Q1 FY2026,41765.0,39376.5,2388.5,1909.0,1.2512
+timestral-209m,foundation model,12,Q2 FY2026,47861.0,47198.6,662.4,2584.0,0.2563
+timesfm-2,foundation model,1,Q3 FY2023,37710.0,38407.3,697.3,1162.0,0.6001
+timesfm-2,foundation model,2,Q4 FY2023,34786.0,34226.6,559.4,1045.0,0.5353
+timesfm-2,foundation model,3,Q1 FY2024,36418.0,36404.0,14.0,839.0,0.0167
+timesfm-2,foundation model,4,Q2 FY2024,43175.0,40860.2,2314.8,259.0,8.9375
+timesfm-2,foundation model,5,Q3 FY2024,40217.0,36252.3,3964.7,2507.0,1.5815
+timesfm-2,foundation model,6,Q4 FY2024,39704.0,36449.3,3254.7,4918.0,0.6618
+timesfm-2,foundation model,7,Q1 FY2025,39856.0,40430.9,574.9,3438.0,0.1672
+timesfm-2,foundation model,8,Q2 FY2025,45277.0,44597.6,679.4,2102.0,0.3232
+timesfm-2,foundation model,9,Q3 FY2025,41352.0,40228.9,1123.1,1135.0,0.9895
+timesfm-2,foundation model,10,Q4 FY2025,38198.0,38642.9,444.9,1506.0,0.2954
+timesfm-2,foundation model,11,Q1 FY2026,41765.0,39246.7,2518.3,1909.0,1.3192
+timesfm-2,foundation model,12,Q2 FY2026,47861.0,46257.9,1603.1,2584.0,0.6204
+auto-ets,statistical,1,Q3 FY2023,37710.0,37808.9,98.9,1162.0,0.0851
+auto-ets,statistical,2,Q4 FY2023,34786.0,35405.4,619.4,1045.0,0.5927
+auto-ets,statistical,3,Q1 FY2024,36418.0,37168.7,750.7,839.0,0.8948
+auto-ets,statistical,4,Q2 FY2024,43175.0,42742.6,432.4,259.0,1.6695
+auto-ets,statistical,5,Q3 FY2024,40217.0,37978.3,2238.7,2507.0,0.893
+auto-ets,statistical,6,Q4 FY2024,39704.0,37448.3,2255.7,4918.0,0.4587
+auto-ets,statistical,7,Q1 FY2025,39856.0,42070.8,2214.8,3438.0,0.6442
+auto-ets,statistical,8,Q2 FY2025,45277.0,46942.1,1665.1,2102.0,0.7922
+auto-ets,statistical,9,Q3 FY2025,41352.0,40041.4,1310.6,1135.0,1.1547
+auto-ets,statistical,10,Q4 FY2025,38198.0,38654.3,456.3,1506.0,0.303
+auto-ets,statistical,11,Q1 FY2026,41765.0,40034.7,1730.3,1909.0,0.9064
+auto-ets,statistical,12,Q2 FY2026,47861.0,48542.1,681.1,2584.0,0.2636
+t0-gamma,foundation model,1,Q3 FY2023,37710.0,38054.8,344.8,1162.0,0.2967
+t0-gamma,foundation model,2,Q4 FY2023,34786.0,35205.4,419.4,1045.0,0.4013
+t0-gamma,foundation model,3,Q1 FY2024,36418.0,37246.1,828.1,839.0,0.987
+t0-gamma,foundation model,4,Q2 FY2024,43175.0,41761.5,1413.5,259.0,5.4575
+t0-gamma,foundation model,5,Q3 FY2024,40217.0,38164.2,2052.8,2507.0,0.8188
+t0-gamma,foundation model,6,Q4 FY2024,39704.0,38184.8,1519.2,4918.0,0.3089
+t0-gamma,foundation model,7,Q1 FY2025,39856.0,42618.3,2762.3,3438.0,0.8035
+t0-gamma,foundation model,8,Q2 FY2025,45277.0,46603.2,1326.2,2102.0,0.6309
+t0-gamma,foundation model,9,Q3 FY2025,41352.0,40839.8,512.2,1135.0,0.4513
+t0-gamma,foundation model,10,Q4 FY2025,38198.0,39114.7,916.7,1506.0,0.6087
+t0-gamma,foundation model,11,Q1 FY2026,41765.0,40564.9,1200.1,1909.0,0.6287
+t0-gamma,foundation model,12,Q2 FY2026,47861.0,47546.9,314.1,2584.0,0.1216
+granite-patchtst-r2,foundation model,1,Q3 FY2023,37710.0,38505.6,795.6,1162.0,0.6847
+granite-patchtst-r2,foundation model,2,Q4 FY2023,34786.0,36426.1,1640.1,1045.0,1.5695
+granite-patchtst-r2,foundation model,3,Q1 FY2024,36418.0,37577.7,1159.7,839.0,1.3822
+granite-patchtst-r2,foundation model,4,Q2 FY2024,43175.0,42377.5,797.5,259.0,3.0792
+granite-patchtst-r2,foundation model,5,Q3 FY2024,40217.0,37830.9,2386.1,2507.0,0.9518
+granite-patchtst-r2,foundation model,6,Q4 FY2024,39704.0,36878.5,2825.5,4918.0,0.5745
+granite-patchtst-r2,foundation model,7,Q1 FY2025,39856.0,41054.5,1198.5,3438.0,0.3486
+granite-patchtst-r2,foundation model,8,Q2 FY2025,45277.0,45622.1,345.1,2102.0,0.1642
+granite-patchtst-r2,foundation model,9,Q3 FY2025,41352.0,41119.9,232.1,1135.0,0.2045
+granite-patchtst-r2,foundation model,10,Q4 FY2025,38198.0,39611.8,1413.8,1506.0,0.9388
+granite-patchtst-r2,foundation model,11,Q1 FY2026,41765.0,40345.0,1420.0,1909.0,0.7438
+granite-patchtst-r2,foundation model,12,Q2 FY2026,47861.0,47516.2,344.8,2584.0,0.1334
+chronos-2-small,foundation model,1,Q3 FY2023,37710.0,39594.0,1884.0,1162.0,1.6213
+chronos-2-small,foundation model,2,Q4 FY2023,34786.0,35995.5,1209.5,1045.0,1.1574
+chronos-2-small,foundation model,3,Q1 FY2024,36418.0,37567.6,1149.6,839.0,1.3702
+chronos-2-small,foundation model,4,Q2 FY2024,43175.0,41927.2,1247.8,259.0,4.8178
+chronos-2-small,foundation model,5,Q3 FY2024,40217.0,38808.2,1408.8,2507.0,0.5619
+chronos-2-small,foundation model,6,Q4 FY2024,39704.0,36004.7,3699.3,4918.0,0.7522
+chronos-2-small,foundation model,7,Q1 FY2025,39856.0,39936.6,80.6,3438.0,0.0234
+chronos-2-small,foundation model,8,Q2 FY2025,45277.0,44456.4,820.6,2102.0,0.3904
+chronos-2-small,foundation model,9,Q3 FY2025,41352.0,41617.0,265.0,1135.0,0.2335
+chronos-2-small,foundation model,10,Q4 FY2025,38198.0,38961.0,763.0,1506.0,0.5066
+chronos-2-small,foundation model,11,Q1 FY2026,41765.0,40367.7,1397.3,1909.0,0.732
+chronos-2-small,foundation model,12,Q2 FY2026,47861.0,46105.5,1755.5,2584.0,0.6794
+timestral-5m,foundation model,1,Q3 FY2023,37710.0,37027.8,682.2,1162.0,0.5871
+timestral-5m,foundation model,2,Q4 FY2023,34786.0,35215.8,429.8,1045.0,0.4113
+timestral-5m,foundation model,3,Q1 FY2024,36418.0,37085.0,667.0,839.0,0.795
+timestral-5m,foundation model,4,Q2 FY2024,43175.0,41454.5,1720.5,259.0,6.6429
+timestral-5m,foundation model,5,Q3 FY2024,40217.0,37499.2,2717.8,2507.0,1.0841
+timestral-5m,foundation model,6,Q4 FY2024,39704.0,38060.9,1643.1,4918.0,0.3341
+timestral-5m,foundation model,7,Q1 FY2025,39856.0,41680.6,1824.6,3438.0,0.5307
+timestral-5m,foundation model,8,Q2 FY2025,45277.0,45632.4,355.4,2102.0,0.1691
+timestral-5m,foundation model,9,Q3 FY2025,41352.0,40914.5,437.5,1135.0,0.3855
+timestral-5m,foundation model,10,Q4 FY2025,38198.0,39643.9,1445.9,1506.0,0.9601
+timestral-5m,foundation model,11,Q1 FY2026,41765.0,39718.6,2046.4,1909.0,1.072
+timestral-5m,foundation model,12,Q2 FY2026,47861.0,47386.2,474.8,2584.0,0.1837
+auto-arima,statistical,1,Q3 FY2023,37710.0,38529.2,819.2,1162.0,0.705
+auto-arima,statistical,2,Q4 FY2023,34786.0,35821.5,1035.5,1045.0,0.9909
+auto-arima,statistical,3,Q1 FY2024,36418.0,37254.4,836.4,839.0,0.9969
+auto-arima,statistical,4,Q2 FY2024,43175.0,41916.9,1258.1,259.0,4.8575
+auto-arima,statistical,5,Q3 FY2024,40217.0,38433.1,1783.9,2507.0,0.7116
+auto-arima,statistical,6,Q4 FY2024,39704.0,37795.8,1908.2,4918.0,0.388
+auto-arima,statistical,7,Q1 FY2025,39856.0,41580.6,1724.6,3438.0,0.5016
+auto-arima,statistical,8,Q2 FY2025,45277.0,45661.4,384.4,2102.0,0.1829
+auto-arima,statistical,9,Q3 FY2025,41352.0,41167.9,184.1,1135.0,0.1622
+auto-arima,statistical,10,Q4 FY2025,38198.0,39687.6,1489.6,1506.0,0.9891
+auto-arima,statistical,11,Q1 FY2026,41765.0,39602.4,2162.6,1909.0,1.1328
+auto-arima,statistical,12,Q2 FY2026,47861.0,47335.9,525.1,2584.0,0.2032
+timesfm-3,foundation model,1,Q3 FY2023,37710.0,38309.6,599.6,1162.0,0.516
+timesfm-3,foundation model,2,Q4 FY2023,34786.0,35934.3,1148.3,1045.0,1.0989
+timesfm-3,foundation model,3,Q1 FY2024,36418.0,37219.5,801.5,839.0,0.9553
+timesfm-3,foundation model,4,Q2 FY2024,43175.0,41177.1,1997.9,259.0,7.7139
+timesfm-3,foundation model,5,Q3 FY2024,40217.0,38136.4,2080.6,2507.0,0.8299
+timesfm-3,foundation model,6,Q4 FY2024,39704.0,37706.4,1997.6,4918.0,0.4062
+timesfm-3,foundation model,7,Q1 FY2025,39856.0,41099.0,1243.0,3438.0,0.3615
+timesfm-3,foundation model,8,Q2 FY2025,45277.0,44956.7,320.3,2102.0,0.1524
+timesfm-3,foundation model,9,Q3 FY2025,41352.0,41189.2,162.8,1135.0,0.1434
+timesfm-3,foundation model,10,Q4 FY2025,38198.0,39702.9,1504.9,1506.0,0.9993
+timesfm-3,foundation model,11,Q1 FY2026,41765.0,40211.8,1553.2,1909.0,0.8136
+timesfm-3,foundation model,12,Q2 FY2026,47861.0,46809.4,1051.6,2584.0,0.407
+timeh2o-v1,foundation model,1,Q3 FY2023,37710.0,38256.0,546.0,1162.0,0.4699
+timeh2o-v1,foundation model,2,Q4 FY2023,34786.0,35868.5,1082.5,1045.0,1.0359
+timeh2o-v1,foundation model,3,Q1 FY2024,36418.0,37194.9,776.9,839.0,0.926
+timeh2o-v1,foundation model,4,Q2 FY2024,43175.0,42009.6,1165.4,259.0,4.4996
+timeh2o-v1,foundation model,5,Q3 FY2024,40217.0,37864.2,2352.8,2507.0,0.9385
+timeh2o-v1,foundation model,6,Q4 FY2024,39704.0,37861.6,1842.4,4918.0,0.3746
+timeh2o-v1,foundation model,7,Q1 FY2025,39856.0,41679.1,1823.1,3438.0,0.5303
+timeh2o-v1,foundation model,8,Q2 FY2025,45277.0,45524.0,247.0,2102.0,0.1175
+timeh2o-v1,foundation model,9,Q3 FY2025,41352.0,40842.5,509.5,1135.0,0.4489
+timeh2o-v1,foundation model,10,Q4 FY2025,38198.0,39356.6,1158.6,1506.0,0.7693
+timeh2o-v1,foundation model,11,Q1 FY2026,41765.0,40356.7,1408.3,1909.0,0.7377
+timeh2o-v1,foundation model,12,Q2 FY2026,47861.0,46966.3,894.7,2584.0,0.3462
+lightgbm,machine learning,1,Q3 FY2023,37710.0,38859.4,1149.4,1162.0,0.9892
+lightgbm,machine learning,2,Q4 FY2023,34786.0,35222.1,436.1,1045.0,0.4173
+lightgbm,machine learning,3,Q1 FY2024,36418.0,35779.1,638.9,839.0,0.7615
+lightgbm,machine learning,4,Q2 FY2024,43175.0,41819.7,1355.3,259.0,5.2328
+lightgbm,machine learning,5,Q3 FY2024,40217.0,38539.6,1677.4,2507.0,0.6691
+lightgbm,machine learning,6,Q4 FY2024,39704.0,38137.5,1566.5,4918.0,0.3185
+lightgbm,machine learning,7,Q1 FY2025,39856.0,41265.2,1409.2,3438.0,0.4099
+lightgbm,machine learning,8,Q2 FY2025,45277.0,44214.0,1063.0,2102.0,0.5057
+lightgbm,machine learning,9,Q3 FY2025,41352.0,41536.8,184.8,1135.0,0.1628
+lightgbm,machine learning,10,Q4 FY2025,38198.0,40245.9,2047.9,1506.0,1.3598
+lightgbm,machine learning,11,Q1 FY2026,41765.0,38287.8,3477.2,1909.0,1.8215
+lightgbm,machine learning,12,Q2 FY2026,47861.0,48235.9,374.9,2584.0,0.1451
+tabby,foundation model,1,Q3 FY2023,37710.0,38965.7,1255.7,1162.0,1.0806
+tabby,foundation model,2,Q4 FY2023,34786.0,35752.3,966.3,1045.0,0.9247
+tabby,foundation model,3,Q1 FY2024,36418.0,36773.3,355.3,839.0,0.4235
+tabby,foundation model,4,Q2 FY2024,43175.0,41547.4,1627.6,259.0,6.2842
+tabby,foundation model,5,Q3 FY2024,40217.0,38688.4,1528.6,2507.0,0.6097
+tabby,foundation model,6,Q4 FY2024,39704.0,37664.0,2040.0,4918.0,0.4148
+tabby,foundation model,7,Q1 FY2025,39856.0,40922.1,1066.1,3438.0,0.3101
+tabby,foundation model,8,Q2 FY2025,45277.0,44770.1,506.9,2102.0,0.2412
+tabby,foundation model,9,Q3 FY2025,41352.0,41559.1,207.1,1135.0,0.1825
+tabby,foundation model,10,Q4 FY2025,38198.0,39452.1,1254.1,1506.0,0.8327
+tabby,foundation model,11,Q1 FY2026,41765.0,39667.2,2097.8,1909.0,1.0989
+tabby,foundation model,12,Q2 FY2026,47861.0,46342.9,1518.1,2584.0,0.5875
+xgboost,machine learning,1,Q3 FY2023,37710.0,38787.0,1077.0,1162.0,0.9269
+xgboost,machine learning,2,Q4 FY2023,34786.0,35587.5,801.5,1045.0,0.767
+xgboost,machine learning,3,Q1 FY2024,36418.0,36058.7,359.3,839.0,0.4282
+xgboost,machine learning,4,Q2 FY2024,43175.0,41941.6,1233.4,259.0,4.7622
+xgboost,machine learning,5,Q3 FY2024,40217.0,38726.5,1490.5,2507.0,0.5945
+xgboost,machine learning,6,Q4 FY2024,39704.0,38147.4,1556.6,4918.0,0.3165
+xgboost,machine learning,7,Q1 FY2025,39856.0,41266.5,1410.5,3438.0,0.4103
+xgboost,machine learning,8,Q2 FY2025,45277.0,44264.6,1012.4,2102.0,0.4816
+xgboost,machine learning,9,Q3 FY2025,41352.0,41568.9,216.9,1135.0,0.1911
+xgboost,machine learning,10,Q4 FY2025,38198.0,39836.8,1638.8,1506.0,1.0882
+xgboost,machine learning,11,Q1 FY2026,41765.0,38365.3,3399.7,1909.0,1.7809
+xgboost,machine learning,12,Q2 FY2026,47861.0,46857.6,1003.4,2584.0,0.3883
+chronos-2,foundation model,1,Q3 FY2023,37710.0,39378.3,1668.3,1162.0,1.4357
+chronos-2,foundation model,2,Q4 FY2023,34786.0,36433.3,1647.3,1045.0,1.5764
+chronos-2,foundation model,3,Q1 FY2024,36418.0,38074.3,1656.3,839.0,1.9741
+chronos-2,foundation model,4,Q2 FY2024,43175.0,42135.2,1039.8,259.0,4.0147
+chronos-2,foundation model,5,Q3 FY2024,40217.0,37554.9,2662.1,2507.0,1.0619
+chronos-2,foundation model,6,Q4 FY2024,39704.0,37203.8,2500.2,4918.0,0.5084
+chronos-2,foundation model,7,Q1 FY2025,39856.0,41061.3,1205.3,3438.0,0.3506
+chronos-2,foundation model,8,Q2 FY2025,45277.0,45440.7,163.7,2102.0,0.0779
+chronos-2,foundation model,9,Q3 FY2025,41352.0,41105.2,246.8,1135.0,0.2174
+chronos-2,foundation model,10,Q4 FY2025,38198.0,38870.4,672.4,1506.0,0.4465
+chronos-2,foundation model,11,Q1 FY2026,41765.0,40530.7,1234.3,1909.0,0.6466
+chronos-2,foundation model,12,Q2 FY2026,47861.0,46633.3,1227.7,2584.0,0.4751
+t0-beta,foundation model,1,Q3 FY2023,37710.0,39390.4,1680.4,1162.0,1.4461
+t0-beta,foundation model,2,Q4 FY2023,34786.0,35762.4,976.4,1045.0,0.9344
+t0-beta,foundation model,3,Q1 FY2024,36418.0,36058.2,359.8,839.0,0.4288
+t0-beta,foundation model,4,Q2 FY2024,43175.0,38634.4,4540.6,259.0,17.5313
+t0-beta,foundation model,5,Q3 FY2024,40217.0,38120.2,2096.8,2507.0,0.8364
+t0-beta,foundation model,6,Q4 FY2024,39704.0,36945.5,2758.5,4918.0,0.5609
+t0-beta,foundation model,7,Q1 FY2025,39856.0,39772.8,83.2,3438.0,0.0242
+t0-beta,foundation model,8,Q2 FY2025,45277.0,42422.7,2854.3,2102.0,1.3579
+t0-beta,foundation model,9,Q3 FY2025,41352.0,41216.2,135.8,1135.0,0.1196
+t0-beta,foundation model,10,Q4 FY2025,38198.0,39151.4,953.4,1506.0,0.6331
+t0-beta,foundation model,11,Q1 FY2026,41765.0,39104.1,2660.9,1909.0,1.3939
+t0-beta,foundation model,12,Q2 FY2026,47861.0,44640.2,3220.8,2584.0,1.2464
+tirex-2,foundation model,1,Q3 FY2023,37710.0,38668.2,958.2,1162.0,0.8246
+tirex-2,foundation model,2,Q4 FY2023,34786.0,36294.2,1508.2,1045.0,1.4433
+tirex-2,foundation model,3,Q1 FY2024,36418.0,36504.3,86.3,839.0,0.1029
+tirex-2,foundation model,4,Q2 FY2024,43175.0,40705.5,2469.5,259.0,9.5347
+tirex-2,foundation model,5,Q3 FY2024,40217.0,38219.3,1997.7,2507.0,0.7968
+tirex-2,foundation model,6,Q4 FY2024,39704.0,38761.6,942.4,4918.0,0.1916
+tirex-2,foundation model,7,Q1 FY2025,39856.0,41381.4,1525.4,3438.0,0.4437
+tirex-2,foundation model,8,Q2 FY2025,45277.0,44469.8,807.2,2102.0,0.384
+tirex-2,foundation model,9,Q3 FY2025,41352.0,41889.4,537.4,1135.0,0.4735
+tirex-2,foundation model,10,Q4 FY2025,38198.0,40639.6,2441.6,1506.0,1.6212
+tirex-2,foundation model,11,Q1 FY2026,41765.0,39249.5,2515.5,1909.0,1.3177
+tirex-2,foundation model,12,Q2 FY2026,47861.0,46096.3,1764.7,2584.0,0.6829
+chronos-bolt-small,foundation model,1,Q3 FY2023,37710.0,40017.7,2307.7,1162.0,1.986
+chronos-bolt-small,foundation model,2,Q4 FY2023,34786.0,36486.8,1700.8,1045.0,1.6276
+chronos-bolt-small,foundation model,3,Q1 FY2024,36418.0,36536.9,118.9,839.0,0.1417
+chronos-bolt-small,foundation model,4,Q2 FY2024,43175.0,40282.0,2893.0,259.0,11.1699
+chronos-bolt-small,foundation model,5,Q3 FY2024,40217.0,39336.9,880.1,2507.0,0.3511
+chronos-bolt-small,foundation model,6,Q4 FY2024,39704.0,37602.0,2102.0,4918.0,0.4274
+chronos-bolt-small,foundation model,7,Q1 FY2025,39856.0,40137.8,281.8,3438.0,0.082
+chronos-bolt-small,foundation model,8,Q2 FY2025,45277.0,43475.6,1801.4,2102.0,0.857
+chronos-bolt-small,foundation model,9,Q3 FY2025,41352.0,42440.5,1088.5,1135.0,0.959
+chronos-bolt-small,foundation model,10,Q4 FY2025,38198.0,39784.5,1586.5,1506.0,1.0535
+chronos-bolt-small,foundation model,11,Q1 FY2026,41765.0,40254.5,1510.5,1909.0,0.7913
+chronos-bolt-small,foundation model,12,Q2 FY2026,47861.0,45030.7,2830.3,2584.0,1.0953
+t0-alpha,foundation model,1,Q3 FY2023,37710.0,40869.2,3159.2,1162.0,2.7188
+t0-alpha,foundation model,2,Q4 FY2023,34786.0,36973.1,2187.1,1045.0,2.0929
+t0-alpha,foundation model,3,Q1 FY2024,36418.0,38607.9,2189.9,839.0,2.6101
+t0-alpha,foundation model,4,Q2 FY2024,43175.0,43394.0,219.0,259.0,0.8456
+t0-alpha,foundation model,5,Q3 FY2024,40217.0,40169.8,47.2,2507.0,0.0188
+t0-alpha,foundation model,6,Q4 FY2024,39704.0,40362.5,658.5,4918.0,0.1339
+t0-alpha,foundation model,7,Q1 FY2025,39856.0,43623.4,3767.4,3438.0,1.0958
+t0-alpha,foundation model,8,Q2 FY2025,45277.0,47303.6,2026.6,2102.0,0.9641
+t0-alpha,foundation model,9,Q3 FY2025,41352.0,44093.8,2741.8,1135.0,2.4157
+t0-alpha,foundation model,10,Q4 FY2025,38198.0,42168.5,3970.5,1506.0,2.6365
+t0-alpha,foundation model,11,Q1 FY2026,41765.0,42421.2,656.2,1909.0,0.3437
+t0-alpha,foundation model,12,Q2 FY2026,47861.0,51488.5,3627.5,2584.0,1.4038
+chronos-bolt-mini,foundation model,1,Q3 FY2023,37710.0,40733.5,3023.5,1162.0,2.602
+chronos-bolt-mini,foundation model,2,Q4 FY2023,34786.0,38081.4,3295.4,1045.0,3.1535
+chronos-bolt-mini,foundation model,3,Q1 FY2024,36418.0,37636.3,1218.3,839.0,1.4521
+chronos-bolt-mini,foundation model,4,Q2 FY2024,43175.0,39618.9,3556.1,259.0,13.7301
+chronos-bolt-mini,foundation model,5,Q3 FY2024,40217.0,40171.5,45.5,2507.0,0.0181
+chronos-bolt-mini,foundation model,6,Q4 FY2024,39704.0,38610.6,1093.4,4918.0,0.2223
+chronos-bolt-mini,foundation model,7,Q1 FY2025,39856.0,40717.5,861.5,3438.0,0.2506
+chronos-bolt-mini,foundation model,8,Q2 FY2025,45277.0,42810.6,2466.4,2102.0,1.1734
+chronos-bolt-mini,foundation model,9,Q3 FY2025,41352.0,42875.8,1523.8,1135.0,1.3426
+chronos-bolt-mini,foundation model,10,Q4 FY2025,38198.0,41217.5,3019.5,1506.0,2.005
+chronos-bolt-mini,foundation model,11,Q1 FY2026,41765.0,41409.5,355.5,1909.0,0.1862
+chronos-bolt-mini,foundation model,12,Q2 FY2026,47861.0,44622.2,3238.8,2584.0,1.2534
+prophet,statistical,1,Q3 FY2023,37710.0,41321.7,3611.7,1162.0,3.1082
+prophet,statistical,2,Q4 FY2023,34786.0,39559.4,4773.4,1045.0,4.5678
+prophet,statistical,3,Q1 FY2024,36418.0,40797.3,4379.3,839.0,5.2197
+prophet,statistical,4,Q2 FY2024,43175.0,43874.7,699.7,259.0,2.7015
+prophet,statistical,5,Q3 FY2024,40217.0,41169.8,952.8,2507.0,0.3801
+prophet,statistical,6,Q4 FY2024,39704.0,39985.3,281.3,4918.0,0.0572
+prophet,statistical,7,Q1 FY2025,39856.0,41863.5,2007.5,3438.0,0.5839
+prophet,statistical,8,Q2 FY2025,45277.0,45738.6,461.6,2102.0,0.2196
+prophet,statistical,9,Q3 FY2025,41352.0,42980.8,1628.8,1135.0,1.4351
+prophet,statistical,10,Q4 FY2025,38198.0,41784.2,3586.2,1506.0,2.3813
+prophet,statistical,11,Q1 FY2026,41765.0,43226.1,1461.1,1909.0,0.7654
+prophet,statistical,12,Q2 FY2026,47861.0,47230.0,631.0,2584.0,0.2442
+toto-2-4m,foundation model,1,Q3 FY2023,37710.0,36730.1,979.9,1162.0,0.8433
+toto-2-4m,foundation model,2,Q4 FY2023,34786.0,34668.5,117.5,1045.0,0.1124
+toto-2-4m,foundation model,3,Q1 FY2024,36418.0,35869.1,548.9,839.0,0.6542
+toto-2-4m,foundation model,4,Q2 FY2024,43175.0,39770.4,3404.6,259.0,13.1452
+toto-2-4m,foundation model,5,Q3 FY2024,40217.0,35054.8,5162.2,2507.0,2.0591
+toto-2-4m,foundation model,6,Q4 FY2024,39704.0,34092.2,5611.8,4918.0,1.1411
+toto-2-4m,foundation model,7,Q1 FY2025,39856.0,37362.9,2493.1,3438.0,0.7252
+toto-2-4m,foundation model,8,Q2 FY2025,45277.0,43325.8,1951.2,2102.0,0.9283
+toto-2-4m,foundation model,9,Q3 FY2025,41352.0,39298.8,2053.2,1135.0,1.809
+toto-2-4m,foundation model,10,Q4 FY2025,38198.0,38322.7,124.7,1506.0,0.0828
+toto-2-4m,foundation model,11,Q1 FY2026,41765.0,38076.4,3688.6,1909.0,1.9322
+toto-2-4m,foundation model,12,Q2 FY2026,47861.0,44612.3,3248.7,2584.0,1.2572
+seasonal-naive,baseline,1,Q3 FY2023,37710.0,38872.0,1162.0,1162.0,1.0
+seasonal-naive,baseline,2,Q4 FY2023,34786.0,35831.0,1045.0,1045.0,1.0
+seasonal-naive,baseline,3,Q1 FY2024,36418.0,37257.0,839.0,839.0,1.0
+seasonal-naive,baseline,4,Q2 FY2024,43175.0,42916.0,259.0,259.0,1.0
+seasonal-naive,baseline,5,Q3 FY2024,40217.0,37710.0,2507.0,2507.0,1.0
+seasonal-naive,baseline,6,Q4 FY2024,39704.0,34786.0,4918.0,4918.0,1.0
+seasonal-naive,baseline,7,Q1 FY2025,39856.0,36418.0,3438.0,3438.0,1.0
+seasonal-naive,baseline,8,Q2 FY2025,45277.0,43175.0,2102.0,2102.0,1.0
+seasonal-naive,baseline,9,Q3 FY2025,41352.0,40217.0,1135.0,1135.0,1.0
+seasonal-naive,baseline,10,Q4 FY2025,38198.0,39704.0,1506.0,1506.0,1.0
+seasonal-naive,baseline,11,Q1 FY2026,41765.0,39856.0,1909.0,1909.0,1.0
+seasonal-naive,baseline,12,Q2 FY2026,47861.0,45277.0,2584.0,2584.0,1.0
+naive,statistical,1,Q3 FY2023,37710.0,42916.0,5206.0,1162.0,4.4802
+naive,statistical,2,Q4 FY2023,34786.0,37710.0,2924.0,1045.0,2.7981
+naive,statistical,3,Q1 FY2024,36418.0,34786.0,1632.0,839.0,1.9452
+naive,statistical,4,Q2 FY2024,43175.0,36418.0,6757.0,259.0,26.0888
+naive,statistical,5,Q3 FY2024,40217.0,43175.0,2958.0,2507.0,1.1799
+naive,statistical,6,Q4 FY2024,39704.0,40217.0,513.0,4918.0,0.1043
+naive,statistical,7,Q1 FY2025,39856.0,39704.0,152.0,3438.0,0.0442
+naive,statistical,8,Q2 FY2025,45277.0,39856.0,5421.0,2102.0,2.579
+naive,statistical,9,Q3 FY2025,41352.0,45277.0,3925.0,1135.0,3.4581
+naive,statistical,10,Q4 FY2025,38198.0,41352.0,3154.0,1506.0,2.0943
+naive,statistical,11,Q1 FY2026,41765.0,38198.0,3567.0,1909.0,1.8685
+naive,statistical,12,Q2 FY2026,47861.0,41765.0,6096.0,2584.0,2.3591
