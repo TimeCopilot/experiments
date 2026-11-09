@@ -316,7 +316,7 @@ hr{border:0;border-top:1px solid var(--line);margin:52px 0 0}
 <li>Foundation models and seasonal naive were called through the <a href="https://docs.timecopilot.dev/foundationforecast/">FoundationForecast</a> API. The other 8 models ran locally on a quarterly calendar (AutoARIMA, AutoETS and AutoTheta are also available in FoundationForecast but were run locally here) with the same 12 cross-validation quarters, each refit on the data before its cutoff, and were scored against the API's seasonal naive on every fold. AutoARIMA, AutoETS and AutoTheta used a season length of 4. N-BEATS used generic stacks with an input of 4 quarters. Prophet used yearly seasonality with 2 Fourier terms.</li>
 <li>GIFT-Eval and fev-bench numbers come from their public results, the same snapshot as the OpenRouter tokens study, aggregated the way each leaderboard does (MASE relative to seasonal naive, geometric mean). GIFT-Eval quarterly uses its M4 quarterly configuration. TimeH2O has no public entry on either. Correlations are Spearman, foundation models only.</li>
 <li>Nothing here is investment advice.</li>
-<li>The interactive companion is the <a href="../terminal/">TimeCopilot Analyst Terminal</a>. Data and code are in <a href="https://github.com/TimeCopilot/experiments/tree/main/earnings">github.com/TimeCopilot/experiments/tree/main/earnings</a>.</li>
+<li>The interactive companion is the <a href="../terminal/">TimeCopilot Analyst Terminal</a>. Data and code are in <a href="https://github.com/TimeCopilot/experiments/tree/main/wallstreet">github.com/TimeCopilot/experiments/tree/main/wallstreet</a>.</li>
 </ul>
 
 <h2>References</h2>
